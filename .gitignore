@@ -2,3 +2,5 @@ env/
 events/
 *.csv
 bq-results-*/
+loadDB.py
+.DS_Store

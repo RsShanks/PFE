@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", None)
 
-df = pd.read_csv("gdelt_clean_mapped.csv")
+df = pd.read_csv("events/gdelt_clean_mapped.csv")
 
 df["SQLDATE"] = pd.to_datetime(df["SQLDATE"].astype(str), format="%Y%m%d")
 df["year"] = df["SQLDATE"].dt.year

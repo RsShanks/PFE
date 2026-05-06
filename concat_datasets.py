@@ -7,10 +7,11 @@ pd.set_option("display.width", None)
 # 1. Charger les fichiers
 # =========================
 
-debut = pd.read_csv("data6_9.csv")
-milieu = pd.read_csv("data10_18.csv")
+debut = pd.read_csv("events/data_06_09.csv")
+milieu = pd.read_csv("events/data_10_18.csv")
+fin = pd.read_csv("events/data_19_22.csv")
 # Empiler les lignes
-df = pd.concat([debut, milieu], ignore_index=True)
+df = pd.concat([debut, milieu, fin], ignore_index=True)
 
 print("Taille après concat :", df.shape)
 print(df.head())
@@ -149,7 +150,6 @@ print(df["EventDescription"].isna().sum())
 print(df["Actor1CountryName"].isna().sum())
 
 print(df[df["Actor1CountryName"].isna()]["Actor1CountryCode"].unique())
-print("\nFichier sauvegardé : gdelt_clean_mapped.csv")
 # =========================
 # Vérification cohérence EventCode / EventRootCode
 # =========================
@@ -190,4 +190,5 @@ print(
 )
 print(df[["EventCode", "EventRootCode", "EventDescription", "EventRootDescription", "EventDescriptionFinal"]
     ].drop_duplicates().head(20))
-df.to_csv("gdelt_clean_mapped.csv", index=False, encoding="utf-8")
+df.to_csv("events/gdelt_clean_mapped.csv", index=False, encoding="utf-8")
+print("\nFichier sauvegardé : gdelt_clean_mapped.csv")
