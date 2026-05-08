@@ -4,3 +4,4 @@ events/
 bq-results-*/
 loadDB.py
 .DS_Store
+**/__pycache__/

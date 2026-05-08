@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a252c;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.dashboard {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.prediction-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.kpi-container {
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.kpi h3 { margin: 0; font-size: 1rem; color: #666; }
+.kpi p { margin: 0; font-size: 2rem; font-weight: bold; }
+
+.text-green { color: #2ecc71; }
+.text-red { color: #e74c3c; }
+
+.raison {
+    background-color: #eef2f5;
+    padding: 1rem;
+    border-left: 4px solid #3498db;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover { background-color: #2980b9; }

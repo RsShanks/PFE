@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>📡 Radar Géopolitique (Hebdo)</h2>
+    <p>Cette page analyse les tensions des 7 derniers jours sur les superpuissances (USA, Chine, Europe).</p>
+    <button id="load-radar" onclick="loadRadar()">Lancer le Scan (10s)</button>
+    
+    <div id="radar-results" style="margin-top: 1.5rem;"></div>
+</div>
+
+<script>
+    async function loadRadar() {
+        const btn = document.getElementById('load-radar');
+        const results = document.getElementById('radar-results');
+        
+        btn.innerText = "Scan en cours...";
+        btn.disabled = true;
+        results.innerHTML = "<p>Téléchargement depuis la base GDELT...</p>";
+
+        try {
+            const res = await fetch('/api/v1/events/weekly-focus');
+            const data = await res.json();
+            
+            let html = `<h3>${data.events_returned} événements critiques trouvés</h3><ul>`;
+            data.events.forEach(ev => {
+                html += `<li><strong>[Risk: ${parseFloat(ev.RiskScore || 0).toFixed(1)}]</strong> ${ev.Actor1Name} (${ev.ActionGeo_CountryCode}) - <a href="${ev.SOURCEURL}" target="_blank">Source</a></li>`;
+            });
+            html += "</ul>";
+            results.innerHTML = html;
+        } catch(e) {
+            results.innerHTML = "<p style='color:red;'>Erreur de communication avec l'API.</p>";
+        } finally {
+            btn.innerText = "Relancer le Scan";
+            btn.disabled = false;
+        }
+    }
+</script>
+{% endblock %}

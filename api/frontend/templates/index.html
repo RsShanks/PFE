@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card" style="text-align: center;">
+    <h1>🌍 Bienvenue sur GeoMarket AI</h1>
+    <p>La première plateforme de conseil boursier pilotée par l'analyse géopolitique GDELT.</p>
+</div>
+
+<div class="card">
+    <h2>🔥 En direct du monde (Top 3)</h2>
+    <ul id="quick-news">
+        <li>Chargement des dernières actualités...</li>
+    </ul>
+    <a href="/radar"><button>Voir tout le radar</button></a>
+</div>
+
+<script>
+    // Appel API pour charger juste les 3 premières actualités du jour
+    async function loadQuickNews() {
+        try {
+            const res = await fetch('/api/v1/events/daily-focus');
+            const data = await res.json();
+            const list = document.getElementById('quick-news');
+            list.innerHTML = '';
+            
+            // On prend les 3 premiers
+            data.events.slice(0, 3).forEach(ev => {
+                list.innerHTML += `<li><strong>Score: ${ev.RiskScore || ev.GoldsteinScale}</strong> | ${ev.Actor1Name} - <a href="${ev.SOURCEURL}" target="_blank">Lire</a></li>`;
+            });
+        } catch(e) {
+            document.getElementById('quick-news').innerHTML = 'Erreur de chargement.';
+        }
+    }
+    loadQuickNews();
+</script>
+{% endblock %}
