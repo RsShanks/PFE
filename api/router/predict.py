@@ -11,8 +11,7 @@ router = APIRouter(
     tags=["Prédictions Boursières"]
 )
 
-# Simulation du chargement du modèle (A déplacer dans ml_service.py plus tard)
-model = joblib.load('api/data/models/random_forest_model.pkl')
+
 
 @router.get("/{ticker}")
 def predict_live_market(ticker: str):
@@ -20,9 +19,19 @@ def predict_live_market(ticker: str):
     Prédit la tendance pour le ticker demandé (ex: ^GSPC pour le S&P500)
     en combinant le cache GDELT et Yahoo Finance en direct.
     """
+
+    if ticker ==  "^GSPC":
+        model = joblib.load('api/data/models/random_forest_sp500.pkl')
+    elif ticker == "CL=F":  # Pétrole Brut (WTI)
+        model = joblib.load('api/data/models/random_forest_petrole.pkl')
+    elif ticker == "GC=F":  # Or
+        model = joblib.load('api/data/models/random_forest_or.pkl')
+    else:
+        raise HTTPException(status_code=400, detail="Ticker non supporté")
+
     if model is None:
-        raise HTTPException(status_code=500, detail="Modèle IA non chargé.")
-        
+        raise HTTPException(status_code=500, detail="Modèle ML non chargé.")
+    
     try:
         # 1. Lecture du cache GDELT (Les 10 premières variables)
         cache_path = "api/data/cache_features.json"
