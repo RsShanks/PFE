@@ -1,7 +1,10 @@
 from fastapi import APIRouter, HTTPException
 from api.models.schemas import MarketPredictionInput, MarketPredictionOutput, SimulationInput, SimulationOutput
 import pandas as pd
+import os
 import joblib  
+import yfinance as yf
+import json
 
 router = APIRouter(
     prefix="/predict",
@@ -10,6 +13,72 @@ router = APIRouter(
 
 # Simulation du chargement du modèle (A déplacer dans ml_service.py plus tard)
 model = joblib.load('api/data/models/random_forest_model.pkl')
+
+@router.get("/{ticker}")
+def predict_live_market(ticker: str):
+    """
+    Prédit la tendance pour le ticker demandé (ex: ^GSPC pour le S&P500)
+    en combinant le cache GDELT et Yahoo Finance en direct.
+    """
+    if model is None:
+        raise HTTPException(status_code=500, detail="Modèle IA non chargé.")
+        
+    try:
+        # 1. Lecture du cache GDELT (Les 10 premières variables)
+        cache_path = "api/data/cache_features.json"
+        if not os.path.exists(cache_path):
+            raise HTTPException(status_code=500, detail="Cache GDELT introuvable. Lancez le script de maj.")
+            
+        with open(cache_path, "r") as f:
+            gdelt_features = json.load(f)
+            
+        # 2. Récupération du momentum boursier en direct (La 11ème variable)
+        # On télécharge les 10 derniers jours pour être sûr d'avoir la semaine
+        market_data = yf.download(ticker, period="10d", progress=False)
+        
+        if 'Adj Close' in market_data.columns:
+            prices = market_data['Adj Close']
+        else:
+            prices = market_data.iloc[:, 0]
+            
+        if isinstance(prices, pd.DataFrame):
+            prices = prices.iloc[:, 0]
+            
+        # Calcul du rendement des 5 derniers jours ouvrés
+        current_return = (prices.iloc[-1] - prices.iloc[-5]) / prices.iloc[-5]
+        
+        # 3. Assemblage des features DANS LE BON ORDRE (Ordre de ton X_train)
+        feature_vector = pd.DataFrame([{
+            'nb_events': gdelt_features['nb_events'],
+            'avg_tone': gdelt_features['avg_tone'],
+            'tension_score': gdelt_features['tension_score'],
+            'mat_conf_mentions': gdelt_features['mat_conf_mentions'],
+            'nb_events_lag1': gdelt_features['nb_events_lag1'],
+            'avg_tone_lag1': gdelt_features['avg_tone_lag1'],
+            'tension_score_lag1': gdelt_features['tension_score_lag1'],
+            'nb_events_lag2': gdelt_features['nb_events_lag2'],
+            'avg_tone_lag2': gdelt_features['avg_tone_lag2'],
+            'tension_score_lag2': gdelt_features['tension_score_lag2'],
+            'weekly_return_current': float(current_return)
+        }])
+        
+        # 4. Prédiction
+        pred = model.predict(feature_vector)[0]
+        proba = model.predict_proba(feature_vector)[0][pred]
+        
+        tendance = "HAUSSIÈRE" if pred == 1 else "BAISSIÈRE"
+        
+        return {
+            "actif": ticker,
+            "tendance": tendance,
+            "confiance": round(proba * 100, 2),
+            "derniere_maj_gdelt": gdelt_features["last_updated"],
+            "rendement_actuel_pris_en_compte": f"{current_return * 100:.2f}%"
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erreur de prédiction : {str(e)}")
+    
 
 @router.post("/", response_model=MarketPredictionOutput)
 def predict_market_direction(data: MarketPredictionInput):

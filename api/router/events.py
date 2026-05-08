@@ -19,9 +19,11 @@ def get_daily_events():
     try:
         # 1. Formatage de la date du jour (Format GDELT : YYYYMMDD)
         today = pd.Timestamp.today().strftime('%Y%m%d')
+        # Get yesterday's date
+        yesterday = (pd.Timestamp.today() - pd.Timedelta(days=1)).strftime('%Y%m%d')
 
         # 2. Requête GDELT (Laissé par défaut en DataFrame Pandas pour faciliter le tri)
-        results_df = gd2.Search([today], table='events')
+        results_df = gd2.Search([yesterday], table='events')
         
         # Sécurité : Si GDELT ne renvoie rien
         if results_df is None or results_df.empty:
