@@ -2,11 +2,14 @@
 
 {% block content %}
 <div class="card">
-    <h2>📡 Radar Géopolitique (Hebdo)</h2>
-    <p>Cette page analyse les tensions des 7 derniers jours sur les superpuissances (USA, Chine, Europe).</p>
-    <button id="load-radar" onclick="loadRadar()">Lancer le Scan (10s)</button>
+    <h2 class="card-title">📡 Radar GDELT (Analyse Hebdomadaire)</h2>
+    <p style="color: var(--text-light); margin-bottom: 25px;">Cette interface consolide les tensions des 7 derniers jours sur les zones économiques majeures (USA, Chine, Europe) pour alimenter le moteur GeoPredict.</p>
     
-    <div id="radar-results" style="margin-top: 1.5rem;"></div>
+    <button id="load-radar" class="btn-primary" onclick="loadRadar()">
+        Lancer le Scan Profond
+    </button>
+    
+    <div id="radar-results" style="margin-top: 30px;"></div>
 </div>
 
 <script>
@@ -14,24 +17,24 @@
         const btn = document.getElementById('load-radar');
         const results = document.getElementById('radar-results');
         
-        btn.innerText = "Scan en cours...";
+        btn.innerText = "Traitement en cours (Patientez...)";
         btn.disabled = true;
-        results.innerHTML = "<p>Téléchargement depuis la base GDELT...</p>";
+        results.innerHTML = "<div class='metric-box'>Extraction des métadonnées géopolitiques...</div>";
 
         try {
             const res = await fetch('/api/v1/events/weekly-focus');
             const data = await res.json();
             
-            let html = `<h3>${data.events_returned} événements critiques trouvés</h3><ul>`;
+            let html = `<h3 style="color: var(--accent-orange);">${data.events_returned} Alertes Sécuritaires Identifiées</h3><ul class="news-list">`;
             data.events.forEach(ev => {
-                html += `<li><strong>[Risk: ${parseFloat(ev.RiskScore || 0).toFixed(1)}]</strong> ${ev.Actor1Name} (${ev.ActionGeo_CountryCode}) - <a href="${ev.SOURCEURL}" target="_blank">Source</a></li>`;
+                html += `<li><span class="badge">Risk: ${parseFloat(ev.RiskScore || 0).toFixed(1)}</span> <strong style="color: var(--primary-navy);">${ev.Actor1Name}</strong> localisé en ${ev.ActionGeo_CountryCode} - <a href="${ev.SOURCEURL}" target="_blank" style="color: var(--secondary-blue); text-decoration: none; font-weight: bold;">Rapport complet ↗</a></li>`;
             });
             html += "</ul>";
             results.innerHTML = html;
         } catch(e) {
-            results.innerHTML = "<p style='color:red;'>Erreur de communication avec l'API.</p>";
+            results.innerHTML = "<p class='text-down'>Erreur de communication avec l'API centrale.</p>";
         } finally {
-            btn.innerText = "Relancer le Scan";
+            btn.innerText = "Actualiser le Radar";
             btn.disabled = false;
         }
     }

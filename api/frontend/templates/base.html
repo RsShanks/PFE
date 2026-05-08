@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeoMarket AI</title>
+    <title>GeoPredict | Global Stock API</title>
     <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
-    <style>
-        /* Ajout de quelques styles de base pour la navigation directement ici pour aller vite */
-        nav { background: #2c3e50; padding: 1rem; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 1.1rem; }
-        nav a:hover { color: #3498db; }
-        .container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; font-family: sans-serif;}
-        .card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 1.5rem;}
-        button { background: #3498db; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer;}
-        button:hover { background: #2980b9; }
-    </style>
 </head>
-<body style="background: #f4f7f6; margin: 0; color: #333;">
+<body>
 
-    <nav>
-        <a href="/">🏠 Accueil</a>
-        <a href="/radar">📡 Radar GDELT</a>
-        <a href="/simulator">⚠️ Simulateur de Crise</a>
+    <!-- Barre de Navigation -->
+    <nav class="navbar">
+        <a href="/" class="brand">
+            <img src="{{ url_for('static', path='/logo.png') }}" alt="GeoPredict Logo">
+            <span class="brand-text">GEOPREDICT</span>
+        </a>
+        <div class="nav-links">
+            <a href="/">Terminal IA</a>
+            <a href="/radar">Radar GDELT</a>
+            <a href="/simulator">Simulateur</a>
+        </div>
     </nav>
 
+    <!-- Conteneur Principal -->
     <div class="container">
         {% block content %}{% endblock %}
     </div>

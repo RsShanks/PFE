@@ -1,21 +1,102 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="card" style="text-align: center;">
-    <h1>🌍 Bienvenue sur GeoMarket AI</h1>
-    <p>La première plateforme de conseil boursier pilotée par l'analyse géopolitique GDELT.</p>
+<div class="card" style="border-top-color: var(--accent-orange);">
+    <h2 class="card-title">🔮 Terminal de Prédiction Boursière</h2>
+    
+    <div class="grid-2">
+        
+        <!-- Panneau de Contrôle -->
+        <div>
+            <label for="asset-select">1. Sélectionnez l'actif cible :</label>
+            <select id="asset-select" style="margin-bottom: 25px;">
+                <option value="^GSPC">S&P 500 (Marché US)</option>
+                <option value="CL=F">Pétrole Brut (WTI)</option>
+                <option value="GC=F">Or (Gold)</option>
+            </select>
+            
+            <button id="predict-btn" class="btn-primary" onclick="getRealPrediction()">
+                Générer l'Analyse GeoPredict
+            </button>
+            <p id="loading-msg" style="display: none; color: var(--secondary-blue); font-weight: bold; text-align: center; margin-top: 15px;">
+                Analyse GDELT en cours...
+            </p>
+        </div>
+
+        <!-- Panneau de Résultat -->
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; background: var(--bg-color); border-radius: 12px; padding: 20px;">
+            
+            <div id="waiting-container" style="color: var(--text-light); text-align: center;">
+                <h1 style="font-size: 3rem; margin: 0; color: var(--secondary-blue);">📊</h1>
+                <p>Système en attente de paramètres.</p>
+            </div>
+
+            <div id="result-container" style="display: none; text-align: center; width: 100%;">
+                <h3 style="margin-top: 0; color: var(--text-light);">Recommandation : <span id="res-actif" style="color: var(--primary-navy);"></span></h3>
+                
+                <h1 id="res-tendance" style="font-size: 3.5rem; margin: 10px 0; font-family: 'Montserrat', sans-serif;">--</h1>
+                
+                <div class="grid-2" style="gap: 15px; margin-top: 20px;">
+                    <div class="metric-box">
+                        <span style="color: var(--text-light); font-size: 0.9rem;">Confiance IA</span>
+                        <p class="metric-value" id="res-confiance">--%</p>
+                    </div>
+                    <div class="metric-box" style="border-color: var(--secondary-blue);">
+                        <span style="color: var(--text-light); font-size: 0.9rem;">Momentum 5j</span>
+                        <p class="metric-value" id="res-momentum">--%</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 <div class="card">
-    <h2>🔥 En direct du monde (Top 3)</h2>
-    <ul id="quick-news">
-        <li>Chargement des dernières actualités...</li>
+    <h2 class="card-title">🌐 Alertes Géopolitiques Majeures</h2>
+    <ul id="quick-news" class="news-list">
+        <li style="color: var(--text-light);">Synchronisation avec le réseau GDELT...</li>
     </ul>
-    <a href="/radar"><button>Voir tout le radar</button></a>
 </div>
 
 <script>
-    // Appel API pour charger juste les 3 premières actualités du jour
+    async function getRealPrediction() {
+        const select = document.getElementById('asset-select');
+        const ticker = select.value;
+        const assetName = select.options[select.selectedIndex].text;
+        
+        document.getElementById('predict-btn').style.display = 'none';
+        document.getElementById('loading-msg').style.display = 'block';
+        document.getElementById('waiting-container').style.display = 'none';
+        document.getElementById('result-container').style.display = 'none';
+
+        try {
+            const response = await fetch(`/api/v1/predict/${ticker}`);
+            if (!response.ok) throw new Error("Le modèle IA n'est pas chargé ou le cache est manquant.");
+            
+            const data = await response.json();
+            
+            document.getElementById('res-actif').innerText = assetName;
+            const tendanceEl = document.getElementById('res-tendance');
+            tendanceEl.innerText = data.tendance;
+            
+            // Couleurs stylisées
+            tendanceEl.className = data.tendance === "HAUSSIÈRE" ? "text-up" : "text-down";
+            
+            document.getElementById('res-confiance').innerText = data.confiance + "%";
+            document.getElementById('res-momentum').innerText = data.rendement_actuel_pris_en_compte;
+            
+            document.getElementById('result-container').style.display = 'block';
+
+        } catch (error) {
+            alert("Erreur GeoPredict : " + error.message);
+            document.getElementById('waiting-container').style.display = 'block';
+        } finally {
+            document.getElementById('predict-btn').style.display = 'block';
+            document.getElementById('loading-msg').style.display = 'none';
+        }
+    }
+
     async function loadQuickNews() {
         try {
             const res = await fetch('/api/v1/events/daily-focus');
@@ -23,14 +104,21 @@
             const list = document.getElementById('quick-news');
             list.innerHTML = '';
             
-            // On prend les 3 premiers
-            data.events.slice(0, 3).forEach(ev => {
-                list.innerHTML += `<li><strong>Score: ${ev.RiskScore || ev.GoldsteinScale}</strong> | ${ev.Actor1Name} - <a href="${ev.SOURCEURL}" target="_blank">Lire</a></li>`;
+            const topEvents = data.events.slice(0, 3);
+            if (topEvents.length === 0) {
+                list.innerHTML = '<li>Aucune alerte majeure détectée.</li>';
+                return;
+            }
+
+            topEvents.forEach(ev => {
+                const score = parseFloat(ev.RiskScore || ev.GoldsteinScale || 0).toFixed(1);
+                list.innerHTML += `<li><span class="badge">Risk: ${score}</span> <strong style="color: var(--primary-navy);">${ev.Actor1Name || 'Acteur Inconnu'}</strong> (${ev.ActionGeo_CountryCode || 'INT'}) : <a href="${ev.SOURCEURL}" target="_blank" style="color: var(--secondary-blue); font-weight: bold; text-decoration: none;">Accéder à la source ↗</a></li>`;
             });
         } catch(e) {
-            document.getElementById('quick-news').innerHTML = 'Erreur de chargement.';
+            document.getElementById('quick-news').innerHTML = '<li class="text-down">Erreur de flux GDELT.</li>';
         }
     }
-    loadQuickNews();
+    
+    window.onload = loadQuickNews;
 </script>
 {% endblock %}

@@ -1,44 +1,48 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="card">
-    <h2>⚠️ Simulateur de Crise Boursière</h2>
-    <p>Modifiez les paramètres géopolitiques ci-dessous pour voir comment l'Intelligence Artificielle anticipe la réaction des marchés.</p>
+<div class="card" style="border-top-color: var(--accent-red);">
+    <h2 class="card-title">⚠️ Simulateur de Crise (What-If Analysis)</h2>
+    <p style="color: var(--text-light);">Forcez les paramètres géopolitiques manuellement pour évaluer la résilience des actifs face à des scénarios hypothétiques.</p>
 </div>
 
-<div style="display: flex; gap: 20px;">
-    <div class="card" style="flex: 1;">
-        <h3>Paramètres (Inputs)</h3>
+<div class="grid-2">
+    <!-- Contrôles -->
+    <div class="card">
+        <h3 class="card-title">Paramètres de Simulation</h3>
         
-        <label>Actif cible :</label><br>
-        <select id="sim-actif" style="width: 100%; padding: 8px; margin-bottom: 15px;">
+        <label>Actif analysé :</label>
+        <select id="sim-actif" style="margin-bottom: 25px;">
             <option value="S&P 500">S&P 500 (Actions US)</option>
             <option value="Pétrole Brut (WTI)">Pétrole Brut (WTI)</option>
         </select>
 
-        <label>Sentiment Global Médias (Avg Tone) : <span id="val-tone">0</span></label><br>
-        <input type="range" id="sim-tone" min="-10" max="10" step="0.5" value="0" style="width: 100%; margin-bottom: 15px;" oninput="document.getElementById('val-tone').innerText = this.value">
+        <label>Sentiment Global des Médias (Avg Tone) : <strong id="val-tone" style="color: var(--accent-orange);">0</strong></label>
+        <input type="range" id="sim-tone" min="-10" max="10" step="0.5" value="0" style="margin-bottom: 25px;" oninput="document.getElementById('val-tone').innerText = this.value">
 
-        <label>Score de Tension GDELT : <span id="val-tension">100</span></label><br>
-        <input type="range" id="sim-tension" min="0" max="2000" step="10" value="100" style="width: 100%; margin-bottom: 15px;" oninput="document.getElementById('val-tension').innerText = this.value">
+        <label>Index de Tension GDELT : <strong id="val-tension" style="color: var(--accent-orange);">100</strong></label>
+        <input type="range" id="sim-tension" min="0" max="2000" step="10" value="100" style="margin-bottom: 25px;" oninput="document.getElementById('val-tension').innerText = this.value">
 
-        <label>Volume de Conflits Matériels : <span id="val-conflits">10</span></label><br>
-        <input type="range" id="sim-conflits" min="0" max="100" step="1" value="10" style="width: 100%; margin-bottom: 15px;" oninput="document.getElementById('val-conflits').innerText = this.value">
+        <label>Mentions de Conflits Armés/Matériels : <strong id="val-conflits" style="color: var(--accent-orange);">10</strong></label>
+        <input type="range" id="sim-conflits" min="0" max="100" step="1" value="10" style="margin-bottom: 25px;" oninput="document.getElementById('val-conflits').innerText = this.value">
 
-        <button onclick="runSimulation()" style="width: 100%; font-size: 1.1rem; padding: 12px;">🔮 Lancer la Prédiction</button>
+        <button class="btn-primary" onclick="runSimulation()">Exécuter le Scénario</button>
     </div>
 
-    <div class="card" style="flex: 1; text-align: center;">
-        <h3>Réponse de l'IA (Output)</h3>
+    <!-- Résultats -->
+    <div class="card" style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
+        <h3 class="card-title">Projection GeoPredict</h3>
         
-        <div id="sim-result" style="margin-top: 2rem; display: none;">
-            <h1 id="res-tendance" style="font-size: 3rem; margin: 0;">--</h1>
-            <p style="font-size: 1.2rem;">Confiance : <strong id="res-confiance">--</strong>%</p>
-            <div style="background: #eef2f5; padding: 15px; border-radius: 5px; margin-top: 20px;">
-                <p id="res-message" style="margin: 0;"></p>
+        <div id="sim-result" style="display: none;">
+            <h1 id="res-tendance" style="font-size: 3rem; margin: 10px 0; font-family: 'Montserrat', sans-serif;">--</h1>
+            <p style="font-size: 1.2rem; font-weight: bold; color: var(--secondary-blue);">Confiance du réseau : <span id="res-confiance">--</span>%</p>
+            
+            <div class="metric-box" style="margin-top: 20px; border-left-color: var(--primary-navy);">
+                <p id="res-message" style="margin: 0; font-style: italic;"></p>
             </div>
         </div>
-        <p id="sim-wait" style="color: #7f8c8d; margin-top: 2rem;">En attente des paramètres...</p>
+        
+        <p id="sim-wait" style="color: var(--text-light);">Configurez le scénario à gauche et exécutez.</p>
     </div>
 </div>
 
@@ -48,7 +52,6 @@
         const resultDiv = document.getElementById('sim-result');
         resultDiv.style.display = 'block';
         
-        // 1. Récupération des valeurs des inputs HTML
         const payload = {
             actif: document.getElementById('sim-actif').value,
             simulated_tone: parseFloat(document.getElementById('sim-tone').value),
@@ -57,7 +60,6 @@
         };
 
         try {
-            // 2. Appel POST vers ton API (selon ton Swagger : /api/v1/predict/simulate)
             const res = await fetch('/api/v1/predict/simulate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -66,16 +68,15 @@
             
             const data = await res.json();
             
-            // 3. Mise à jour de l'interface
             const tendanceEl = document.getElementById('res-tendance');
             tendanceEl.innerText = data.tendance;
-            tendanceEl.style.color = data.tendance === 'HAUSSIÈRE' ? '#2ecc71' : '#e74c3c';
+            tendanceEl.className = data.tendance === 'HAUSSIÈRE' ? 'text-up' : 'text-down';
             
             document.getElementById('res-confiance').innerText = data.confiance;
             document.getElementById('res-message').innerText = data.message_analyse;
 
         } catch (error) {
-            alert("Erreur lors de la simulation. Vérifiez la console.");
+            alert("Erreur de simulation de crise.");
         }
     }
 </script>
