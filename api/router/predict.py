@@ -5,6 +5,8 @@ import os
 import joblib  
 import yfinance as yf
 import json
+from catboost import CatBoostClassifier
+
 
 router = APIRouter(
     prefix="/predict",
@@ -21,11 +23,21 @@ def predict_live_market(ticker: str):
     """
 
     if ticker ==  "^GSPC":
-        model = joblib.load('api/data/models/random_forest_sp500.pkl')
+        model = joblib.load('api/data/models/catboost_GSPC.pkl')
     elif ticker == "CL=F":  # Pétrole Brut (WTI)
         model = joblib.load('api/data/models/random_forest_petrole.pkl')
     elif ticker == "GC=F":  # Or
         model = joblib.load('api/data/models/random_forest_or.pkl')
+    elif ticker == "BTC-USD":  # Bitcoin
+        model = joblib.load('api/data/models/catboost_BTC-USD.pkl')
+    elif ticker == "GLD":  # Or en USD
+        model = joblib.load('api/data/models/catboost_GLD.pkl')
+    # elif ticker == "^GSPC":
+    #     model = joblib.load('api/data/models/random_forest_sp500.pkl')
+    elif ticker == "NVDA":  # NVIDIA
+        model = joblib.load('api/data/models/catboost_NVDA.pkl')
+    elif ticker == "^VIX":  # Volatility Index
+        model = joblib.load('api/data/models/catboost_VIX.pkl')
     else:
         raise HTTPException(status_code=400, detail="Ticker non supporté")
 
@@ -149,6 +161,25 @@ def simulate_market_reaction(data: SimulationInput):
         #     pred = model_oil.predict(df_simul)[0]
         #     proba = model_oil.predict_proba(df_simul)[0][pred]
         # else: ...
+
+        if data.actif ==  "^GSPC":
+            model = joblib.load('api/data/models/catboost_GSPC.pkl')
+        elif data.actif == "CL=F":  # Pétrole Brut (WTI)
+            model = joblib.load('api/data/models/random_forest_petrole.pkl')
+        elif data.actif == "GC=F":  # Or
+            model = joblib.load('api/data/models/random_forest_or.pkl')
+        elif data.actif == "BTC-USD":  # Bitcoin
+            model = joblib.load('api/data/models/catboost_BTC-USD.pkl')
+        elif data.actif == "GLD":  # Or en USD
+            model = joblib.load('api/data/models/catboost_GLD.pkl')
+        # elif data.actif == "^GSPC":
+        #     model = joblib.load('api/data/models/random_forest_sp500.pkl')
+        elif data.actif == "NVDA":  # NVIDIA
+            model = joblib.load('api/data/models/catboost_NVDA.pkl')
+        elif data.actif == "^VIX":  # Volatility Index
+            model = joblib.load('api/data/models/catboost_VIX.pkl')
+        else:
+            raise HTTPException(status_code=400, detail="Ticker non supporté")
         
         pred = model.predict(df_simul)[0]
         proba = model.predict_proba(df_simul)[0][pred]

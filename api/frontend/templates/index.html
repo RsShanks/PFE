@@ -10,9 +10,14 @@
         <div>
             <label for="asset-select">1. Sélectionnez l'actif cible :</label>
             <select id="asset-select" style="margin-bottom: 25px;">
-                <option value="^GSPC">S&P 500 (Marché US)</option>
+                <!-- <option value="^GSPC">S&P 500 (Marché US)</option> -->
                 <option value="CL=F">Pétrole Brut (WTI)</option>
-                <option value="GC=F">Or (Gold)</option>
+                <!-- <option value="GC=F">Or (Gold)</option> -->
+                <option value="GLD">Or (Gold)</option>
+                <option value="BTC-USD">Bitcoin (BTC-USD)</option>
+                <option value="^GSPC">S&P 500 (Marché US)</option>
+                <option value="NVDA">NVIDIA (NVDA)</option>
+                <option value="^VIX">VIX (Volatilité)</option>
             </select>
             
             <button id="predict-btn" class="btn-primary" onclick="getRealPrediction()">
