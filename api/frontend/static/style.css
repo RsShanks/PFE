@@ -1,0 +1,201 @@
+/* Import de polices modernes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+    --primary-navy: #1b365d;
+    --secondary-blue: #5b84a6;
+    --accent-orange: #f39c12;
+    --accent-red: #c0392b;
+    --bg-color: #f4f7f9;
+    --card-bg: #ffffff;
+    --text-main: #2c3e50;
+    --text-light: #7f8c8d;
+    --gradient-action: linear-gradient(135deg, var(--accent-red), var(--accent-orange));
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-navy);
+}
+
+/* === NAVIGATION === */
+.navbar {
+    background-color: var(--card-bg);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.brand img {
+    height: 60px; /* Ajuste selon ton image */
+    width: auto;
+}
+
+.brand-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--primary-navy);
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--secondary-blue);
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: var(--accent-orange);
+}
+
+/* === LAYOUT & CARDS === */
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(27, 54, 93, 0.08);
+    margin-bottom: 30px;
+    border-top: 4px solid var(--secondary-blue);
+}
+
+.card-title {
+    margin-top: 0;
+    border-bottom: 2px solid var(--bg-color);
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+/* === FORMULAIRES & BOUTONS === */
+label {
+    font-weight: 600;
+    color: var(--primary-navy);
+    display: block;
+    margin-bottom: 8px;
+}
+
+select, input[type="range"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e6ed;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+select:focus {
+    border-color: var(--secondary-blue);
+}
+
+.btn-primary {
+    background: var(--gradient-action);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(243, 156, 18, 0.5);
+}
+
+.btn-primary:disabled {
+    background: #bdc3c7;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* === DASHBOARD ELEMENTS === */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.metric-box {
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border-left: 4px solid var(--accent-orange);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-navy);
+    margin: 10px 0 0 0;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-list li {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    line-height: 1.6;
+}
+
+.news-list li:last-child {
+    border-bottom: none;
+}
+
+.badge {
+    background: var(--accent-red);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.text-up { color: #27ae60; }
+.text-down { color: var(--accent-red); }
