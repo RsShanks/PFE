@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-
+from typing import Dict, Optional, Any
 # Les données d'entrée attendues par le modèle (X)
 class MarketPredictionInput(BaseModel):
     nb_events: int = Field(..., description="Nombre total d'événements cette semaine")
@@ -40,3 +40,35 @@ class SimulationOutput(BaseModel):
     tendance: str
     confiance: float
     message_analyse: str
+
+from typing import Dict, Optional
+
+
+class CrisisPredictionOutput(BaseModel):
+    actif: str = Field(..., description="Actif analysé, ex: ^GSPC")
+    niveau_crise: str = Field(..., description="NORMAL, STRESS")
+    classe_predite: int = Field(..., description="0 = Normal, 1 = Stress")
+    probabilites: Dict[str, float] = Field(..., description="Probabilités par classe en pourcentage")
+    confiance_prediction: float = Field(..., description="Probabilité associée à la classe prédite")
+    derniere_maj_gdelt: str = Field(..., description="Date de mise à jour du cache GDELT")
+    semaine_gdelt: str = Field(..., description="Semaine GDELT utilisée")
+
+    variables_importantes: Dict[str, Optional[float]] = Field(
+        ...,
+        description="Quelques variables explicatives utilisées dans la prédiction"
+    )
+
+    top_events: Dict[str, Any] = Field(
+        default_factory=dict,
+        description="Top événements détectés sur la dernière semaine GDELT"
+    )
+
+    top_conflict_countries: Dict[str, Any] = Field(
+        default_factory=dict,
+        description="Pays/zones les plus mentionnés dans les événements conflictuels"
+    )
+
+    evolution: Dict[str, Any] = Field(
+        default_factory=dict,
+        description="Évolution des indicateurs par rapport à la semaine précédente"
+    )

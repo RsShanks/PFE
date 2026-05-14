@@ -6,8 +6,8 @@ import joblib
 import yfinance as yf
 import json
 from catboost import CatBoostClassifier
-
-
+from api.models.schemas import CrisisPredictionOutput
+import numpy as np
 router = APIRouter(
     prefix="/predict",
     tags=["Prédictions Boursières"]
@@ -197,3 +197,115 @@ def simulate_market_reaction(data: SimulationInput):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erreur de simulation : {str(e)}")
+
+@router.get("/crisis/{ticker}", response_model=CrisisPredictionOutput)
+def predict_crisis(ticker: str):
+    model_paths = {
+        "^GSPC": "api/data/models/stress_crisis_model.pkl",
+        "CL=F": "api/data/models/stress_crisis_model_petrole.pkl",
+        "BTC-USD": "api/data/models/stress_crisis_model_bitcoin.pkl",
+    }
+
+    if ticker not in model_paths:
+        raise HTTPException(
+            status_code=400,
+            detail="Ticker cas crise non supporté. Tickers disponibles : ^GSPC, CL=F, BTC-USD"
+        )
+
+    try:
+        bundle = joblib.load(model_paths[ticker])
+
+        if isinstance(bundle, dict):
+            model = bundle["model"]
+            expected_features = bundle["features"]
+        else:
+            model = bundle
+            expected_features = None
+
+        cache_paths = {
+            "^GSPC": "api/data/cache_features_crise_gspc.json",
+            "CL=F": "api/data/cache_features_crise_petrole.json",
+            "BTC-USD": "api/data/cache_features_crise_bitcoin.json",
+        }
+
+        cache_path = cache_paths.get(ticker)
+        if cache_path is None:
+            raise HTTPException(
+                status_code=400,
+                detail="Cache de crise introuvable pour ce ticker."
+            )
+
+        if not os.path.exists(cache_path):
+            raise HTTPException(
+                status_code=500,
+                detail="Cache GDELT pour crise introuvable. Lancez le script de maj."
+            )
+
+        with open(cache_path, "r", encoding="utf-8") as f:
+            gdelt_cache = json.load(f)
+
+        features_live = gdelt_cache["features"]
+
+        feature_vector = pd.DataFrame([features_live])
+
+        if expected_features is not None:
+            feature_vector = feature_vector.reindex(
+                columns=expected_features,
+                fill_value=0
+            )
+
+        pred = int(np.ravel(model.predict(feature_vector))[0])
+        probas = model.predict_proba(feature_vector)[0]
+        pred_proba = float(probas[pred])
+
+        crisis_mapping = {
+            0: "NORMAL",
+            1: "STRESS",
+        }
+
+        probabilites = {
+            crisis_mapping.get(i, f"CLASSE_{i}").lower(): round(float(p) * 100, 2)
+            for i, p in enumerate(probas)
+        }
+
+        return {
+            "actif": ticker,
+            "niveau_crise": crisis_mapping.get(pred, "INCONNU"),
+            "classe_predite": pred,
+            "probabilites": probabilites,
+            "confiance_prediction": round(pred_proba * 100, 2),
+            "derniere_maj_gdelt": gdelt_cache["last_updated"],
+            "semaine_gdelt": gdelt_cache["week"],
+            "variables_importantes": {
+                "tension_score": features_live.get("tension_score"),
+                "conflict_ratio": features_live.get("conflict_ratio"),
+                "material_conflict_ratio": features_live.get("material_conflict_ratio"),
+                "usa_china_tension": features_live.get("usa_china_tension"),
+                "usa_russia_tension": features_live.get("usa_russia_tension"),
+                "avg_tone": features_live.get("avg_tone"),
+
+                "weekly_return_current": features_live.get("weekly_return_current"),
+                "vol_4w": features_live.get("vol_4w"),
+                "vol_8w": features_live.get("vol_8w"),
+                "momentum_4w": features_live.get("momentum_4w"),
+                "momentum_12w": features_live.get("momentum_12w"),
+                "drawdown_26w": features_live.get("drawdown_26w"),
+
+                "vix": features_live.get("vix"),
+                "vix_delta_1w": features_live.get("vix_delta_1w"),
+                "vix_zscore_52w": features_live.get("vix_zscore_52w"),
+
+                "tension_x_vol_4w": features_live.get("tension_x_vol_4w"),
+                "conflict_x_drawdown": features_live.get("conflict_x_drawdown"),
+                "vix_x_tension": features_live.get("vix_x_tension")
+            },
+            "top_events": gdelt_cache.get("top_events", {}),
+            "top_conflict_countries": gdelt_cache.get("top_conflict_countries", {}),
+            "evolution": gdelt_cache.get("evolution", {})
+        }
+
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Erreur de prédiction crise : {str(e)}"
+        )
