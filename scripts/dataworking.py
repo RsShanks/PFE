@@ -53,10 +53,10 @@ def add_market_data(df_features, ticker="^GSPC", start="2006-01-01", end="2022-1
     sp500 = yf.download(ticker, start=start, end=end, auto_adjust=False)
     
     # Gestion robuste des colonnes Yahoo Finance (MultiIndex ou non)
-    if 'Adj Close' in sp500.columns:
-        close_prices = sp500['Adj Close']
+    if 'Adj Close' in sp500.columns:# type: ignore
+        close_prices = sp500['Adj Close']# type: ignore
     else:
-        close_prices = sp500.iloc[:, 0]
+        close_prices = sp500.iloc[:, 0]# type: ignore
         
     if isinstance(close_prices, pd.DataFrame):
         close_prices = close_prices.iloc[:, 0]

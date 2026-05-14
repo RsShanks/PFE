@@ -2,6 +2,7 @@ from fastapi import APIRouter, HTTPException
 import pandas as pd
 import gdelt
 import numpy as np
+import gc
 
 router = APIRouter(
     prefix="/events",
@@ -70,76 +71,82 @@ def get_daily_events():
 @router.get("/weekly-focus")
 def get_weekly_focus_events():
     """
-    Récupère les événements géopolitiques majeurs des 7 derniers jours 
-    impliquant les USA, la Chine ou l'Europe.
+    Récupère les événements géopolitiques majeurs des 7 derniers jours.
+    Version optimisée pour basse mémoire (RAM < 512MB).
     """
     try:
-        # 1. Générer les dates des 7 derniers jours
-        # On crée une liste de chaînes 'YYYYMMDD' pour les 7 jours passés
         last_7_days = pd.date_range(end=pd.Timestamp.today(), periods=7).strftime('%Y%m%d').tolist()
         
-        # 2. Requête GDELT (Attention, ça peut prendre 10-20 secondes pour 7 jours !)
-        results_df = gd2.Search(last_7_days, table='events')
-        
-        if results_df is None or len(results_df) == 0:
-            return {"message": "Aucun événement trouvé.", "events": []}
-            
-        # 3. Filtrage Géopolitique
-        # Liste des codes CAMEO cibles
-        cibles_geo = [
-            "USA", # États-Unis
-            "CHN", # Chine
-            "EUR", # Union Européenne (en tant qu'organisation)
-            "FRA", "DEU", "GBR", "ITA", "ESP" # Pays européens majeurs
-        ]
-        
-        # On filtre : On veut que l'acteur 1, l'acteur 2 OU le lieu de l'action soit dans notre liste
-        mask = (
-            results_df['Actor1CountryCode'].isin(cibles_geo) |
-            results_df['Actor2CountryCode'].isin(cibles_geo) |
-            results_df['ActionGeo_CountryCode'].isin(cibles_geo)
-        )
-        
-        df_filtered = results_df[mask].copy()
-        
-        if df_filtered.empty:
-            return {"message": "Aucun événement majeur pour ces régions.", "events": []}
-
-        # 4. Nettoyage et préparation pour le front
+        cibles_geo = ["USA", "CHN", "EUR", "FRA", "DEU", "GBR", "ITA", "ESP"]
         colonnes_utiles = [
             'GlobalEventID', 'SQLDATE', 'Actor1Name', 'Actor1CountryCode', 
             'ActionGeo_CountryCode', 'EventRootCode', 'GoldsteinScale', 
             'NumMentions', 'SOURCEURL'
         ]
         
-        df_clean = df_filtered[[col for col in colonnes_utiles if col in df_filtered.columns]].copy()
-
-        # On force les types pour le calcul
+        all_filtered_events = []
+        total_raw_events_count = 0
+        
+        # 1. Traitement itératif : Un jour à la fois pour économiser la RAM
+        for day in last_7_days:
+            try:
+                # On télécharge un seul jour
+                df_day = gd2.Search([day], table='events')
+                
+                if df_day is None or df_day.empty:
+                    continue
+                    
+                total_raw_events_count += len(df_day)
+                
+                # On filtre tout de suite pour réduire la taille par 100
+                mask = (
+                    df_day['Actor1CountryCode'].isin(cibles_geo) |
+                    df_day['Actor2CountryCode'].isin(cibles_geo)
+                )
+                df_filtered_day = df_day[mask]
+                
+                # On ne garde que les colonnes utiles
+                cols_to_keep = [col for col in colonnes_utiles if col in df_filtered_day.columns]
+                df_filtered_day = df_filtered_day[cols_to_keep]
+                
+                # On sauvegarde ce petit bout
+                all_filtered_events.append(df_filtered_day)
+                
+                # NETTOYAGE MANUEL DE LA RAM (Crucial pour Render)
+                del df_day
+                gc.collect() 
+                
+            except Exception as e:
+                print(f"Erreur lors de la récupération du jour {day} : {e}")
+                continue
+                
+        # Si on n'a rien trouvé du tout sur la semaine
+        if not all_filtered_events:
+            return {"message": "Aucun événement majeur trouvé.", "events": []}
+            
+        # 2. On assemble nos petits bouts pré-filtrés
+        df_clean = pd.concat(all_filtered_events, ignore_index=True)
+        
+        # 3. Calculs et Tris
         df_clean['GoldsteinScale'] = pd.to_numeric(df_clean['GoldsteinScale'], errors='coerce').fillna(0)
         df_clean['NumMentions'] = pd.to_numeric(df_clean['NumMentions'], errors='coerce').fillna(0)
 
-        # Calcul du "Risk Score" : on pénalise les événements négatifs
-        # On prend la valeur absolue de Goldstein (uniquement s'il est négatif) multipliée par les mentions
         df_clean['RiskScore'] = np.where(
             df_clean['GoldsteinScale'] < 0,
             abs(df_clean['GoldsteinScale']) * df_clean['NumMentions'],
             0
         )
 
-        # On trie par ce nouveau scored
-        df_clean = df_clean.sort_values(by='RiskScore', ascending=False)
-
-        
         if 'SOURCEURL' in df_clean.columns:
             df_clean = df_clean.dropna(subset=['SOURCEURL'])
             
-        # On trie par impact médiatique (Mentions)
-        if 'NumMentions' in df_clean.columns:
-            df_clean = df_clean.sort_values(by='RiskScore', ascending=False)            
-        # On prend le Top 50 de la semaine pour ne pas saturer l'interface
+        # On trie par RiskScore
+        df_clean = df_clean.sort_values(by='RiskScore', ascending=False)
+        
+        # LIMITATION STRICTE POUR JSON (Remis à 50 ou 100 max)
         df_final = df_clean.head(50)
         
-        # 5. L'Option Anti-NumPy
+        # 4. Conversion propre
         df_final = df_final.fillna("")
         df_string = df_final.astype(str)
         events_list = df_string.to_dict(orient="records")
@@ -147,7 +154,7 @@ def get_weekly_focus_events():
         return {
             "period": f"{last_7_days[0]} to {last_7_days[-1]}",
             "regions_tracked": cibles_geo,
-            "total_events_filtered": str(len(df_filtered)),
+            "total_events_filtered": str(len(df_clean)),
             "events_returned": str(len(events_list)),
             "events": events_list
         }
