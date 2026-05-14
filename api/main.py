@@ -49,3 +49,7 @@ def render_radar(request: Request):
 def render_simulator(request: Request):
     """Page du Simulateur de Crise"""
     return templates.TemplateResponse(request=request, name="simulator.html")
+
+@app.get("/risque-crise")
+def render_risque_crise(request: Request):
+    return templates.TemplateResponse(request=request, name="risque_crise.html")

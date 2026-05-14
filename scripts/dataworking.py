@@ -84,7 +84,7 @@ def add_market_data(df_features, ticker="^GSPC", start="2006-01-01", end="2022-1
 # ==========================================
 if __name__ == "__main__":
     # 1. Charger
-    df_raw = load_and_preprocess_gdelt("scripts/events/gdelt_clean_mapped.csv")
+    df_raw = load_and_preprocess_gdelt("events/gdelt_clean_mapped.csv")
     
     # 2. Transformer en Hebdo
     df_weekly = generate_finance_features(df_raw)
@@ -94,6 +94,6 @@ if __name__ == "__main__":
     df_final = add_market_data(df_weekly, ticker="^GSPC")
     
     # 4. Sauvegarder
-    df_final.to_csv("scripts/events/gdelt_weekly_finance_features_with_returns.csv", index=False)
+    df_final.to_csv("events/gdelt_weekly_finance_features_with_returns.csv", index=False)
     print("\nPipeline terminé ! Fichier prêt.")
     print(df_final.head())

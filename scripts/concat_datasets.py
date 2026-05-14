@@ -7,9 +7,9 @@ pd.set_option("display.width", None)
 # 1. Charger les fichiers
 # =========================
 
-debut = pd.read_csv("scripts/events/data_06_09.csv")
-milieu = pd.read_csv("scripts/events/data_10_18.csv")
-fin = pd.read_csv("scripts/events/data_19_22.csv")
+debut = pd.read_csv("events/data_06_09.csv")
+milieu = pd.read_csv("events/data_10_18.csv")
+fin = pd.read_csv("events/data_19_22.csv")
 # Empiler les lignes
 df = pd.concat([debut, milieu, fin], ignore_index=True)
 
@@ -190,5 +190,5 @@ print(
 )
 print(df[["EventCode", "EventRootCode", "EventDescription", "EventRootDescription", "EventDescriptionFinal"]
     ].drop_duplicates().head(20))
-df.to_csv("scripts/events/gdelt_clean_mapped.csv", index=False, encoding="utf-8")
+df.to_csv("events/gdelt_clean_mapped.csv", index=False, encoding="utf-8")
 print("\nFichier sauvegardé : scripts/events/gdelt_clean_mapped.csv")

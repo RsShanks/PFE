@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2 class="card-title">🚨 Détection du Risque de Crise</h2>
+
+    <p style="color: var(--text-light); margin-bottom: 25px;">
+        Cette page utilise les indicateurs GDELT récents et le momentum de marché
+        pour estimer le niveau de stress/crise d'un actif supporté.
+    </p>
+
+    <div style="margin-bottom: 20px;">
+        <label for="ticker-select" style="display:block; margin-bottom:8px; font-weight:600;">Choisir l'actif :</label>
+        <select id="ticker-select" class="input-select" style="width:100%; max-width:360px; padding:10px; border-radius:8px; border:1px solid #444;">
+            <option value="^GSPC">S&P 500 (^GSPC)</option>
+            <option value="CL=F">Pétrole (CL=F)</option>
+            <option value="BTC-USD">Bitcoin (BTC-USD)</option>
+        </select>
+    </div>
+
+    <button id="load-crisis" class="btn-primary" onclick="loadCrisisRisk()">
+        Analyser le risque de crise
+    </button>
+
+    <div id="crisis-results" style="margin-top: 30px;"></div>
+</div>
+
+<script>
+    async function loadCrisisRisk() {
+        const btn = document.getElementById('load-crisis');
+        const results = document.getElementById('crisis-results');
+        const ticker = document.getElementById('ticker-select').value;
+
+        btn.innerText = "Analyse du risque en cours...";
+        btn.disabled = true;
+
+        results.innerHTML = `
+            <div class="metric-box">
+                Chargement du cache GDELT crise et exécution du modèle pour ${ticker}...
+            </div>
+        `;
+
+        try {
+            const res = await fetch(`/api/v1/predict/crisis/${encodeURIComponent(ticker)}`);
+            const data = await res.json();
+
+            if (!res.ok) {
+                throw new Error(data.detail || "Erreur API");
+            }
+
+            let riskClass = "text-up";
+            if (data.niveau_crise === "STRESS") {
+                riskClass = "text-warning";
+            }
+
+            const probNormal = data.probabilites?.normal ?? 0;
+            const probStress = data.probabilites?.stress ?? 0;
+
+            const vars = data.variables_importantes || {};
+            const topEvents = data.top_events || {};
+            const topCountries = data.top_conflict_countries || {};
+            const evolution = data.evolution || {};
+
+            function formatNumber(value, digits = 2) {
+                if (value === null || value === undefined) return "N/A";
+                if (typeof value !== "number") return value;
+                return value.toFixed(digits);
+            }
+
+            function formatPercent(value, digits = 2) {
+                if (value === null || value === undefined) return "N/A";
+                return (value * 100).toFixed(digits) + "%";
+            }
+
+            function formatEvolution(value) {
+                if (value === null || value === undefined) return "N/A";
+                const sign = value > 0 ? "+" : "";
+                return `${sign}${value}%`;
+            }
+
+            let topEventsHtml = "";
+            if (Object.keys(topEvents).length > 0) {
+                for (const [event, mentions] of Object.entries(topEvents)) {
+                    topEventsHtml += `<li><strong>${event}</strong> : ${mentions} mentions</li>`;
+                }
+            } else {
+                topEventsHtml = `<li>Aucun événement dominant détecté.</li>`;
+            }
+
+            let countriesHtml = "";
+            if (Object.keys(topCountries).length > 0) {
+                for (const [country, mentions] of Object.entries(topCountries)) {
+                    countriesHtml += `<li><strong>${country}</strong> : ${mentions} mentions conflictuelles</li>`;
+                }
+            } else {
+                countriesHtml = `<li>Aucune zone conflictuelle dominante détectée.</li>`;
+            }
+
+            let evolutionHtml = "";
+            if (Object.keys(evolution).length > 0) {
+                for (const [key, value] of Object.entries(evolution)) {
+                    evolutionHtml += `<li><strong>${key}</strong> : ${formatEvolution(value)}</li>`;
+                }
+            } else {
+                evolutionHtml = `<li>Pas assez d'historique pour calculer l'évolution.</li>`;
+            }
+
+            results.innerHTML = `
+                <h3 style="color: var(--accent-orange);">Résultat du modèle</h3>
+
+                <div class="metric-box">
+                    <p><strong>Actif analysé :</strong> ${data.actif}</p>
+                    <p><strong>Niveau détecté :</strong> <span class="${riskClass}">${data.niveau_crise}</span></p>
+                    <p><strong>Classe prédite :</strong> ${data.classe_predite}</p>
+                    <p><strong>Confiance :</strong> ${data.confiance_prediction}%</p>
+                    <p><strong>Semaine GDELT :</strong> ${data.semaine_gdelt}</p>
+                    <p><strong>Dernière mise à jour :</strong> ${data.derniere_maj_gdelt}</p>
+                </div>
+
+                <h3 style="margin-top: 25px; color: var(--primary-navy);">Probabilités estimées</h3>
+
+                <ul class="news-list">
+                    <li><span class="badge">Normal</span> ${probNormal}%</li>
+                    <li><span class="badge">Stress</span> ${probStress}%</li>
+                </ul>
+
+                <h3 style="margin-top: 25px; color: var(--primary-navy);">Variables clés</h3>
+
+                <ul class="news-list">
+                    <li><strong>Tension score :</strong> ${formatNumber(vars.tension_score)}</li>
+                    <li><strong>Conflict ratio :</strong> ${formatNumber(vars.conflict_ratio)}</li>
+                    <li><strong>Material conflict ratio :</strong> ${formatNumber(vars.material_conflict_ratio)}</li>
+                    <li><strong>Tension USA-Chine :</strong> ${formatNumber(vars.usa_china_tension)}</li>
+                    <li><strong>Tension USA-Russie :</strong> ${formatNumber(vars.usa_russia_tension)}</li>
+                    <li><strong>Ton moyen :</strong> ${formatNumber(vars.avg_tone)}</li>
+                    <li><strong>Rendement courant :</strong> ${formatPercent(vars.weekly_return_current)}</li>
+                    <li><strong>Volatilité 4 semaines :</strong> ${formatPercent(vars.vol_4w)}</li>
+                    <li><strong>Momentum 4 semaines :</strong> ${formatPercent(vars.momentum_4w)}</li>
+                    <li><strong>Drawdown 26 semaines :</strong> ${formatPercent(vars.drawdown_26w)}</li>
+                    <li><strong>VIX :</strong> ${formatNumber(vars.vix)}</li>
+                    <li><strong>VIX z-score 52 semaines :</strong> ${formatNumber(vars.vix_zscore_52w)}</li>
+                </ul>
+
+                <h3 style="margin-top: 25px; color: var(--primary-navy);">Évolution par rapport à la semaine précédente</h3>
+
+                <ul class="news-list">
+                    ${evolutionHtml}
+                </ul>
+
+                <h3 style="margin-top: 25px; color: var(--primary-navy);">Top événements détectés</h3>
+
+                <ul class="news-list">
+                    ${topEventsHtml}
+                </ul>
+
+                <h3 style="margin-top: 25px; color: var(--primary-navy);">Zones géopolitiques les plus tendues</h3>
+
+                <ul class="news-list">
+                    ${countriesHtml}
+                </ul>
+            `;
+        } finally {
+            btn.innerText = "Actualiser le risque de crise";
+            btn.disabled = false;
+        }
+    }
+</script>
+{% endblock %}
