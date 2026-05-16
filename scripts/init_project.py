@@ -30,7 +30,7 @@ def main():
 
     # 2. Pipeline de Données (Nettoyage GDELT + Yahoo Finance)
     # Ce script génère : gdelt_weekly_finance_features_with_returns.csv
-    run_script("dataworking.py") 
+    run_script("scripts/dataworking.py") 
 
     # 3. Entraînement du Modèle ML
     # Ce script génère : random_forest_model.pkl (ou catboost)
@@ -38,8 +38,8 @@ def main():
 
     # 4. Mise à jour du Cache Live
     # Ce script génère : cache_features.json pour l'inférence immédiate
-    run_script("update_cache.py")
-    run_script("update_cache_crise.py")
+    run_script("scripts/update_cache.py")
+    run_script("scripts/update_cache_crise.py")
     print("\n" + "="*40)
     print("  TOUT EST PRÊT !")
     print("Vous pouvez maintenant lancer l'API avec :")

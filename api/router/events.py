@@ -2,7 +2,8 @@ from fastapi import APIRouter, HTTPException
 import pandas as pd
 import gdelt
 import numpy as np
-import gc
+import os
+import json
 
 router = APIRouter(
     prefix="/events",
@@ -71,93 +72,24 @@ def get_daily_events():
 @router.get("/weekly-focus")
 def get_weekly_focus_events():
     """
-    Récupère les événements géopolitiques majeurs des 7 derniers jours.
-    Version optimisée pour basse mémoire (RAM < 512MB).
+    Récupère instantanément les événements géopolitiques majeurs 
+    pré-calculés de la semaine passée (Zéro surcharge RAM).
     """
     try:
-        last_7_days = pd.date_range(end=pd.Timestamp.today(), periods=7).strftime('%Y%m%d').tolist()
+        cache_path = "api/data/weekly_radar.json"
         
-        cibles_geo = ["USA", "CHN", "EUR", "FRA", "DEU", "GBR", "ITA", "ESP"]
-        colonnes_utiles = [
-            'GlobalEventID', 'SQLDATE', 'Actor1Name', 'Actor1CountryCode', 
-            'ActionGeo_CountryCode', 'EventRootCode', 'GoldsteinScale', 
-            'NumMentions', 'SOURCEURL'
-        ]
-        
-        all_filtered_events = []
-        total_raw_events_count = 0
-        
-        # 1. Traitement itératif : Un jour à la fois pour économiser la RAM
-        for day in last_7_days:
-            try:
-                # On télécharge un seul jour
-                df_day = gd2.Search([day], table='events')
-                
-                if df_day is None or df_day.empty:
-                    continue
-                    
-                total_raw_events_count += len(df_day)
-                
-                # On filtre tout de suite pour réduire la taille par 100
-                mask = (
-                    df_day['Actor1CountryCode'].isin(cibles_geo) |
-                    df_day['Actor2CountryCode'].isin(cibles_geo)
-                )
-                df_filtered_day = df_day[mask]
-                
-                # On ne garde que les colonnes utiles
-                cols_to_keep = [col for col in colonnes_utiles if col in df_filtered_day.columns]
-                df_filtered_day = df_filtered_day[cols_to_keep]
-                
-                # On sauvegarde ce petit bout
-                all_filtered_events.append(df_filtered_day)
-                
-                # NETTOYAGE MANUEL DE LA RAM (Crucial pour Render)
-                del df_day
-                gc.collect() 
-                
-            except Exception as e:
-                print(f"Erreur lors de la récupération du jour {day} : {e}")
-                continue
-                
-        # Si on n'a rien trouvé du tout sur la semaine
-        if not all_filtered_events:
-            return {"message": "Aucun événement majeur trouvé.", "events": []}
+        # Sécurité : si le fichier n'existe pas encore
+        if not os.path.exists(cache_path):
+            raise HTTPException(
+                status_code=503, 
+                detail="Le radar hebdomadaire est en cours d'initialisation. Veuillez réessayer dans quelques instants."
+            )
             
-        # 2. On assemble nos petits bouts pré-filtrés
-        df_clean = pd.concat(all_filtered_events, ignore_index=True)
-        
-        # 3. Calculs et Tris
-        df_clean['GoldsteinScale'] = pd.to_numeric(df_clean['GoldsteinScale'], errors='coerce').fillna(0)
-        df_clean['NumMentions'] = pd.to_numeric(df_clean['NumMentions'], errors='coerce').fillna(0)
-
-        df_clean['RiskScore'] = np.where(
-            df_clean['GoldsteinScale'] < 0,
-            abs(df_clean['GoldsteinScale']) * df_clean['NumMentions'],
-            0
-        )
-
-        if 'SOURCEURL' in df_clean.columns:
-            df_clean = df_clean.dropna(subset=['SOURCEURL'])
+        # Lecture ultra-rapide du fichier JSON
+        with open(cache_path, "r", encoding="utf-8") as f:
+            radar_data = json.load(f)
             
-        # On trie par RiskScore
-        df_clean = df_clean.sort_values(by='RiskScore', ascending=False)
-        
-        # LIMITATION STRICTE POUR JSON (Remis à 50 ou 100 max)
-        df_final = df_clean.head(50)
-        
-        # 4. Conversion propre
-        df_final = df_final.fillna("")
-        df_string = df_final.astype(str)
-        events_list = df_string.to_dict(orient="records")
-        
-        return {
-            "period": f"{last_7_days[0]} to {last_7_days[-1]}",
-            "regions_tracked": cibles_geo,
-            "total_events_filtered": str(len(df_clean)),
-            "events_returned": str(len(events_list)),
-            "events": events_list
-        }
+        return radar_data
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Erreur GDELT Hebdo : {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Erreur lors de la lecture du radar : {str(e)}")
