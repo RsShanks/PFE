@@ -8,3 +8,4 @@ joblib
 yfinance
 gdelt
 catboost
+seaborn
