@@ -2,6 +2,8 @@ from fastapi import APIRouter, HTTPException
 import pandas as pd
 import gdelt
 import numpy as np
+import os
+import json
 
 router = APIRouter(
     prefix="/events",
@@ -70,87 +72,24 @@ def get_daily_events():
 @router.get("/weekly-focus")
 def get_weekly_focus_events():
     """
-    Récupère les événements géopolitiques majeurs des 7 derniers jours 
-    impliquant les USA, la Chine ou l'Europe.
+    Récupère instantanément les événements géopolitiques majeurs 
+    pré-calculés de la semaine passée (Zéro surcharge RAM).
     """
     try:
-        # 1. Générer les dates des 7 derniers jours
-        # On crée une liste de chaînes 'YYYYMMDD' pour les 7 jours passés
-        last_7_days = pd.date_range(end=pd.Timestamp.today(), periods=7).strftime('%Y%m%d').tolist()
+        cache_path = "api/data/weekly_radar.json"
         
-        # 2. Requête GDELT (Attention, ça peut prendre 10-20 secondes pour 7 jours !)
-        results_df = gd2.Search(last_7_days, table='events')
-        
-        if results_df is None or len(results_df) == 0:
-            return {"message": "Aucun événement trouvé.", "events": []}
+        # Sécurité : si le fichier n'existe pas encore
+        if not os.path.exists(cache_path):
+            raise HTTPException(
+                status_code=503, 
+                detail="Le radar hebdomadaire est en cours d'initialisation. Veuillez réessayer dans quelques instants."
+            )
             
-        # 3. Filtrage Géopolitique
-        # Liste des codes CAMEO cibles
-        cibles_geo = [
-            "USA", # États-Unis
-            "CHN", # Chine
-            "EUR", # Union Européenne (en tant qu'organisation)
-            "FRA", "DEU", "GBR", "ITA", "ESP" # Pays européens majeurs
-        ]
-        
-        # On filtre : On veut que l'acteur 1, l'acteur 2 OU le lieu de l'action soit dans notre liste
-        mask = (
-            results_df['Actor1CountryCode'].isin(cibles_geo) |
-            results_df['Actor2CountryCode'].isin(cibles_geo) |
-            results_df['ActionGeo_CountryCode'].isin(cibles_geo)
-        )
-        
-        df_filtered = results_df[mask].copy()
-        
-        if df_filtered.empty:
-            return {"message": "Aucun événement majeur pour ces régions.", "events": []}
-
-        # 4. Nettoyage et préparation pour le front
-        colonnes_utiles = [
-            'GlobalEventID', 'SQLDATE', 'Actor1Name', 'Actor1CountryCode', 
-            'ActionGeo_CountryCode', 'EventRootCode', 'GoldsteinScale', 
-            'NumMentions', 'SOURCEURL'
-        ]
-        
-        df_clean = df_filtered[[col for col in colonnes_utiles if col in df_filtered.columns]].copy()
-
-        # On force les types pour le calcul
-        df_clean['GoldsteinScale'] = pd.to_numeric(df_clean['GoldsteinScale'], errors='coerce').fillna(0)
-        df_clean['NumMentions'] = pd.to_numeric(df_clean['NumMentions'], errors='coerce').fillna(0)
-
-        # Calcul du "Risk Score" : on pénalise les événements négatifs
-        # On prend la valeur absolue de Goldstein (uniquement s'il est négatif) multipliée par les mentions
-        df_clean['RiskScore'] = np.where(
-            df_clean['GoldsteinScale'] < 0,
-            abs(df_clean['GoldsteinScale']) * df_clean['NumMentions'],
-            0
-        )
-
-        # On trie par ce nouveau scored
-        df_clean = df_clean.sort_values(by='RiskScore', ascending=False)
-
-        
-        if 'SOURCEURL' in df_clean.columns:
-            df_clean = df_clean.dropna(subset=['SOURCEURL'])
+        # Lecture ultra-rapide du fichier JSON
+        with open(cache_path, "r", encoding="utf-8") as f:
+            radar_data = json.load(f)
             
-        # On trie par impact médiatique (Mentions)
-        if 'NumMentions' in df_clean.columns:
-            df_clean = df_clean.sort_values(by='RiskScore', ascending=False)            
-        # On prend le Top 50 de la semaine pour ne pas saturer l'interface
-        df_final = df_clean.head(50)
-        
-        # 5. L'Option Anti-NumPy
-        df_final = df_final.fillna("")
-        df_string = df_final.astype(str)
-        events_list = df_string.to_dict(orient="records")
-        
-        return {
-            "period": f"{last_7_days[0]} to {last_7_days[-1]}",
-            "regions_tracked": cibles_geo,
-            "total_events_filtered": str(len(df_filtered)),
-            "events_returned": str(len(events_list)),
-            "events": events_list
-        }
+        return radar_data
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Erreur GDELT Hebdo : {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Erreur lors de la lecture du radar : {str(e)}")

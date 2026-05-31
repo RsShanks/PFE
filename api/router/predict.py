@@ -57,10 +57,10 @@ def predict_live_market(ticker: str):
         # On télécharge les 10 derniers jours pour être sûr d'avoir la semaine
         market_data = yf.download(ticker, period="10d", progress=False)
         
-        if 'Adj Close' in market_data.columns:
-            prices = market_data['Adj Close']
+        if 'Adj Close' in market_data.columns:  # type: ignore
+            prices = market_data['Adj Close']# type: ignore
         else:
-            prices = market_data.iloc[:, 0]
+            prices = market_data.iloc[:, 0]# type: ignore
             
         if isinstance(prices, pd.DataFrame):
             prices = prices.iloc[:, 0]
@@ -108,8 +108,8 @@ def predict_market_direction(data: MarketPredictionInput):
         input_data = pd.DataFrame([data.dict()])
         
         # 2. Faire la prédiction (Logique factice ici pour tester l'API)
-        pred = model.predict(input_data)[0]
-        proba = model.predict_proba(input_data)[0][pred]
+        pred = model.predict(input_data)[0]# type: ignore
+        proba = model.predict_proba(input_data)[0][pred]# type: ignore
         
         # --- SIMULATION EN ATTENDANT LE VRAI MODÈLE ---
         # pred_factice = 1 
@@ -155,13 +155,6 @@ def simulate_market_reaction(data: SimulationInput):
         # 2. Préparation pour Scikit-Learn
         df_simul = pd.DataFrame([baseline_features])
         
-        # 3. Choix du modèle et prédiction (SIMULATION ICI)
-        # En production : 
-        # if data.actif == "Pétrole Brut (WTI)":
-        #     pred = model_oil.predict(df_simul)[0]
-        #     proba = model_oil.predict_proba(df_simul)[0][pred]
-        # else: ...
-
         if data.actif ==  "^GSPC":
             model = joblib.load('api/data/models/catboost_GSPC.pkl')
         elif data.actif == "CL=F":  # Pétrole Brut (WTI)

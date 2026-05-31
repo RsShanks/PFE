@@ -1,0 +1,34 @@
+name: 🔄 Update GDELT Cache
+
+# Quand déclencher ce script ?
+on:
+  schedule:
+    - cron: '0 3 * * *' # Tous les jours à 3h00 du matin
+  workflow_dispatch: # Permet de lancer le script manuellement avec un bouton
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest # Un serveur GitHub gratuit avec 7 Go de RAM !
+
+    steps:
+    - name:  Cloner le code
+      uses: actions/checkout@v3
+
+    - name:  Installer Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name:  Installer les dépendances
+      run: pip install -r requirements.txt
+
+    - name:  Lancer le script de traitement lourd (GDELT)
+      run: python scripts/update_cache.py
+
+    - name:  Sauvegarder les JSON sur GitHub
+      run: |
+        git config --global user.name 'GeoPredict-Bot'
+        git config --global user.email 'bot@geopredict.com'
+        git add api/data/*.json
+        git commit -m " Auto-update: Mise à jour du cache GDELT" || echo "Aucune modification à commit"
+        git push

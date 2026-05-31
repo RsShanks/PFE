@@ -53,10 +53,10 @@ def add_market_data(df_features, ticker="^GSPC", start="2006-01-01", end="2022-1
     sp500 = yf.download(ticker, start=start, end=end, auto_adjust=False)
     
     # Gestion robuste des colonnes Yahoo Finance (MultiIndex ou non)
-    if 'Adj Close' in sp500.columns:
-        close_prices = sp500['Adj Close']
+    if 'Adj Close' in sp500.columns:# type: ignore
+        close_prices = sp500['Adj Close']# type: ignore
     else:
-        close_prices = sp500.iloc[:, 0]
+        close_prices = sp500.iloc[:, 0]# type: ignore
         
     if isinstance(close_prices, pd.DataFrame):
         close_prices = close_prices.iloc[:, 0]
@@ -84,7 +84,7 @@ def add_market_data(df_features, ticker="^GSPC", start="2006-01-01", end="2022-1
 # ==========================================
 if __name__ == "__main__":
     # 1. Charger
-    df_raw = load_and_preprocess_gdelt("events/gdelt_clean_mapped.csv")
+    df_raw = load_and_preprocess_gdelt("scripts/events/gdelt_clean_mapped.csv")
     
     # 2. Transformer en Hebdo
     df_weekly = generate_finance_features(df_raw)
@@ -94,6 +94,6 @@ if __name__ == "__main__":
     df_final = add_market_data(df_weekly, ticker="^GSPC")
     
     # 4. Sauvegarder
-    df_final.to_csv("events/gdelt_weekly_finance_features_with_returns.csv", index=False)
+    df_final.to_csv("scripts/events/gdelt_weekly_finance_features_with_returns.csv", index=False)
     print("\nPipeline terminé ! Fichier prêt.")
     print(df_final.head())
