@@ -29,6 +29,6 @@ jobs:
       run: |
         git config --global user.name 'GeoPredict-Bot'
         git config --global user.email 'bot@geopredict.com'
-        git add api/data/*.json
+        git add -f api/data/*.json
         git commit -m " Auto-update: Mise à jour du cache GDELT" || echo "Aucune modification à commit"
         git push
