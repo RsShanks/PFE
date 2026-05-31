@@ -23,8 +23,7 @@ jobs:
       run: pip install -r requirements.txt
 
     - name:  Lancer le script de traitement lourd (GDELT)
-      run: python scripts/update_cache.py
-      run : python scripts/update_cache_crise.py
+      run: python scripts/update_cache.py scripts/update_cache_crise.py
 
     - name:  Sauvegarder les JSON sur GitHub
       run: |
