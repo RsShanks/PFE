@@ -10,18 +10,9 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2526",
+    "total_events_filtered": "2591",
     "events_returned": "50",
     "events": [
-        {
-            "SQLDATE": "2026-05-26",
-            "Actor1Name": "CINCINNATI",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.fox19.com/2026/05/26/business-owner-considers-leaving-hamilton-avenue-after-shooting-damages-store/",
-            "RiskScore": "100.0"
-        },
         {
             "SQLDATE": "2026-05-25",
             "Actor1Name": "",
@@ -29,6 +20,15 @@
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.wcvb.com/article/man-charged-with-murder-lawrence/71402926",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-05-29",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "AS",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.dailystar.co.uk/news/latest-news/unvaccinated-brits-issued-urgent-warning-37224696",
             "RiskScore": "100.0"
         },
         {
@@ -50,21 +50,12 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-05-29",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "AS",
+            "SQLDATE": "2026-05-26",
+            "Actor1Name": "CINCINNATI",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.dailystar.co.uk/news/latest-news/unvaccinated-brits-issued-urgent-warning-37224696",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-05-31",
-            "Actor1Name": "IRAN",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://article.wn.com/view/2026/05/31/Iran_claims_it_shot_down_US_MQ1_drone_on_hostile_operations/",
+            "SOURCEURL": "https://www.fox19.com/2026/05/26/business-owner-considers-leaving-hamilton-avenue-after-shooting-damages-store/",
             "RiskScore": "100.0"
         },
         {
@@ -86,6 +77,15 @@
             "RiskScore": "95.0"
         },
         {
+            "SQLDATE": "2026-05-27",
+            "Actor1Name": "LAWMAKER",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.yahoo.com/news/politics/articles/tennessee-democratic-senator-suspended-committee-230423111.html",
+            "RiskScore": "95.0"
+        },
+        {
             "SQLDATE": "2026-05-28",
             "Actor1Name": "FRENCH",
             "ActionGeo_CountryCode": "NL",
@@ -96,48 +96,12 @@
         },
         {
             "SQLDATE": "2026-05-27",
-            "Actor1Name": "LAWMAKER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.yahoo.com/news/politics/articles/tennessee-democratic-senator-suspended-committee-230423111.html",
-            "RiskScore": "95.0"
-        },
-        {
-            "SQLDATE": "2026-05-27",
             "Actor1Name": "VERMONT",
             "ActionGeo_CountryCode": "IS",
             "GoldsteinScale": "-9.2",
             "NumMentions": "10",
             "SOURCEURL": "https://www.wcax.com/2026/05/27/cavendish-woman-forgives-man-who-vandalized-her-studio/",
             "RiskScore": "92.0"
-        },
-        {
-            "SQLDATE": "2026-05-26",
-            "Actor1Name": "NASA",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.columbian.com/news/2026/may/26/nasa-lays-out-moon-base-plans-with-landers-buggies-and-drones-at-the-top-of-the-list/",
-            "RiskScore": "90.0"
-        },
-        {
-            "SQLDATE": "2026-05-28",
-            "Actor1Name": "TEXAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "9",
-            "SOURCEURL": "https://www.kristv.com/news/local-news/in-your-neighborhood/corpus-christi/westside/fatal-stabbing-victim-identified-charges-pending-against-suspect",
-            "RiskScore": "90.0"
-        },
-        {
-            "SQLDATE": "2026-05-28",
-            "Actor1Name": "NEBRASKA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.1011now.com/2026/05/28/unl-custodian-charged-with-sexually-assaulting-disabled-coworker-campus/",
-            "RiskScore": "90.0"
         },
         {
             "SQLDATE": "2026-05-28",
@@ -158,6 +122,33 @@
             "RiskScore": "90.0"
         },
         {
+            "SQLDATE": "2026-05-28",
+            "Actor1Name": "NEBRASKA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.1011now.com/2026/05/28/unl-custodian-charged-with-sexually-assaulting-disabled-coworker-campus/",
+            "RiskScore": "90.0"
+        },
+        {
+            "SQLDATE": "2026-05-28",
+            "Actor1Name": "TEXAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "9",
+            "SOURCEURL": "https://www.kristv.com/news/local-news/in-your-neighborhood/corpus-christi/westside/fatal-stabbing-victim-identified-charges-pending-against-suspect",
+            "RiskScore": "90.0"
+        },
+        {
+            "SQLDATE": "2026-05-26",
+            "Actor1Name": "NASA",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.columbian.com/news/2026/may/26/nasa-lays-out-moon-base-plans-with-landers-buggies-and-drones-at-the-top-of-the-list/",
+            "RiskScore": "90.0"
+        },
+        {
             "SQLDATE": "2026-05-29",
             "Actor1Name": "STATE COLLEGE",
             "ActionGeo_CountryCode": "ZI",
@@ -167,12 +158,12 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-05-29",
-            "Actor1Name": "THE EUROPEAN UNION",
-            "ActionGeo_CountryCode": "IS",
-            "GoldsteinScale": "-8.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.israelnationalnews.com/news/427829",
+            "SQLDATE": "2026-05-31",
+            "Actor1Name": "MILITARY",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "16",
+            "SOURCEURL": "https://www.bankingnews.gr/diethni/articles/878714/trump-makes-shocking-admission-calling-iran-powerful-and-highly-combat-effective-as-axis-of-resistance-returns-to-rock-middle-east",
             "RiskScore": "80.0"
         },
         {
@@ -194,13 +185,13 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-05-27",
-            "Actor1Name": "MEDIA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.kwqc.com:443/2026/05/27/burlington-police-find-missing-womans-body/",
-            "RiskScore": "76.0"
+            "SQLDATE": "2026-05-29",
+            "Actor1Name": "THE EUROPEAN UNION",
+            "ActionGeo_CountryCode": "IS",
+            "GoldsteinScale": "-8.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.israelnationalnews.com/news/427829",
+            "RiskScore": "80.0"
         },
         {
             "SQLDATE": "2026-05-27",
@@ -209,6 +200,15 @@
             "GoldsteinScale": "-9.5",
             "NumMentions": "8",
             "SOURCEURL": "https://www.yahoo.com/news/us/articles/officials-man-killed-mother-then-230511308.html",
+            "RiskScore": "76.0"
+        },
+        {
+            "SQLDATE": "2026-05-27",
+            "Actor1Name": "MEDIA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.kwqc.com:443/2026/05/27/burlington-police-find-missing-womans-body/",
             "RiskScore": "76.0"
         },
         {
@@ -239,21 +239,21 @@
             "RiskScore": "72.0"
         },
         {
-            "SQLDATE": "2026-05-25",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.yahoo.com/news/politics/articles/ice-agents-pepper-spray-protesters-230248499.html",
-            "RiskScore": "70.0"
-        },
-        {
             "SQLDATE": "2026-05-30",
             "Actor1Name": "ASSOCIATED PRESS",
             "ActionGeo_CountryCode": "LA",
             "GoldsteinScale": "-7.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.wtvq.com/joy-and-relief-as-rescuers-evacuate-survivors-from-laos-cave-2-still-missing/",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-05-25",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.yahoo.com/news/politics/articles/ice-agents-pepper-spray-protesters-230248499.html",
             "RiskScore": "70.0"
         },
         {
@@ -271,7 +271,16 @@
             "ActionGeo_CountryCode": "GG",
             "GoldsteinScale": "-6.5",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.eng.kavkaz-uzel.eu/articles/75668",
+            "SOURCEURL": "https://www.eng.kavkaz-uzel.eu/articles/75669",
+            "RiskScore": "65.0"
+        },
+        {
+            "SQLDATE": "2026-05-31",
+            "Actor1Name": "ADVOCATE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-6.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://buffalonews.com/opinion/editorial/article_1bd4f8e1-c2c9-41fc-bbc7-8484c5ab357c.html",
             "RiskScore": "65.0"
         },
         {
@@ -280,7 +289,16 @@
             "ActionGeo_CountryCode": "GG",
             "GoldsteinScale": "-6.5",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.eng.kavkaz-uzel.eu/articles/75669",
+            "SOURCEURL": "https://www.eng.kavkaz-uzel.eu/articles/75668",
+            "RiskScore": "65.0"
+        },
+        {
+            "SQLDATE": "2026-05-31",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-6.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.express.co.uk/news/politics/2211638/conservatives-ban-criminals-benefits-booze-cigarettes",
             "RiskScore": "65.0"
         },
         {
@@ -302,57 +320,12 @@
             "RiskScore": "63.0"
         },
         {
-            "SQLDATE": "2026-05-31",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.tvguide.co.uk/schedule/6dac3b3d-9321-5a76-ae5c-27c7b1881e2d/the-searchers",
-            "RiskScore": "63.0"
-        },
-        {
             "SQLDATE": "2026-05-26",
             "Actor1Name": "SUPERIOR COURT",
             "ActionGeo_CountryCode": "VE",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://signalscv.com/2026/05/trial-set-for-murder-outside-liquor-store/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-05-28",
-            "Actor1Name": "NEW YORK",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.bbc.com/news/articles/clypv9420l2o",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-05-28",
-            "Actor1Name": "ALGERIA",
-            "ActionGeo_CountryCode": "EG",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.politicsweb.co.za/news/xenophobia-against-fellow-africans-is-in-truth-afrophobia-julius-malema",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-05-28",
-            "Actor1Name": "SETTLEMENT",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://newrepublic.com/post/211049/people-punished-charlie-kirk-comments-win-millions",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-05-27",
-            "Actor1Name": "DALLAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.kten.com/news/state/dallas-detectives-solve-1986-cold-case-murder-with-dna-evidence/article_9a2b3a41-91dc-54e7-96c9-1de1774586e4.html",
             "RiskScore": "60.0"
         },
         {
@@ -365,12 +338,30 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-05-26",
-            "Actor1Name": "UNITED STATES",
+            "SQLDATE": "2026-05-30",
+            "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.union-bulletin.com/news/local/courts_and_crime/suspect-arrested-in-walla-walla-shooting-victim-remains-in-critical-condition/article_8e08e10c-6f1d-409b-876e-e204ca1862cf.html",
+            "SOURCEURL": "https://cbs2iowa.com/news/local/one-person-found-dead-after-house-fire-near-west-branch",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-05-28",
+            "Actor1Name": "SETTLEMENT",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://newrepublic.com/post/211049/people-punished-charlie-kirk-comments-win-millions",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-05-28",
+            "Actor1Name": "NEW YORK",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.bbc.com/news/articles/clypv9420l2o",
             "RiskScore": "60.0"
         },
         {
@@ -383,21 +374,39 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-05-30",
-            "Actor1Name": "",
+            "SQLDATE": "2026-05-27",
+            "Actor1Name": "DALLAS",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://cbs2iowa.com/news/local/one-person-found-dead-after-house-fire-near-west-branch",
+            "SOURCEURL": "https://www.kten.com/news/state/dallas-detectives-solve-1986-cold-case-murder-with-dna-evidence/article_9a2b3a41-91dc-54e7-96c9-1de1774586e4.html",
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-05-31",
-            "Actor1Name": "CHINA",
-            "ActionGeo_CountryCode": "KZ",
+            "SQLDATE": "2026-05-26",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.union-bulletin.com/news/local/courts_and_crime/suspect-arrested-in-walla-walla-shooting-victim-remains-in-critical-condition/article_8e08e10c-6f1d-409b-876e-e204ca1862cf.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-05-28",
+            "Actor1Name": "ALGERIA",
+            "ActionGeo_CountryCode": "EG",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.politicsweb.co.za/news/xenophobia-against-fellow-africans-is-in-truth-afrophobia-julius-malema",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-05-27",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-9.5",
             "NumMentions": "6",
-            "SOURCEURL": "https://astanatimes.com/2026/05/from-karlag-to-alzhir-remembering-victims-of-political-repression-and-famine/",
+            "SOURCEURL": "https://kesq.com/news/california/2026/05/27/matthew-perrys-former-live-in-assistant-sentenced-to-prison-in-actors-death/",
             "RiskScore": "57.0"
         },
         {
@@ -407,15 +416,6 @@
             "GoldsteinScale": "-9.5",
             "NumMentions": "6",
             "SOURCEURL": "https://www.breitbart.com/politics/2026/05/27/trump-mocks-al-green-after-primary-loss-one-of-most-mentally-deficient-congressmen/",
-            "RiskScore": "57.0"
-        },
-        {
-            "SQLDATE": "2026-05-27",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "6",
-            "SOURCEURL": "https://kesq.com/news/california/2026/05/27/matthew-perrys-former-live-in-assistant-sentenced-to-prison-in-actors-death/",
             "RiskScore": "57.0"
         },
         {
@@ -451,17 +451,17 @@
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-9.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.staradvertiser.com/2026/05/30/breaking-news/suspect-charged-in-waipahu-sex-assault-and-abuse-case/",
+            "SOURCEURL": "https://smmirror.com/2026/05/la-man-arrested-on-felony-charges-after-incident-sparks-brush-fire/",
             "RiskScore": "54.0"
         },
         {
-            "SQLDATE": "2026-05-27",
-            "Actor1Name": "PROTESTER",
+            "SQLDATE": "2026-05-31",
+            "Actor1Name": "JAPANESE",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-6.5",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.theblaze.com/news/nazi-protester-ice-nj-fox",
-            "RiskScore": "52.0"
+            "GoldsteinScale": "-4.4",
+            "NumMentions": "12",
+            "SOURCEURL": "https://www.hngnews.com/nation_world/ap-news-summary-at-7-00-a-m-edt/article_31c75001-f5b4-5ae4-9756-5f53013e118f.html",
+            "RiskScore": "52.800000000000004"
         }
     ]
 }
