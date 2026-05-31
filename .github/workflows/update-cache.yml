@@ -1,14 +1,14 @@
 name: Update GDELT Cache
 
-# Quand déclencher ce script ?
+
 on:
   schedule:
     - cron: '0 3 * * *' # Tous les jours à 3h00 du matin
-  workflow_dispatch: # Permet de lancer le script manuellement avec un bouton
+  workflow_dispatch:
 
 jobs:
   build-and-update:
-    runs-on: ubuntu-latest # Un serveur GitHub gratuit avec 7 Go de RAM !
+    runs-on: ubuntu-latest 
 
     steps:
     - name:  Cloner le code
