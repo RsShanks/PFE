@@ -35,36 +35,36 @@ country_map = pd.read_csv(
     "https://www.gdeltproject.org/data/lookups/CAMEO.country.txt",
     sep="\t",
     header=None,
-    names=["CountryCode", "CountryName"]
+    names=["CountryCode", "CountryName"],
 )
 
 country_map["CountryCode"] = country_map["CountryCode"].astype(str).str.strip()
 
 df = df.merge(
-    country_map.rename(columns={
-        "CountryCode": "Actor1CountryCode",
-        "CountryName": "Actor1CountryName"
-    }),
+    country_map.rename(
+        columns={"CountryCode": "Actor1CountryCode", "CountryName": "Actor1CountryName"}
+    ),
     on="Actor1CountryCode",
-    how="left"
+    how="left",
 )
 
 df = df.merge(
-    country_map.rename(columns={
-        "CountryCode": "Actor2CountryCode",
-        "CountryName": "Actor2CountryName"
-    }),
+    country_map.rename(
+        columns={"CountryCode": "Actor2CountryCode", "CountryName": "Actor2CountryName"}
+    ),
     on="Actor2CountryCode",
-    how="left"
+    how="left",
 )
 
 df = df.merge(
-    country_map.rename(columns={
-        "CountryCode": "ActionGeo_CountryCode",
-        "CountryName": "ActionGeo_CountryName"
-    }),
+    country_map.rename(
+        columns={
+            "CountryCode": "ActionGeo_CountryCode",
+            "CountryName": "ActionGeo_CountryName",
+        }
+    ),
     on="ActionGeo_CountryCode",
-    how="left"
+    how="left",
 )
 
 # =========================
@@ -75,7 +75,7 @@ event_map = pd.read_csv(
     "https://www.gdeltproject.org/data/lookups/CAMEO.eventcodes.txt",
     sep="\t",
     header=None,
-    names=["EventCode", "EventDescription"]
+    names=["EventCode", "EventDescription"],
 )
 
 event_map = event_map[event_map["EventCode"] != "CAMEOEVENTCODE"]
@@ -92,7 +92,7 @@ quad_map = {
     1: "Verbal cooperation",
     2: "Material cooperation",
     3: "Verbal conflict",
-    4: "Material conflict"
+    4: "Material conflict",
 }
 
 df["QuadClassLabel"] = df["QuadClass"].map(quad_map)
@@ -108,13 +108,18 @@ print("\nAperçu complet :")
 print(df.head())
 
 print("\nNaN sur les mappings pays :")
-print(df[[
-    "Actor1CountryName",
-    "Actor2CountryName",
-    "ActionGeo_CountryName",
-    "EventDescription"
-]].isna().sum())
-# fallback description à partir de EventRootCode si EventDescription est NaN
+print(
+    df[
+        [
+            "Actor1CountryName",
+            "Actor2CountryName",
+            "ActionGeo_CountryName",
+            "EventDescription",
+        ]
+    ]
+    .isna()
+    .sum()
+)
 root_map = {
     "01": "Make public statement",
     "02": "Appeal",
@@ -135,14 +140,12 @@ root_map = {
     "17": "Coerce",
     "18": "Assault",
     "19": "Fight",
-    "20": "Use unconventional mass violence"
+    "20": "Use unconventional mass violence",
 }
 
 df["EventRootDescription"] = df["EventRootCode"].map(root_map)
 
-df["EventDescriptionFinal"] = df["EventDescription"].fillna(
-    df["EventRootDescription"]
-)
+df["EventDescriptionFinal"] = df["EventDescription"].fillna(df["EventRootDescription"])
 # =========================
 # 7. Sauvegarde
 # =========================
@@ -158,16 +161,24 @@ print(df[df["Actor1CountryName"].isna()]["Actor1CountryCode"].unique())
 df["EventRootFromEventCode"] = df["EventCode"].astype(str).str[:2]
 
 # Vérifie que EventRootCode correspond bien au début de EventCode
-incoherent_root = df[
-    df["EventRootFromEventCode"] != df["EventRootCode"]
-]
+incoherent_root = df[df["EventRootFromEventCode"] != df["EventRootCode"]]
 
 print("\nNombre d'incohérences EventCode / EventRootCode :", len(incoherent_root))
 
 if len(incoherent_root) > 0:
-    print(incoherent_root[
-        ["EventCode", "EventRootCode", "EventRootFromEventCode", "EventDescription", "EventRootDescription"]
-    ].drop_duplicates().head(20))
+    print(
+        incoherent_root[
+            [
+                "EventCode",
+                "EventRootCode",
+                "EventRootFromEventCode",
+                "EventDescription",
+                "EventRootDescription",
+            ]
+        ]
+        .drop_duplicates()
+        .head(20)
+    )
 else:
     print("EventCode et EventRootCode sont cohérents.")
 
@@ -176,19 +187,39 @@ missing_final_desc = df["EventDescriptionFinal"].isna().sum()
 print("\nDescriptions finales encore manquantes :", missing_final_desc)
 
 # Affiche les EventCode sans description détaillée mais avec fallback root
-fallback_used = df[
-    df["EventDescription"].isna() & df["EventDescriptionFinal"].notna()
-]
+fallback_used = df[df["EventDescription"].isna() & df["EventDescriptionFinal"].notna()]
 
-print("\nNombre de lignes où le fallback EventRootDescription est utilisé :", len(fallback_used))
+print(
+    "\nNombre de lignes où le fallback EventRootDescription est utilisé :",
+    len(fallback_used),
+)
 
 print("\nExemples de fallback utilisé :")
 print(
     fallback_used[
-        ["EventCode", "EventRootCode", "EventDescription", "EventRootDescription", "EventDescriptionFinal"]
-    ].drop_duplicates().head(20)
+        [
+            "EventCode",
+            "EventRootCode",
+            "EventDescription",
+            "EventRootDescription",
+            "EventDescriptionFinal",
+        ]
+    ]
+    .drop_duplicates()
+    .head(20)
 )
-print(df[["EventCode", "EventRootCode", "EventDescription", "EventRootDescription", "EventDescriptionFinal"]
-    ].drop_duplicates().head(20))
+print(
+    df[
+        [
+            "EventCode",
+            "EventRootCode",
+            "EventDescription",
+            "EventRootDescription",
+            "EventDescriptionFinal",
+        ]
+    ]
+    .drop_duplicates()
+    .head(20)
+)
 df.to_csv("events/gdelt_clean_mapped.csv", index=False, encoding="utf-8")
 print("\nFichier sauvegardé : scripts/events/gdelt_clean_mapped.csv")

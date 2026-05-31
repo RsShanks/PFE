@@ -16,14 +16,12 @@ TICKERS = {
     "CL=F": "petrole",
 }
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
 def get_cache_path(ticker: str) -> str:
     suffix = TICKERS[ticker]
-    return os.path.join(
-        BASE_DIR,
-        "api",
-        "data",
-        f"cache_features_crise_{suffix}.json"
-    )
+    return os.path.join(BASE_DIR, "api", "data", f"cache_features_crise_{suffix}.json")
+
 
 CAMEO_EVENT_MAPPING = {
     "01": "MAKE PUBLIC STATEMENT",
@@ -37,7 +35,6 @@ CAMEO_EVENT_MAPPING = {
     "017": "Engage in symbolic act",
     "018": "Make empathetic comment",
     "019": "Express accord",
-
     "02": "APPEAL",
     "020": "Appeal, not specified below",
     "021": "Appeal for material cooperation, not specified below",
@@ -66,7 +63,6 @@ CAMEO_EVENT_MAPPING = {
     "026": "Appeal to others to meet or negotiate",
     "027": "Appeal to others to settle dispute",
     "028": "Appeal to others to engage in or accept mediation",
-
     "03": "EXPRESS INTENT TO COOPERATE",
     "030": "Express intent to cooperate, not specified below",
     "031": "Express intent to engage in material cooperation",
@@ -96,7 +92,6 @@ CAMEO_EVENT_MAPPING = {
     "037": "Express intent to settle dispute",
     "038": "Express intent to accept mediation",
     "039": "Express intent to mediate",
-
     "04": "CONSULT",
     "040": "Consult, not specified below",
     "041": "Discuss by telephone",
@@ -105,7 +100,6 @@ CAMEO_EVENT_MAPPING = {
     "044": "Meet at a third location",
     "045": "Mediate",
     "046": "Engage in negotiation",
-
     "05": "ENGAGE IN DIPLOMATIC COOPERATION",
     "050": "Engage in diplomatic cooperation, not specified below",
     "051": "Praise or endorse",
@@ -115,14 +109,12 @@ CAMEO_EVENT_MAPPING = {
     "055": "Apologize",
     "056": "Forgive",
     "057": "Sign formal agreement",
-
     "06": "ENGAGE IN MATERIAL COOPERATION",
     "060": "Engage in material cooperation, not specified below",
     "061": "Cooperate economically",
     "062": "Cooperate militarily",
     "063": "Engage in judicial cooperation",
     "064": "Share intelligence or information",
-
     "07": "PROVIDE AID",
     "070": "Provide aid, not specified below",
     "071": "Provide economic aid",
@@ -130,7 +122,6 @@ CAMEO_EVENT_MAPPING = {
     "073": "Provide humanitarian aid",
     "074": "Provide military protection or peacekeeping",
     "075": "Grant asylum",
-
     "08": "YIELD",
     "080": "Yield, not specified below",
     "081": "Ease administrative sanctions, not specified below",
@@ -157,14 +148,12 @@ CAMEO_EVENT_MAPPING = {
     "0872": "Ease military blockade",
     "0873": "Demobilize armed forces",
     "0874": "Retreat or surrender militarily",
-
     "09": "INVESTIGATE",
     "090": "Investigate, not specified below",
     "091": "Investigate crime, corruption",
     "092": "Investigate human rights abuses",
     "093": "Investigate military action",
     "094": "Investigate war crimes",
-
     "10": "DEMAND",
     "100": "Demand, not specified below",
     "101": "Demand information, investigation",
@@ -193,7 +182,6 @@ CAMEO_EVENT_MAPPING = {
     "106": "Demand withdrawal",
     "107": "Demand ceasefire",
     "108": "Demand meeting, negotiation",
-
     "11": "DISAPPROVE",
     "110": "Disapprove, not specified below",
     "111": "Criticize or denounce",
@@ -207,7 +195,6 @@ CAMEO_EVENT_MAPPING = {
     "114": "Complain officially",
     "115": "Bring lawsuit against",
     "116": "Find guilty or liable legally",
-
     "12": "REJECT",
     "120": "Reject, not specified below",
     "121": "Reject material cooperation",
@@ -235,7 +222,6 @@ CAMEO_EVENT_MAPPING = {
     "127": "Reject plan, agreement to settle dispute",
     "128": "Defy norms, law",
     "129": "Veto",
-
     "13": "THREATEN",
     "130": "Threaten, not specified below",
     "131": "Threaten non-force, not specified below",
@@ -259,7 +245,6 @@ CAMEO_EVENT_MAPPING = {
     "1384": "Threaten conventional attack",
     "1385": "Threaten attack with WMD",
     "139": "Give ultimatum",
-
     "14": "PROTEST",
     "140": "Engage in political dissent",
     "141": "Demonstrate or rally",
@@ -287,14 +272,12 @@ CAMEO_EVENT_MAPPING = {
     "1452": "Engage in violent protest for policy change",
     "1453": "Engage in violent protest for rights",
     "1454": "Engage in violent protest for change in institutions, regime",
-
     "15": "EXHIBIT FORCE POSTURE",
     "150": "Demonstrate military or police power",
     "151": "Increase police alert status",
     "152": "Increase military alert status",
     "153": "Mobilize or increase police power",
     "154": "Mobilize or increase armed forces",
-
     "16": "REDUCE RELATIONS",
     "160": "Reduce relations, not specified below",
     "161": "Reduce or break diplomatic relations",
@@ -309,7 +292,6 @@ CAMEO_EVENT_MAPPING = {
     "1661": "Expel or withdraw peacekeepers",
     "1662": "Expel or withdraw inspectors, observers",
     "1663": "Expel or withdraw aid agencies",
-
     "17": "COERCE",
     "170": "Coerce, not specified below",
     "171": "Seize or damage property",
@@ -323,7 +305,6 @@ CAMEO_EVENT_MAPPING = {
     "173": "Arrest, detain, or charge with legal action",
     "174": "Expel or deport individuals",
     "175": "Use tactics of violent repression",
-
     "18": "ASSAULT",
     "180": "Use unconventional violence",
     "181": "Abduct, hijack, or take hostage",
@@ -338,7 +319,6 @@ CAMEO_EVENT_MAPPING = {
     "184": "Use as human shield",
     "185": "Attempt to assassinate",
     "186": "Assassinate",
-
     "19": "FIGHT",
     "190": "Use conventional military force",
     "191": "Impose blockade, restrict movement",
@@ -347,7 +327,6 @@ CAMEO_EVENT_MAPPING = {
     "194": "Fight with artillery and tanks",
     "195": "Employ aerial weapons",
     "196": "Violate ceasefire",
-
     "20": "USE UNCONVENTIONAL MASS VIOLENCE",
     "200": "Use unconventional mass violence",
     "201": "Engage in mass expulsion",
@@ -357,13 +336,10 @@ CAMEO_EVENT_MAPPING = {
     "2041": "Use chemical, biological, or radiological weapons",
     "2042": "Detonate nuclear weapons",
 }
+
+
 def add_live_market_features(df_features: pd.DataFrame, ticker: str) -> pd.DataFrame:
-    market = yf.download(
-        ticker,
-        period="2y",
-        auto_adjust=False,
-        progress=False
-    )
+    market = yf.download(ticker, period="2y", auto_adjust=False, progress=False)
 
     if market.empty:
         raise ValueError(f"Yahoo Finance n'a retourné aucune donnée pour {ticker}.")
@@ -390,12 +366,7 @@ def add_live_market_features(df_features: pd.DataFrame, ticker: str) -> pd.DataF
     rolling_max_26w = weekly_price.rolling(26).max()
     market_df["drawdown_26w"] = weekly_price / rolling_max_26w - 1
 
-    vix = yf.download(
-        "^VIX",
-        period="2y",
-        auto_adjust=False,
-        progress=False
-    )
+    vix = yf.download("^VIX", period="2y", auto_adjust=False, progress=False)
 
     if vix.empty:
         market_df["vix"] = 0
@@ -413,9 +384,7 @@ def add_live_market_features(df_features: pd.DataFrame, ticker: str) -> pd.DataF
         market_df["vix_delta_1w"] = market_df["vix"].diff()
         market_df["vix_zscore_52w"] = (
             market_df["vix"] - market_df["vix"].rolling(52, min_periods=20).mean()
-        ) / (
-            market_df["vix"].rolling(52, min_periods=20).std() + 1e-9
-        )
+        ) / (market_df["vix"].rolling(52, min_periods=20).std() + 1e-9)
 
     market_df = market_df.reset_index().rename(columns={"Date": "week"})
     market_df["week"] = pd.to_datetime(market_df["week"])
@@ -434,10 +403,7 @@ def update_live_cache(ticker: str):
 
     gd2 = gdelt.gdelt(version=2)
 
-    dates = pd.date_range(
-        end=datetime.today(),
-        periods=90
-    ).strftime("%Y%m%d").tolist()
+    dates = pd.date_range(end=datetime.today(), periods=90).strftime("%Y%m%d").tolist()
 
     results = []
 
@@ -456,10 +422,7 @@ def update_live_cache(ticker: str):
 
     df_raw = pd.concat(results, ignore_index=True)
     df_raw["EventCode"] = (
-        df_raw["EventCode"]
-        .astype(str)
-        .str.replace(".0", "", regex=False)
-        .str.strip()
+        df_raw["EventCode"].astype(str).str.replace(".0", "", regex=False).str.strip()
     )
 
     df_raw["EventCodeMapped"] = df_raw["EventCode"].apply(
@@ -476,11 +439,10 @@ def update_live_cache(ticker: str):
             1: "Verbal cooperation",
             2: "Material cooperation",
             3: "Verbal conflict",
-            4: "Material conflict"
+            4: "Material conflict",
         }
         df_raw["QuadClassLabel"] = pd.to_numeric(
-            df_raw["QuadClass"],
-            errors="coerce"
+            df_raw["QuadClass"], errors="coerce"
         ).map(quad_map)
 
     # if "EventRootDescription" not in df_raw.columns:
@@ -491,8 +453,17 @@ def update_live_cache(ticker: str):
 
     if "is_major_country" not in df_raw.columns:
         major_codes = [
-            "USA", "CHN", "RUS", "GBR", "FRA", "DEU",
-            "JPN", "IND", "IRN", "ISR", "UKR"
+            "USA",
+            "CHN",
+            "RUS",
+            "GBR",
+            "FRA",
+            "DEU",
+            "JPN",
+            "IND",
+            "IRN",
+            "ISR",
+            "UKR",
         ]
 
         df_raw["is_major_country"] = (
@@ -502,9 +473,7 @@ def update_live_cache(ticker: str):
         ).astype(int)
 
     df_raw["SQLDATE"] = pd.to_datetime(
-        df_raw["SQLDATE"].astype(str),
-        format="%Y%m%d",
-        errors="coerce"
+        df_raw["SQLDATE"].astype(str), format="%Y%m%d", errors="coerce"
     )
 
     df_raw = df_raw.dropna(subset=["SQLDATE"])
@@ -519,14 +488,10 @@ def update_live_cache(ticker: str):
     df_latest = df_raw[df_raw["week"] == latest_week].copy()
 
     df_latest["NumMentions"] = pd.to_numeric(
-        df_latest["NumMentions"],
-        errors="coerce"
+        df_latest["NumMentions"], errors="coerce"
     ).fillna(0)
 
-    df_latest["QuadClass"] = pd.to_numeric(
-        df_latest["QuadClass"],
-        errors="coerce"
-    )
+    df_latest["QuadClass"] = pd.to_numeric(df_latest["QuadClass"], errors="coerce")
     top_events = (
         df_latest.groupby("EventDescriptionFinal")["NumMentions"]
         .sum()
@@ -535,8 +500,7 @@ def update_live_cache(ticker: str):
     )
 
     top_events_dict = {
-        str(event): int(mentions)
-        for event, mentions in top_events.items()
+        str(event): int(mentions) for event, mentions in top_events.items()
     }
     df_conflicts = df_latest[df_latest["QuadClass"] >= 3].copy()
 
@@ -566,7 +530,7 @@ def update_live_cache(ticker: str):
         "avg_tone",
         "weekly_return_current",
         "vol_4w",
-        "vix"
+        "vix",
     ]
 
     evolution = {}
@@ -576,21 +540,16 @@ def update_live_cache(ticker: str):
         previous = prev_row.get(var)
 
         if current is not None and previous is not None and previous != 0:
-            evolution[var] = round(
-                ((current - previous) / abs(previous)) * 100,
-                2
-            )
+            evolution[var] = round(((current - previous) / abs(previous)) * 100, 2)
     final_cache = {
         "last_updated": datetime.today().strftime("%Y-%m-%d %H:%M:%S"),
         "week": str(last_row["week"]),
         "features": {
-            k: float(v)
-            for k, v in last_row.items()
-            if k != "week" and pd.notna(v)
+            k: float(v) for k, v in last_row.items() if k != "week" and pd.notna(v)
         },
         "top_events": top_events_dict,
         "top_conflict_countries": top_conflict_countries_dict,
-        "evolution": evolution
+        "evolution": evolution,
     }
 
     cache_path = get_cache_path(ticker)
