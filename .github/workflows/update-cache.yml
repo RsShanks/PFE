@@ -22,13 +22,15 @@ jobs:
     - name:  Installer les dépendances
       run: pip install -r requirements.txt
 
-    - name:  Lancer le script de traitement lourd (GDELT)
-      run: python scripts/update_cache.py scripts/update_cache_crise.py
+    - name: Lancer le script de traitement lourd (Radar)
+      run: python scripts/update_cache.py
 
-    - name:  Sauvegarder les JSON sur GitHub
+    - name: Lancer le script de crise (GDELT + YFinance)
+      run: python scripts/update_cache_crise.py
+    - name: Sauvegarder tous les JSON sur GitHub
       run: |
         git config --global user.name 'GeoPredict-Bot'
         git config --global user.email 'bot@geopredict.com'
         git add -f api/data/*.json
-        git commit -m " Auto-update: Mise à jour du cache GDELT" || echo "Aucune modification à commit"
+        git commit -m "🤖 Auto-update: Mise à jour du cache Radar et Crise" || echo "Aucune modification à commit"
         git push
