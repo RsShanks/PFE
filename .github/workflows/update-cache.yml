@@ -1,4 +1,4 @@
-name: 🔄 Update GDELT Cache
+name: Update GDELT Cache
 
 # Quand déclencher ce script ?
 on:
