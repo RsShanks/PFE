@@ -24,6 +24,7 @@ jobs:
 
     - name:  Lancer le script de traitement lourd (GDELT)
       run: python scripts/update_cache.py
+      run : python scripts/update_cache_crise.py
 
     - name:  Sauvegarder les JSON sur GitHub
       run: |
