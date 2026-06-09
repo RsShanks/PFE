@@ -1,5 +1,5 @@
 {
-    "period": "20260602 to 20260608",
+    "period": "20260603 to 20260609",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,18 +10,9 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2305",
+    "total_events_filtered": "2255",
     "events_returned": "50",
     "events": [
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "GOVERNMENT",
-            "ActionGeo_CountryCode": "CH",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "16",
-            "SOURCEURL": "https://www.rfa.org/english/china/2026/06/02/china-tiananmen-mothers-cemetery-ban-beijing/",
-            "RiskScore": "160.0"
-        },
         {
             "SQLDATE": "2026-06-03",
             "Actor1Name": "",
@@ -41,6 +32,15 @@
             "RiskScore": "100.0"
         },
         {
+            "SQLDATE": "2026-06-04",
+            "Actor1Name": "LEBANON",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.abc.net.au/listen/programs/am/hezbollah-rejects-latest-ceasefire/106762232",
+            "RiskScore": "100.0"
+        },
+        {
             "SQLDATE": "2026-06-03",
             "Actor1Name": "NATURALIZED",
             "ActionGeo_CountryCode": "US",
@@ -50,48 +50,12 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-06-03",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.reflector.com/news/local/gpd-charge-two-more-in-connection-with-jaggers-shooting/article_ce9788d9-cadd-40b5-94eb-4463af812306.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-07",
-            "Actor1Name": "SEATTLE",
+            "SQLDATE": "2026-06-05",
+            "Actor1Name": "HARTFORD",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.kiro7.com/news/local/university-washington-creates-memorial-fund-honor-juniper-blessing/SVI4EQAI5VFGZMPPWBNKWXX32M/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.bostonglobe.com/2026/06/02/metro/sheffield-man-arraigned-murder/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-08",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "IT",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.thebusinessdesk.com/northwest/news/2173482-italian-restaurant-group-cooks-up-expansion-with-second-venue-in-alderley-edge/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-06",
-            "Actor1Name": "KENTUCKY",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.el-balad.com/17017819",
+            "SOURCEURL": "https://www.nbcconnecticut.com/news/local/police-investigating-after-a-woman-was-shot-in-hartford/3742493/",
             "RiskScore": "100.0"
         },
         {
@@ -113,24 +77,6 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-06-05",
-            "Actor1Name": "HARTFORD",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.nbcconnecticut.com/news/local/police-investigating-after-a-woman-was-shot-in-hartford/3742493/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "IRANIAN",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.jpost.com/middle-east/article-898165",
-            "RiskScore": "100.0"
-        },
-        {
             "SQLDATE": "2026-06-03",
             "Actor1Name": "SUPREME COURT",
             "ActionGeo_CountryCode": "US",
@@ -140,12 +86,30 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-06-04",
-            "Actor1Name": "LEBANON",
-            "ActionGeo_CountryCode": "IR",
+            "SQLDATE": "2026-06-07",
+            "Actor1Name": "SEATTLE",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.abc.net.au/listen/programs/am/hezbollah-rejects-latest-ceasefire/106762232",
+            "SOURCEURL": "https://www.kiro7.com/news/local/university-washington-creates-memorial-fund-honor-juniper-blessing/SVI4EQAI5VFGZMPPWBNKWXX32M/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.reflector.com/news/local/gpd-charge-two-more-in-connection-with-jaggers-shooting/article_ce9788d9-cadd-40b5-94eb-4463af812306.html",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-06",
+            "Actor1Name": "KENTUCKY",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.el-balad.com/17017819",
             "RiskScore": "100.0"
         },
         {
@@ -167,12 +131,75 @@
             "RiskScore": "90.0"
         },
         {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "SHEFFIELD",
+            "SQLDATE": "2026-05-09",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.erewashsound.com/news/derbyshire/pcc-fighting-back-against-fraud-and-cybercrime/",
+            "RiskScore": "90.0"
+        },
+        {
+            "SQLDATE": "2026-06-04",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://www.bostonglobe.com/2026/06/02/metro/sheffield-man-arraigned-murder/",
+            "SOURCEURL": "https://kpic.com/news/local/douglas-county-da-praises-denial-of-parole-for-dustin-wallace-in-2010-child-murder-case-sahara-dwight-crime-senate-bill-1008-victim-justice-high-profile",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-07",
+            "Actor1Name": "CHINA",
+            "ActionGeo_CountryCode": "CH",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.dailymail.com/news/article-15873757/Chinese-triads-directed-Beijing-spy-UK-use-brothels-blackmail-MPs-report-warns.html",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-08",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.erewashsound.com/news/derbyshire/pcc-fighting-back-against-fraud-and-cybercrime/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
+            "Actor1Name": "PRODUCER",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.kmbc.com/article/overland-park-man-charged-fatal-ballys-kc-casino-parking-garage-shooting/71486757",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
+            "Actor1Name": "THE SECURITY COUNCIL",
+            "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "16",
+            "SOURCEURL": "http://www.bruneinews.net/news/279100669/germany-fails-to-win-un-security-council-seat-for-first-time-ever",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
+            "Actor1Name": "THE SECURITY COUNCIL",
+            "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "16",
+            "SOURCEURL": "http://www.bruneinews.net/news/279100669/germany-fails-to-win-un-security-council-seat-for-first-time-ever",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
+            "Actor1Name": "THE SECURITY COUNCIL",
+            "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "16",
+            "SOURCEURL": "http://www.bruneinews.net/news/279100669/germany-fails-to-win-un-security-council-seat-for-first-time-ever",
             "RiskScore": "80.0"
         },
         {
@@ -185,48 +212,21 @@
             "RiskScore": "80.0"
         },
         {
+            "SQLDATE": "2026-06-04",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.ktvu.com/news/east-bay-5th-graders-get-inspiring-glimpse-aviation-through-southwest",
+            "RiskScore": "80.0"
+        },
+        {
             "SQLDATE": "2026-06-03",
             "Actor1Name": "CLEVELAND",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
             "SOURCEURL": "https://www.cleveland19.com/2026/06/03/male-dead-after-running-crash-scene-and-shooting-another-clevelands-slavic-village-neighborhood/",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "A US",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.jpost.com/middle-east/article-898165",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-03",
-            "Actor1Name": "THE SECURITY COUNCIL",
-            "ActionGeo_CountryCode": "RS",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "16",
-            "SOURCEURL": "http://www.bruneinews.net/news/279100669/germany-fails-to-win-un-security-council-seat-for-first-time-ever",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-03",
-            "Actor1Name": "THE SECURITY COUNCIL",
-            "ActionGeo_CountryCode": "RS",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "16",
-            "SOURCEURL": "http://www.bruneinews.net/news/279100669/germany-fails-to-win-un-security-council-seat-for-first-time-ever",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.wsfa.com/2026/06/02/5-shootings-1-homicide-across-2-weekends-under-investigation-lowndes-county/",
             "RiskScore": "80.0"
         },
         {
@@ -240,66 +240,12 @@
         },
         {
             "SQLDATE": "2026-06-04",
-            "Actor1Name": "UNITED STATES",
+            "Actor1Name": "FLORIDA",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://kpic.com/news/local/douglas-county-da-praises-denial-of-parole-for-dustin-wallace-in-2010-child-murder-case-sahara-dwight-crime-senate-bill-1008-victim-justice-high-profile",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "DEPUTIES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.wsfa.com/2026/06/02/5-shootings-1-homicide-across-2-weekends-under-investigation-lowndes-county/",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-04",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.ktvu.com/news/east-bay-5th-graders-get-inspiring-glimpse-aviation-through-southwest",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-03",
-            "Actor1Name": "PRODUCER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.kmbc.com/article/overland-park-man-charged-fatal-ballys-kc-casino-parking-garage-shooting/71486757",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "ISRAEL",
-            "ActionGeo_CountryCode": "IS",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.irishtimes.com/opinion/editorials/2026/06/02/the-irish-times-view-on-lebanon-another-dangerous-escalation/",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-07",
-            "Actor1Name": "CHINA",
-            "ActionGeo_CountryCode": "CH",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.dailymail.com/news/article-15873757/Chinese-triads-directed-Beijing-spy-UK-use-brothels-blackmail-MPs-report-warns.html",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-03",
-            "Actor1Name": "THE SECURITY COUNCIL",
-            "ActionGeo_CountryCode": "RS",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "16",
-            "SOURCEURL": "http://www.bruneinews.net/news/279100669/germany-fails-to-win-un-security-council-seat-for-first-time-ever",
-            "RiskScore": "80.0"
+            "GoldsteinScale": "-2.0",
+            "NumMentions": "38",
+            "SOURCEURL": "https://www.wpbf.com/article/palm-beach-county-kevin-oliveira-wrongful-death-lawsuit-kratom-drink/71498628",
+            "RiskScore": "76.0"
         },
         {
             "SQLDATE": "2026-06-04",
@@ -311,42 +257,6 @@
             "RiskScore": "76.0"
         },
         {
-            "SQLDATE": "2026-06-04",
-            "Actor1Name": "FLORIDA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "38",
-            "SOURCEURL": "https://www.wpbf.com/article/palm-beach-county-kevin-oliveira-wrongful-death-lawsuit-kratom-drink/71498628",
-            "RiskScore": "76.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "DEPUTY",
-            "ActionGeo_CountryCode": "HA",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://haitiantimes.com/2026/06/02/haiti-police-1200-graduates/",
-            "RiskScore": "72.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "PHILADELPHIA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.nbcphiladelphia.com/entertainment/entertainment-news/60-minutes-boss-meets-staffers-after-clash-with-scott-pelley/4411237/",
-            "RiskScore": "70.0"
-        },
-        {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "BOSS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.nbcphiladelphia.com/entertainment/entertainment-news/60-minutes-boss-meets-staffers-after-clash-with-scott-pelley/4411237/",
-            "RiskScore": "70.0"
-        },
-        {
             "SQLDATE": "2026-06-07",
             "Actor1Name": "TOLEDO",
             "ActionGeo_CountryCode": "US",
@@ -356,21 +266,120 @@
             "RiskScore": "70.0"
         },
         {
-            "SQLDATE": "2026-06-02",
-            "Actor1Name": "PENNSYLVANIA",
+            "SQLDATE": "2026-06-09",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-8.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.independent.co.uk/news/world/americas/us-politics/trump-butler-rally-shooting-lawsuit-b2988328.html",
-            "RiskScore": "64.0"
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "14",
+            "SOURCEURL": "https://www.ketv.com/article/council-bluffs-city-council-votes-against-repealing-ban-on-pit-bull-breeds/71529962",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-06-09",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "CH",
+            "GoldsteinScale": "-4.4",
+            "NumMentions": "15",
+            "SOURCEURL": "https://www.globaltimes.cn/page/202606/1363114.shtml",
+            "RiskScore": "66.0"
+        },
+        {
+            "SQLDATE": "2026-06-04",
+            "Actor1Name": "UTAH",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://www.eastidahonews.com/2026/06/utah-bus-driver-sentenced-to-5-years-in-prison-for-setting-school-bus-on-fire/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-05",
+            "Actor1Name": "GOVERNMENT",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.santacruzsentinel.com/2026/06/05/ice-detention-facility-gilroy-local-state-governments-stop-it/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
+            "Actor1Name": "SCHOOL",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.postregister.com/news/local/trial-date-set-for-moscow-murder-victims-lawsuit/article_680990c0-47df-5413-8ead-d064b2b74f75.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-04",
+            "Actor1Name": "PHOENIX",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.azfamily.com/2026/06/04/brutal-heinous-arrest-made-weeks-after-deadly-shooting-maryvale/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-04",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wjcl.com/article/alex-murdaugh-murder-retrial-evidence/71498482",
+            "RiskScore": "60.0"
         },
         {
             "SQLDATE": "2026-06-06",
-            "Actor1Name": "ITALY",
-            "ActionGeo_CountryCode": "FR",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "30",
-            "SOURCEURL": "https://www.itnewsonline.com/GlobeNewswire/Communiqu-Orange--Signing-of-a-Memorandum-of-Understanding-for-the-acquisition-of-SFR/123895",
+            "Actor1Name": "BRITISH",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://townhall.com/tipsheet/amy-curtis/2026/06/06/remembering-d-day-n2677353",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-05",
+            "Actor1Name": "JUDGE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://mynewsla.com/crime/2026/06/05/judge-dismisses-murder-indictment-against-ex-lapd-officer-4/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-05",
+            "Actor1Name": "HARTFORD",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.nbcconnecticut.com/news/local/ex-hartford-officer-joseph-magnano-faces-judge-for-first-time-since-fatal-shooting/3742507/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
+            "Actor1Name": "THE SECURITY COUNCIL",
+            "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "12",
+            "SOURCEURL": "http://www.bruneinews.net/news/279100669/germany-fails-to-win-un-security-council-seat-for-first-time-ever",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-09",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.rte.ie/news/regional/2026/0609/1577459-psni-stabbing-belfast/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-08",
+            "Actor1Name": "CHINA",
+            "ActionGeo_CountryCode": "KS",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.humaneworld.org/en/blog/china-yulin-dog-meat-slaughterhouse-closure-rescue-dogs-stolen-pets",
             "RiskScore": "60.0"
         },
         {
@@ -383,12 +392,39 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-06-02",
+            "SQLDATE": "2026-06-08",
+            "Actor1Name": "FEDERAL JUDGE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.forbes.com/sites/stuartanderson/2026/06/08/immigration-ruling-strikes-down-100000-h-1b-fee-whats-next/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-06",
+            "Actor1Name": "ITALY",
+            "ActionGeo_CountryCode": "FR",
+            "GoldsteinScale": "-2.0",
+            "NumMentions": "30",
+            "SOURCEURL": "https://www.itnewsonline.com/GlobeNewswire/Communiqu-Orange--Signing-of-a-Memorandum-of-Understanding-for-the-acquisition-of-SFR/123895",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.wsfa.com/2026/06/02/5-shootings-1-homicide-across-2-weekends-under-investigation-lowndes-county/",
+            "SOURCEURL": "https://www.cleveland19.com/2026/06/03/us-marshals-arrest-fugitive-tied-2025-slavic-village-murders/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-03",
+            "Actor1Name": "CITIZEN",
+            "ActionGeo_CountryCode": "UP",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://nebraskapublicmedia.org/en/news/news-articles/federal-judge-strikes-down-decades-old-nebraska-law-allowing-undocumented-students-to-access-in-state-tuition/",
             "RiskScore": "60.0"
         },
         {
@@ -398,6 +434,15 @@
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.kten.com/news/kten_news/bottle-rockets-legal-in-oklahoma-after-45-year-ban/article_1e71bcba-89c8-4088-bcef-5782e9e30369.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-04",
+            "Actor1Name": "NETFLIX",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.oxygen.com/crime-news/mackenzie-shirilla-crash-dad-steve-shirilla-leaves-teaching-job",
             "RiskScore": "60.0"
         },
         {
@@ -411,57 +456,12 @@
         },
         {
             "SQLDATE": "2026-06-03",
-            "Actor1Name": "THE SECURITY COUNCIL",
-            "ActionGeo_CountryCode": "RS",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "12",
-            "SOURCEURL": "http://www.bruneinews.net/news/279100669/germany-fails-to-win-un-security-council-seat-for-first-time-ever",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-05",
-            "Actor1Name": "HARTFORD",
+            "Actor1Name": "FEDERAL COURT",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
+            "GoldsteinScale": "-9.5",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.nbcconnecticut.com/news/local/ex-hartford-officer-joseph-magnano-faces-judge-for-first-time-since-fatal-shooting/3742507/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-06",
-            "Actor1Name": "BRITISH",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://townhall.com/tipsheet/amy-curtis/2026/06/06/remembering-d-day-n2677353",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-04",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wjcl.com/article/alex-murdaugh-murder-retrial-evidence/71498482",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-04",
-            "Actor1Name": "UTAH",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "12",
-            "SOURCEURL": "https://www.eastidahonews.com/2026/06/utah-bus-driver-sentenced-to-5-years-in-prison-for-setting-school-bus-on-fire/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-05",
-            "Actor1Name": "JUDGE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://mynewsla.com/crime/2026/06/05/judge-dismisses-murder-indictment-against-ex-lapd-officer-4/",
-            "RiskScore": "60.0"
+            "SOURCEURL": "https://www.wnd.com/2026/06/lindsey-graham-plans-save-weaponization-fund/",
+            "RiskScore": "57.0"
         }
     ]
 }
