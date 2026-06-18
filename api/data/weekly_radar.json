@@ -1,5 +1,5 @@
 {
-    "period": "20260611 to 20260617",
+    "period": "20260612 to 20260618",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,18 +10,9 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2430",
+    "total_events_filtered": "2420",
     "events_returned": "50",
     "events": [
-        {
-            "SQLDATE": "2026-06-17",
-            "Actor1Name": "RUSSIAN",
-            "ActionGeo_CountryCode": "FR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "72",
-            "SOURCEURL": "https://www.lancashiretelegraph.co.uk/news/national/26201381.starmer-says-russian-warship-reckless-fire-shots-near-yacht/",
-            "RiskScore": "720.0"
-        },
         {
             "SQLDATE": "2026-06-14",
             "Actor1Name": "HAWAII",
@@ -33,110 +24,38 @@
         },
         {
             "SQLDATE": "2026-06-17",
-            "Actor1Name": "RUSSIAN",
-            "ActionGeo_CountryCode": "FR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "24",
-            "SOURCEURL": "https://www.lancashiretelegraph.co.uk/news/national/26201381.starmer-says-russian-warship-reckless-fire-shots-near-yacht/",
-            "RiskScore": "240.0"
-        },
-        {
-            "SQLDATE": "2026-06-17",
-            "Actor1Name": "OKLAHOMA CITY",
+            "Actor1Name": "FIREFIGHTER",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "18",
-            "SOURCEURL": "https://www.bordermail.com.au/story/9294362/large-lethal-teen-wanted-bomb-matching-us-attack/",
+            "SOURCEURL": "https://nypost.com/2026/06/17/us-news/warehouse-fire-erupts-near-boyle-heights/",
             "RiskScore": "180.0"
         },
         {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "DETROIT",
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "LOS ANGELES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
-            "NumMentions": "16",
-            "SOURCEURL": "https://midmichigannow.com/news/local/officers-awarded-hometown-hero-award-for-grand-blanc-shooting-response",
+            "NumMentions": "18",
+            "SOURCEURL": "https://nypost.com/2026/06/17/us-news/warehouse-fire-erupts-near-boyle-heights/",
+            "RiskScore": "180.0"
+        },
+        {
+            "SQLDATE": "2026-06-18",
+            "Actor1Name": "THE US",
+            "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-8.0",
+            "NumMentions": "20",
+            "SOURCEURL": "https://www.bankingnews.gr/diethni/articles/882600/trump-spoke-13-times-with-putin-humiliated-zelensky-in-france-what-are-the-us-plans-for-ukraine%20title=",
             "RiskScore": "160.0"
         },
         {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "OKLAHOMA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-4.4",
-            "NumMentions": "26",
-            "SOURCEURL": "https://ktul.com/news/local/historic-okmulgee-commerce-building-named-one-of-oklahomas-most-endangered-places-06-11-2026",
-            "RiskScore": "114.4"
-        },
-        {
             "SQLDATE": "2026-06-16",
-            "Actor1Name": "DELAWARE",
+            "Actor1Name": "AUTHORITIES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.inquirer.com/crime/wilmington-hospital-shooting-20260616.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-12",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "IT",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://itemlive.com/2026/06/12/swampscott-author-tells-untold-story/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "CRIMINAL",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.theblaze.com/news/boelter-plea-deal-attack-minnesota",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-15",
-            "Actor1Name": "PHILADELPHIA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.fox29.com/news/1-3-philly-officers-released-from-hospital-after-weekend-shooting-community-reacts",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-13",
-            "Actor1Name": "NAPLES",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.winknews.com/news/collier/2-dead-1-hurt-in-domestic-shooting-at-north-naples-gated-community/article_6c4dc32c-173a-4b5e-91c5-9711aae07a2a.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-14",
-            "Actor1Name": "SAN ANTONIO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.ksat.com/news/local/2026/06/14/officer-suffers-major-injuries-after-se-side-crash-involving-suspected-intoxicated-driver-sapd-says/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-12",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.news9.com/oklahoma-city-news/fema-approves-more-than-500k-for-roger-mills-county-firefighter-costs",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.dailymail.com/news/article-15893663/Huge-search-operation-launched-British-tourist-23-vanished-swimming-sea-Portugal.html",
+            "SOURCEURL": "https://okcfox.com/news/local/authorities-investigating-officer-involved-shooting-near-miami-ok-on-monday-06-16-2026",
             "RiskScore": "100.0"
         },
         {
@@ -149,12 +68,120 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-06-16",
-            "Actor1Name": "AUTHORITIES",
+            "SQLDATE": "2026-06-12",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "IT",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://itemlive.com/2026/06/12/swampscott-author-tells-untold-story/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "THE EU",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://okcfox.com/news/local/authorities-investigating-officer-involved-shooting-near-miami-ok-on-monday-06-16-2026",
+            "SOURCEURL": "https://theconservativetreehouse.com/blog/2026/06/17/canada-is-next-up-with-online-age-law-surveillance-and-government-control-system/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "IRAN",
+            "ActionGeo_CountryCode": "IS",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://hotair.com/david-strom/2026/06/17/what-happens-if-the-israel-hezbollah-war-continues-n3816061",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://abc6onyourside.com/news/local/i-looked-him-family-store-clerk-shot-killed-north-columbus-karl-road-market-ohio",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://abc6onyourside.com/news/local/i-looked-him-family-store-clerk-shot-killed-north-columbus-karl-road-market-ohio",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "ALASKA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.alaskasnewssource.com/2026/06/17/interior-wildfires-being-watched-near-healy-yukon-river-settlements-state-says/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "THE US",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://hotair.com/david-strom/2026/06/17/what-happens-if-the-israel-hezbollah-war-continues-n3816061",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-13",
+            "Actor1Name": "NAPLES",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.winknews.com/news/collier/2-dead-1-hurt-in-domestic-shooting-at-north-naples-gated-community/article_6c4dc32c-173a-4b5e-91c5-9711aae07a2a.html",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.alaskasnewssource.com/2026/06/17/interior-wildfires-being-watched-near-healy-yukon-river-settlements-state-says/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-12",
+            "Actor1Name": "ITALY",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://itemlive.com/2026/06/12/swampscott-author-tells-untold-story/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-15",
+            "Actor1Name": "PHILADELPHIA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.fox29.com/news/1-3-philly-officers-released-from-hospital-after-weekend-shooting-community-reacts",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://abc6onyourside.com/news/local/motorcyclist-killed-sullivant-avenue-wilson-road-crash-suv-motorcycle-columbus-ohio-city-west-side",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-16",
+            "Actor1Name": "DELAWARE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.inquirer.com/crime/wilmington-hospital-shooting-20260616.html",
             "RiskScore": "100.0"
         },
         {
@@ -167,12 +194,12 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "OKLAHOMA CITY",
+            "SQLDATE": "2026-06-14",
+            "Actor1Name": "SAN ANTONIO",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.news9.com/oklahoma-city-news/okc-oklahoma-kehlani-rodriguez-shooting-investigation",
+            "SOURCEURL": "https://www.ksat.com/news/local/2026/06/14/officer-suffers-major-injuries-after-se-side-crash-involving-suspected-intoxicated-driver-sapd-says/",
             "RiskScore": "100.0"
         },
         {
@@ -186,11 +213,11 @@
         },
         {
             "SQLDATE": "2026-06-12",
-            "Actor1Name": "ITALY",
+            "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://itemlive.com/2026/06/12/swampscott-author-tells-untold-story/",
+            "SOURCEURL": "https://www.news9.com/oklahoma-city-news/fema-approves-more-than-500k-for-roger-mills-county-firefighter-costs",
             "RiskScore": "100.0"
         },
         {
@@ -203,22 +230,22 @@
             "RiskScore": "95.0"
         },
         {
-            "SQLDATE": "2026-06-11",
+            "SQLDATE": "2026-06-18",
             "Actor1Name": "TEXAS",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "9",
-            "SOURCEURL": "https://ktxs.com/news/local/this-is-traumatizing-homeowner-reports-two-floods-in-seven-weeks-at-newly-built-house",
-            "RiskScore": "85.5"
+            "GoldsteinScale": "-9.2",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.kxii.com/2026/06/18/security-camera-captures-mans-heroic-response-driveway-explosion/",
+            "RiskScore": "92.0"
         },
         {
-            "SQLDATE": "2025-06-11",
-            "Actor1Name": "SCOT",
-            "ActionGeo_CountryCode": "PO",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.dailymail.com/news/article-15893663/Huge-search-operation-launched-British-tourist-23-vanished-swimming-sea-Portugal.html",
-            "RiskScore": "80.0"
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "DELAWARE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://6abc.com/post/todd-hill-arrest-delaware-county-swim-school-manager-accused-grooming-assaulting-teen-employee/19317224/",
+            "RiskScore": "90.0"
         },
         {
             "SQLDATE": "2026-06-16",
@@ -230,27 +257,45 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-06-16",
-            "Actor1Name": "RUSSIAN",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.dailystar.co.uk/news/uk-news/retired-british-couple-recount-scary-37306217",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "NEBRASKA",
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://www.nbcnews.com/news/us-news/omaha-nebraska-immigration-raids-year-later-business-impact-rcna349398",
+            "SOURCEURL": "https://www.wibw.com/2026/06/17/man-sentenced-life-prison-central-topeka-murder/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "FLORIDA",
+            "ActionGeo_CountryCode": "FI",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.kbear102.com/2026/06/17/summer-solstice-celebrations-begin-today-in-hancock/",
             "RiskScore": "80.0"
         },
         {
             "SQLDATE": "2026-06-16",
             "Actor1Name": "RUSSIAN",
             "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.dailystar.co.uk/news/uk-news/retired-british-couple-recount-scary-37306217",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://wchstv.com/news/local/kanawha-county-grand-jury-hands-down-indictments-in-assault-robbery-arson-cases",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-16",
+            "Actor1Name": "RUSSIAN",
+            "ActionGeo_CountryCode": "UK",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
             "SOURCEURL": "https://www.dailystar.co.uk/news/uk-news/retired-british-couple-recount-scary-37306217",
@@ -266,12 +311,30 @@
             "RiskScore": "72.0"
         },
         {
+            "SQLDATE": "2026-06-18",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.jns.org/news/antisemitism/uk-hotel-chain-apologizes-over-free-palestine-tv-message",
+            "RiskScore": "72.0"
+        },
+        {
             "SQLDATE": "2026-06-16",
-            "Actor1Name": "FRANCE",
-            "ActionGeo_CountryCode": "RS",
+            "Actor1Name": "MARYLAND",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "7",
-            "SOURCEURL": "https://www.dailystar.co.uk/news/uk-news/retired-british-couple-recount-scary-37306217",
+            "SOURCEURL": "https://www.winchesterstar.com/winchester_star/2-suspects-in-sheetz-shooting-indicted-by-grand-jury/article_52bb8efa-4357-5e5c-9b34-cc3433037868.html",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-7.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://wjla.com/news/local/richmond-budget-talks-ramp-up-ahead-of-june-30-deadline-as-house-cancels-session-data-center-tax-break-dispute-virginia-government-shutdown-june-2026",
             "RiskScore": "70.0"
         },
         {
@@ -284,12 +347,30 @@
             "RiskScore": "70.0"
         },
         {
-            "SQLDATE": "2026-06-16",
-            "Actor1Name": "MARYLAND",
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "RICHMOND",
             "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-7.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://wjla.com/news/local/richmond-budget-talks-ramp-up-ahead-of-june-30-deadline-as-house-cancels-session-data-center-tax-break-dispute-virginia-government-shutdown-june-2026",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-06-18",
+            "Actor1Name": "BRITISH",
+            "ActionGeo_CountryCode": "UK",
             "GoldsteinScale": "-10.0",
             "NumMentions": "7",
-            "SOURCEURL": "https://www.winchesterstar.com/winchester_star/2-suspects-in-sheetz-shooting-indicted-by-grand-jury/article_52bb8efa-4357-5e5c-9b34-cc3433037868.html",
+            "SOURCEURL": "https://www.tvguide.co.uk/schedule/801a4671-3e01-5928-8be5-1daaaa0fcb72/coast-of-skeletons",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-06-16",
+            "Actor1Name": "FRANCE",
+            "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.dailystar.co.uk/news/uk-news/retired-british-couple-recount-scary-37306217",
             "RiskScore": "70.0"
         },
         {
@@ -302,15 +383,6 @@
             "RiskScore": "66.5"
         },
         {
-            "SQLDATE": "2026-06-13",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "IN",
-            "GoldsteinScale": "-6.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://theshillongtimes.com/2026/06/14/trump-accuses-iran-of-attacking-indian-ships-tehran-rejects-baseless-charge/",
-            "RiskScore": "65.0"
-        },
-        {
             "SQLDATE": "2026-06-14",
             "Actor1Name": "LOUISIANA",
             "ActionGeo_CountryCode": "US",
@@ -320,13 +392,22 @@
             "RiskScore": "65.0"
         },
         {
-            "SQLDATE": "2026-06-12",
-            "Actor1Name": "CALIFORNIA",
+            "SQLDATE": "2026-06-13",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "IN",
+            "GoldsteinScale": "-6.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://theshillongtimes.com/2026/06/14/trump-accuses-iran-of-attacking-indian-ships-tehran-rejects-baseless-charge/",
+            "RiskScore": "65.0"
+        },
+        {
+            "SQLDATE": "2026-06-17",
+            "Actor1Name": "DELAWARE",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.breitbart.com/law-and-order/2026/06/12/california-girl-8-fights-off-attacking-pit-bull-to-save-her-younger-sisters/",
-            "RiskScore": "60.0"
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://6abc.com/post/todd-hill-arrest-delaware-county-swim-school-manager-accused-grooming-assaulting-teen-employee/19317224/",
+            "RiskScore": "63.0"
         },
         {
             "SQLDATE": "2026-06-12",
@@ -335,6 +416,15 @@
             "GoldsteinScale": "-5.0",
             "NumMentions": "12",
             "SOURCEURL": "https://tribune.com.pk/story/2612930/shia-labeouf-celebrates-40th-amid-legal-fallout-from-bar-incident",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-12",
+            "Actor1Name": "CALIFORNIA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.breitbart.com/law-and-order/2026/06/12/california-girl-8-fights-off-attacking-pit-bull-to-save-her-younger-sisters/",
             "RiskScore": "60.0"
         },
         {
@@ -347,12 +437,12 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-06-14",
-            "Actor1Name": "",
+            "SQLDATE": "2026-06-15",
+            "Actor1Name": "PRESBYTERIAN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.vaildaily.com/news/gonzales-takes-on-hickenlooper-with-plans-she-says-will-resonate-from-ski-towns-to-farm-towns/",
+            "SOURCEURL": "https://www.fox29.com/news/1-3-philly-officers-released-from-hospital-after-weekend-shooting-community-reacts",
             "RiskScore": "60.0"
         },
         {
@@ -365,103 +455,13 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "CALIFORNIA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.nzherald.co.nz/world/watch-california-police-officer-shoots-colleague-while-messing-around-with-loaded-gun/LKCLVHINI5C3ZMSRNWSZV3ZT4A/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "COMMUNITY",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://epgn.com/2026/06/11/public-hearings-will-examine-policing-after-gayborhood-pride-incidents/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-15",
-            "Actor1Name": "PRESBYTERIAN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.fox29.com/news/1-3-philly-officers-released-from-hospital-after-weekend-shooting-community-reacts",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://vtdigger.org/2026/06/11/mother-wins-150000-settlement-against-burlington-over-police-treatment-of-disabled-black-son/",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-06-17",
-            "Actor1Name": "OKLAHOMA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.katherinetimes.com.au/story/9294362/large-lethal-teen-wanted-bomb-matching-us-attack/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-11",
-            "Actor1Name": "PHILADELPHIA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://epgn.com/2026/06/11/public-hearings-will-examine-policing-after-gayborhood-pride-incidents/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-14",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.vaildaily.com/news/gonzales-takes-on-hickenlooper-with-plans-she-says-will-resonate-from-ski-towns-to-farm-towns/",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://wchstv.com/news/local/kanawha-county-grand-jury-hands-down-indictments-in-assault-robbery-arson-cases",
             "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-16",
-            "Actor1Name": "NIAGARA FALLS",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-5.8",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.wkbw.com/niagara-county/no-menthol-buffalo-niagara-expands-fight-against-flavored-tobacco-to-niagara-falls",
-            "RiskScore": "58.0"
-        },
-        {
-            "SQLDATE": "2026-06-15",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-7.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.theregister.com/patches/2026/06/15/cisco-sd-wan-make-me-root-bug-under-attack/5255916",
-            "RiskScore": "56.0"
-        },
-        {
-            "SQLDATE": "2026-06-16",
-            "Actor1Name": "IDAHO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.metroweekly.com/2026/06/idaho-gay-couple-alleged-anti-gay-attack/",
-            "RiskScore": "54.0"
-        },
-        {
-            "SQLDATE": "2026-06-15",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.irishnews.com/news/northern-ireland/officers-undoubtedly-saved-lives-police-say-35-arrests-made-after-disorder-that-followed-belfast-stabbing-as-it-defends-approach-to-tackling-disorder-JMWO4A2SBJH7VHXOHM5MHRJTOU/",
-            "RiskScore": "54.0"
         }
     ]
 }
