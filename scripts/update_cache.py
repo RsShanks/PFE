@@ -21,7 +21,7 @@ def update_live_cache():
     all_raw_days = []
     all_radar_events = []
 
-    for day in dates:
+    for day in last_7_days:
         try:
             print(f"Téléchargement du jour GDELT : {day}...")
             # Le flux en direct renvoie 58 colonnes
