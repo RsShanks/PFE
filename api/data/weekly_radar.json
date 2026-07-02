@@ -1,5 +1,5 @@
 {
-    "period": "20260625 to 20260701",
+    "period": "20260626 to 20260702",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,17 +10,17 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2075",
+    "total_events_filtered": "2073",
     "events_returned": "50",
     "events": [
         {
-            "SQLDATE": "2026-06-25",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "SP",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "20",
-            "SOURCEURL": "https://www.azfamily.com/2026/06/25/man-shot-his-front-door-leaving-phoenix-neighbors-stunned/",
-            "RiskScore": "200.0"
+            "SQLDATE": "2026-07-02",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.2",
+            "NumMentions": "18",
+            "SOURCEURL": "https://www.brisbanetimes.com.au/world/north-america/bear-breaks-into-truck-helps-itself-to-handyman-s-lunch-20260702-p60c1i.html",
+            "RiskScore": "165.6"
         },
         {
             "SQLDATE": "2026-06-28",
@@ -41,84 +41,30 @@
             "RiskScore": "120.0"
         },
         {
-            "SQLDATE": "2026-06-25",
-            "Actor1Name": "PRODUCER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://wdet.org/2026/06/24/greystar-hidden-rental-fees-metro-detroit/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-27",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.whio.com/news/local/police-18-year-old-woman-shot-killed-by-boyfriend/XLHET674N5BDHHBFV4TRUHQUS4/",
-            "RiskScore": "100.0"
-        },
-        {
             "SQLDATE": "2026-06-26",
-            "Actor1Name": "THE EU",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "20",
-            "SOURCEURL": "https://www.prnewswire.com/news-releases/arguseye-appoints-former-dhs-deputy-secretary-jane-lute-ics-security-legend-eric-byres-and-medical-security-expert-joern-lubadel-to-advisory-board-302684667.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-06-26",
-            "Actor1Name": "LAS VEGAS",
-            "ActionGeo_CountryCode": "",
+            "Actor1Name": "THE US",
+            "ActionGeo_CountryCode": "IR",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.fox5vegas.com/2026/06/26/city-las-vegas-employee-indicted-murder-burglary-charges-after-shooting-coworker/",
+            "SOURCEURL": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-confirms-strikes-against-iran-tehran-vows-swift-response",
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-06-26",
-            "Actor1Name": "LAS VEGAS",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.fox5vegas.com/2026/06/26/city-las-vegas-employee-indicted-murder-burglary-charges-after-shooting-coworker/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-07-01",
-            "Actor1Name": "EDINBURGH",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.walesonline.co.uk/lifestyle/tv/perfect-bbc-crime-drama-based-34143670",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-07-01",
-            "Actor1Name": "JUDGE",
+            "SQLDATE": "2026-06-30",
+            "Actor1Name": "MANCHESTER",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.couriernews.com/news/national/judges-resume-sentencing-over-shooting-at-texas-immigration-facility/article_158c6bf2-0447-508f-917c-68e77fdf5544.html",
+            "SOURCEURL": "https://www.unionleader.com/news/local/manchester/manchester-man-arrested-in-central-street-shooting/article_de310e4e-7bb4-48c7-a9f0-a1b3e330959f.html",
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-06-28",
-            "Actor1Name": "FIREFIGHTER",
-            "ActionGeo_CountryCode": "US",
+            "SQLDATE": "2026-07-02",
+            "Actor1Name": "GERMAN",
+            "ActionGeo_CountryCode": "RW",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.oann.com/newsroom/three-firefighters-killed-two-injured-in-burnover-incident-near-colo-utah-border/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-05-27",
-            "Actor1Name": "LAS VEGAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.fox5vegas.com/2026/06/26/grand-jury-indicts-gunman-smiths-grocery-store-killings-13-charges/",
+            "SOURCEURL": "https://allafrica.com/stories/202607020101.html",
             "RiskScore": "100.0"
         },
         {
@@ -128,6 +74,33 @@
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-confirms-strikes-against-iran-tehran-vows-swift-response",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-07-02",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://wttf.com/uncategorized/new-autopsy-of-a-baby-killed-by-police-in-mississippi-deepens-outrage/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-07-01",
+            "Actor1Name": "REUTERS",
+            "ActionGeo_CountryCode": "EI",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://whbl.com/2026/07/01/russian-drones-attack-ukrainian-capital-set-central-district-hotel-on-fire/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-05-27",
+            "Actor1Name": "LAS VEGAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.fox5vegas.com/2026/06/26/grand-jury-indicts-gunman-smiths-grocery-store-killings-13-charges/",
             "RiskScore": "100.0"
         },
         {
@@ -149,49 +122,49 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-06-30",
-            "Actor1Name": "MANCHESTER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.unionleader.com/news/local/manchester/manchester-man-arrested-in-central-street-shooting/article_de310e4e-7bb4-48c7-a9f0-a1b3e330959f.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-07-01",
-            "Actor1Name": "NETFLIX",
+            "SQLDATE": "2026-06-26",
+            "Actor1Name": "LAS VEGAS",
             "ActionGeo_CountryCode": "",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.t3.com/entertainment/streaming/netflixs-massive-john-cena-comedy-just-shot-to-no-1-but-fans-are-divided",
+            "SOURCEURL": "https://www.fox5vegas.com/2026/06/26/city-las-vegas-employee-indicted-murder-burglary-charges-after-shooting-coworker/",
             "RiskScore": "100.0"
         },
         {
             "SQLDATE": "2026-06-26",
-            "Actor1Name": "THE US",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-confirms-strikes-against-iran-tehran-vows-swift-response",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-07-01",
-            "Actor1Name": "SCOTTISH",
+            "Actor1Name": "LAS VEGAS",
             "ActionGeo_CountryCode": "",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.walesonline.co.uk/lifestyle/tv/perfect-bbc-crime-drama-based-34143670",
+            "SOURCEURL": "https://www.fox5vegas.com/2026/06/26/city-las-vegas-employee-indicted-murder-burglary-charges-after-shooting-coworker/",
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-07-01",
-            "Actor1Name": "",
+            "SQLDATE": "2026-06-26",
+            "Actor1Name": "THE EU",
             "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-9.5",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "20",
+            "SOURCEURL": "https://www.prnewswire.com/news-releases/arguseye-appoints-former-dhs-deputy-secretary-jane-lute-ics-security-legend-eric-byres-and-medical-security-expert-joern-lubadel-to-advisory-board-302684667.html",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-28",
+            "Actor1Name": "FIREFIGHTER",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.t3.com/entertainment/streaming/netflixs-massive-john-cena-comedy-just-shot-to-no-1-but-fans-are-divided",
-            "RiskScore": "95.0"
+            "SOURCEURL": "https://www.oann.com/newsroom/three-firefighters-killed-two-injured-in-burnover-incident-near-colo-utah-border/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-06-27",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.whio.com/news/local/police-18-year-old-woman-shot-killed-by-boyfriend/XLHET674N5BDHHBFV4TRUHQUS4/",
+            "RiskScore": "100.0"
         },
         {
             "SQLDATE": "2026-06-26",
@@ -203,30 +176,21 @@
             "RiskScore": "81.0"
         },
         {
+            "SQLDATE": "2026-07-02",
+            "Actor1Name": "IRAN",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.geo.tv/latest/671186-seize-the-day-pakistan",
+            "RiskScore": "80.0"
+        },
+        {
             "SQLDATE": "2026-06-30",
             "Actor1Name": "THE US",
             "ActionGeo_CountryCode": "QA",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
             "SOURCEURL": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-30",
-            "Actor1Name": "ENVOY",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-06-26",
-            "Actor1Name": "LAS VEGAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.fox5vegas.com/2026/06/26/grand-jury-indicts-gunman-smiths-grocery-store-killings-13-charges/",
             "RiskScore": "80.0"
         },
         {
@@ -239,15 +203,6 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-06-30",
-            "Actor1Name": "EMPLOYEE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.click2houston.com/news/local/2026/06/30/at-least-1-dead-multiple-injuries-reported-after-car-crashes-into-nothing-bundt-cakes-store-in-atascocita/",
-            "RiskScore": "80.0"
-        },
-        {
             "SQLDATE": "2026-06-28",
             "Actor1Name": "COLORADO",
             "ActionGeo_CountryCode": "US",
@@ -257,13 +212,58 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-06-29",
-            "Actor1Name": "RANA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
+            "SQLDATE": "2026-07-01",
+            "Actor1Name": "THE US",
+            "ActionGeo_CountryCode": "IS",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://metro.co.uk/2026/06/29/6-hollyoaks-lives-change-forever-huge-episode-unexpected-secrets-explode-28970837/",
-            "RiskScore": "76.0"
+            "SOURCEURL": "https://punchng.com/crude-slips-below-72-petrol-stays-above-n1000/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-30",
+            "Actor1Name": "EMPLOYEE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.click2houston.com/news/local/2026/06/30/at-least-1-dead-multiple-injuries-reported-after-car-crashes-into-nothing-bundt-cakes-store-in-atascocita/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-07-01",
+            "Actor1Name": "GERMAN",
+            "ActionGeo_CountryCode": "GM",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://yourdemocracy.net/drupal/node/60303",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-26",
+            "Actor1Name": "LAS VEGAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.fox5vegas.com/2026/06/26/grand-jury-indicts-gunman-smiths-grocery-store-killings-13-charges/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-06-30",
+            "Actor1Name": "ENVOY",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-07-01",
+            "Actor1Name": "RETIRED",
+            "ActionGeo_CountryCode": "GM",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.wlky.com/article/world-war-ii-veteran-purple-heart-glenn-fisher/71798526",
+            "RiskScore": "80.0"
         },
         {
             "SQLDATE": "2026-06-26",
@@ -276,21 +276,21 @@
         },
         {
             "SQLDATE": "2026-06-29",
+            "Actor1Name": "RANA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "8",
+            "SOURCEURL": "https://metro.co.uk/2026/06/29/6-hollyoaks-lives-change-forever-huge-episode-unexpected-secrets-explode-28970837/",
+            "RiskScore": "76.0"
+        },
+        {
+            "SQLDATE": "2026-06-29",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-9.2",
             "NumMentions": "8",
             "SOURCEURL": "https://nypost.com/2026/06/29/us-news/mom-says-insurance-firm-that-left-her-homeless-for-years-issues-final-ultimatum/",
             "RiskScore": "73.6"
-        },
-        {
-            "SQLDATE": "2026-06-28",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.oann.com/newsroom/three-firefighters-killed-two-injured-in-burnover-incident-near-colo-utah-border/",
-            "RiskScore": "70.0"
         },
         {
             "SQLDATE": "2026-06-26",
@@ -302,12 +302,39 @@
             "RiskScore": "70.0"
         },
         {
+            "SQLDATE": "2026-06-28",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.oann.com/newsroom/three-firefighters-killed-two-injured-in-burnover-incident-near-colo-utah-border/",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-07-01",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.kotatv.com/2026/07/01/deadly-crash-west-casper-highlights-dangers-wyoming-construction-zones/",
+            "RiskScore": "70.0"
+        },
+        {
             "SQLDATE": "2026-06-27",
             "Actor1Name": "ISRAEL",
             "ActionGeo_CountryCode": "IS",
             "GoldsteinScale": "-6.5",
             "NumMentions": "10",
             "SOURCEURL": "https://www.sott.net/article/507119-Microsoft-worker-emails-thousands-of-colleagues-about-companys-support-for-genocidal-Israel",
+            "RiskScore": "65.0"
+        },
+        {
+            "SQLDATE": "2026-07-01",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "13",
+            "SOURCEURL": "https://www.actionnews5.com/2026/07/01/man-sentenced-150-years-2022-double-homicide/",
             "RiskScore": "65.0"
         },
         {
@@ -329,15 +356,6 @@
             "RiskScore": "64.39999999999999"
         },
         {
-            "SQLDATE": "2026-06-27",
-            "Actor1Name": "WASHINGTON",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-8.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.cubaheadlines.com/articles/333572",
-            "RiskScore": "64.0"
-        },
-        {
             "SQLDATE": "2026-06-26",
             "Actor1Name": "UNITED KINGDOM",
             "ActionGeo_CountryCode": "UK",
@@ -347,12 +365,12 @@
             "RiskScore": "64.0"
         },
         {
-            "SQLDATE": "2026-06-25",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "VE",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "32",
-            "SOURCEURL": "https://www.easternriverinachronicle.com.au/story/9299584/international-aid-heads-to-venezuela-after-deadly-quake/",
+            "SQLDATE": "2026-06-27",
+            "Actor1Name": "WASHINGTON",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-8.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.cubaheadlines.com/articles/333572",
             "RiskScore": "64.0"
         },
         {
@@ -365,39 +383,12 @@
             "RiskScore": "63.0"
         },
         {
-            "SQLDATE": "2026-06-26",
-            "Actor1Name": "CONNECTICUT",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.ibtimes.co.uk/over-10000-gang-members-arrested-trump-second-term-1805342",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-29",
-            "Actor1Name": "GERMANY",
-            "ActionGeo_CountryCode": "GM",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://dailycaller.com/2026/06/29/six-dead-turkish-german-gunman-domestic-violence-youth-welfare-center-hamburg-stade/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-06-25",
-            "Actor1Name": "PHOENIX",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.azfamily.com/2026/06/25/man-shot-his-front-door-leaving-phoenix-neighbors-stunned/",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-06-28",
-            "Actor1Name": "PHOENIX",
+            "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.fox10phoenix.com/news/phoenix-police-officer-shoots-dog-after-being-bit-during-investigation-pd-says",
+            "SOURCEURL": "https://foxreno.com/features/think-local/great-basin-raised-to-preparedness-level-4-as-eastern-nevada-wildfire-activity-climbs",
             "RiskScore": "60.0"
         },
         {
@@ -411,20 +402,29 @@
         },
         {
             "SQLDATE": "2026-06-28",
-            "Actor1Name": "",
+            "Actor1Name": "PHOENIX",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://foxreno.com/features/think-local/great-basin-raised-to-preparedness-level-4-as-eastern-nevada-wildfire-activity-climbs",
+            "SOURCEURL": "https://www.fox10phoenix.com/news/phoenix-police-officer-shoots-dog-after-being-bit-during-investigation-pd-says",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-06-29",
+            "Actor1Name": "GERMANY",
+            "ActionGeo_CountryCode": "GM",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://dailycaller.com/2026/06/29/six-dead-turkish-german-gunman-domestic-violence-youth-welfare-center-hamburg-stade/",
             "RiskScore": "60.0"
         },
         {
             "SQLDATE": "2026-06-30",
-            "Actor1Name": "",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.wkbw.com/news/local-news/southtowns/western-new-york-rallies-around-horse-trainer-battling-stage-4-cancer",
+            "SOURCEURL": "https://www.click2houston.com/news/local/2026/06/30/at-least-1-dead-multiple-injuries-reported-after-car-crashes-into-nothing-bundt-cakes-store-in-atascocita/",
             "RiskScore": "60.0"
         },
         {
@@ -437,31 +437,31 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-06-30",
-            "Actor1Name": "UNITED STATES",
+            "SQLDATE": "2026-07-02",
+            "Actor1Name": "WISCONSIN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.click2houston.com/news/local/2026/06/30/at-least-1-dead-multiple-injuries-reported-after-car-crashes-into-nothing-bundt-cakes-store-in-atascocita/",
+            "SOURCEURL": "https://theothermccain.com/2026/07/01/july-1-captured-at-gettysburg/",
             "RiskScore": "60.0"
         },
         {
             "SQLDATE": "2026-06-26",
-            "Actor1Name": "UNITED STATES",
+            "Actor1Name": "CONNECTICUT",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.8",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.investegate.co.uk/announcement/eqs/nagarro-se-n-ord-shs--0aa3/eqs-news-persistent-and-nagarro-sign-busines-/9640235",
-            "RiskScore": "58.0"
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.ibtimes.co.uk/over-10000-gang-members-arrested-trump-second-term-1805342",
+            "RiskScore": "60.0"
         },
         {
             "SQLDATE": "2026-07-01",
-            "Actor1Name": "",
+            "Actor1Name": "POLICE",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://witl.com/ixp/692/p/lansing-code-red-cooling-centers/",
-            "RiskScore": "57.0"
+            "SOURCEURL": "https://wjla.com/news/local/ivy-city-washington-dc-shooting-northeast-capitol-avenue-metropolitan-police-department-mpd-fifth-district-fire-and-ems-gun-violence-police-investigation-non-life-threatening-injuries-crime-tips-202-727-9099-text-50411",
+            "RiskScore": "60.0"
         }
     ]
 }
