@@ -1,5 +1,5 @@
 {
-    "period": "20260731 to 20260806",
+    "period": "20260801 to 20260807",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,7 +10,7 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2380",
+    "total_events_filtered": "2338",
     "events_returned": "50",
     "events": [
         {
@@ -50,21 +50,12 @@
             "RiskScore": "104.0"
         },
         {
-            "SQLDATE": "2026-08-03",
-            "Actor1Name": "NEBRASKA",
+            "SQLDATE": "2026-08-05",
+            "Actor1Name": "CRIMINAL",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.1011now.com/2026/08/03/fire-destroys-garage-central-beatrice/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-06",
-            "Actor1Name": "GANG",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://mynewsla.com/uncategorized/2026/08/05/la-gang-member-found-guilty-of-brutal-killing-in-angeles-national-forest/",
+            "SOURCEURL": "https://www.wsmv.com/2026/08/05/man-charged-with-criminal-homicide-after-shooting-coworker-west-nashville-u-haul-police-say/",
             "RiskScore": "100.0"
         },
         {
@@ -77,21 +68,12 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-08-03",
-            "Actor1Name": "NEBRASKA",
+            "SQLDATE": "2026-08-04",
+            "Actor1Name": "AMERICAN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.1011now.com/2026/08/03/fire-destroys-garage-central-beatrice/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-05",
-            "Actor1Name": "NASHVILLE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/05/man-charged-with-criminal-homicide-after-shooting-coworker-west-nashville-u-haul-police-say/",
+            "SOURCEURL": "https://tiftongazette.com/2026/08/04/american-cancer-society-to-host-lights-of-hope-this-weekend/",
             "RiskScore": "100.0"
         },
         {
@@ -113,39 +95,21 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-08-05",
-            "Actor1Name": "CRIMINAL",
+            "SQLDATE": "2026-08-03",
+            "Actor1Name": "NEBRASKA",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/05/man-charged-with-criminal-homicide-after-shooting-coworker-west-nashville-u-haul-police-say/",
+            "SOURCEURL": "https://www.1011now.com/2026/08/03/fire-destroys-garage-central-beatrice/",
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-08-05",
-            "Actor1Name": "NASHVILLE",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/05/man-arrested-fatal-shooting-co-worker-after-argument-over-drink-nashville-u-haul-police-say/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "AMERICAN",
+            "SQLDATE": "2026-08-03",
+            "Actor1Name": "NEBRASKA",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://tiftongazette.com/2026/08/04/american-cancer-society-to-host-lights-of-hope-this-weekend/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-01",
-            "Actor1Name": "ROCHESTER",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://13wham.com/news/local/man-shot-while-driving-postal-vehicle-near-canal-and-w-main-streets-police-say",
+            "SOURCEURL": "https://www.1011now.com/2026/08/03/fire-destroys-garage-central-beatrice/",
             "RiskScore": "100.0"
         },
         {
@@ -158,22 +122,58 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-07-31",
-            "Actor1Name": "MINNESOTA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
+            "SQLDATE": "2026-08-05",
+            "Actor1Name": "NASHVILLE",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.channel3000.com/news/beyond-the-barometer-appleton-menasha-ef-3-tornado-breakdown/article_2bd471f6-3585-4e3b-bcbc-e7b0504d2351.html",
-            "RiskScore": "95.0"
+            "SOURCEURL": "https://www.wsmv.com/2026/08/05/man-arrested-fatal-shooting-co-worker-after-argument-over-drink-nashville-u-haul-police-say/",
+            "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-07-31",
-            "Actor1Name": "FIRE DEPARTMENT",
+            "SQLDATE": "2026-08-01",
+            "Actor1Name": "ROCHESTER",
             "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-9.2",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://wsbt.com/news/local/three-cats-rescued-from-house-fire-flames-smoke-michigan-city-pet-rescue-fire-department-laporte-county-indiana",
-            "RiskScore": "92.0"
+            "SOURCEURL": "https://13wham.com/news/local/man-shot-while-driving-postal-vehicle-near-canal-and-w-main-streets-police-say",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "THE US",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.jamaicaobserver.com/2026/08/06/trump-signs-order-targeting-birth-tourism/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-08-05",
+            "Actor1Name": "NASHVILLE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.wsmv.com/2026/08/05/man-charged-with-criminal-homicide-after-shooting-coworker-west-nashville-u-haul-police-say/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "NEW YORK",
+            "ActionGeo_CountryCode": "SP",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "9",
+            "SOURCEURL": "https://www.ewtnnews.com/world/us/brooklyn-catholic-church-suffers-fourth-vandalism-attack-in-2-years-with-destruction-of-mary",
+            "RiskScore": "90.0"
+        },
+        {
+            "SQLDATE": "2026-07-08",
+            "Actor1Name": "PENNSYLVANIA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.witf.org/2026/08/06/assaults-on-staff-level-out-in-pa-s-sci-camp-hill-prison/",
+            "RiskScore": "90.0"
         },
         {
             "SQLDATE": "2026-08-04",
@@ -212,30 +212,12 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "",
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/04/tennessee-man-showed-no-emotion-he-was-sentenced-death-murdering-his-mother-siblings/",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-07-31",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-who-bev-craig-proves-34388010",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-07-31",
-            "Actor1Name": "PARTY LEADER",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-who-bev-craig-proves-34388010",
+            "SOURCEURL": "https://www.fox5dc.com/news/18-year-old-charged-charles-county-shooting-death-19-year-old",
             "RiskScore": "80.0"
         },
         {
@@ -257,12 +239,57 @@
             "RiskScore": "80.0"
         },
         {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.fox5dc.com/news/18-year-old-charged-charles-county-shooting-death-19-year-old",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-08-07",
+            "Actor1Name": "THE ASSOCIATED PRESS",
+            "ActionGeo_CountryCode": "YM",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.businesstimes.com.sg/international/iran-wants-bar-us-israeli-ships-hormuz-peace-accord",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-08-04",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.wsmv.com/2026/08/04/tennessee-man-showed-no-emotion-he-was-sentenced-death-murdering-his-mother-siblings/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "CRIMINAL",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://vegasnews.com/local-news-and-events/the-10-best-las-vegas-criminal-defense-lawyers-in-2026/",
+            "RiskScore": "80.0"
+        },
+        {
             "SQLDATE": "2026-08-02",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-9.5",
             "NumMentions": "8",
             "SOURCEURL": "https://www.vaildaily.com/news/time-machine-70-years-ago-red-cliff-man-and-two-others-killed-in-freak-accident-involving-driverless-car/",
+            "RiskScore": "76.0"
+        },
+        {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "COSTCO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.kshb.com/news/local-news/kcmo-city-council-passes-ordinance-assisting-midtown-costco-in-business-center-conversion",
             "RiskScore": "76.0"
         },
         {
@@ -273,6 +300,15 @@
             "NumMentions": "8",
             "SOURCEURL": "https://www.kmbc.com/article/mostly-dry-election-day-aug-4-scattered-showers-ahead/73348206",
             "RiskScore": "76.0"
+        },
+        {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.2",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.dailynews.com/2026/08/06/californias-catch-22-who-should-pay-when-utilities-power-lines-cause-wildfires/",
+            "RiskScore": "73.6"
         },
         {
             "SQLDATE": "2026-08-02",
@@ -293,13 +329,13 @@
             "RiskScore": "72.0"
         },
         {
-            "SQLDATE": "2026-08-05",
+            "SQLDATE": "2026-08-07",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "14",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/05/millersville-man-convicted-grooming-sexually-abusing-young-girl-more-than-2-years/",
-            "RiskScore": "70.0"
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.witf.org/2026/08/06/assaults-on-staff-level-out-in-pa-s-sci-camp-hill-prison/",
+            "RiskScore": "72.0"
         },
         {
             "SQLDATE": "2026-08-01",
@@ -308,6 +344,33 @@
             "GoldsteinScale": "-10.0",
             "NumMentions": "7",
             "SOURCEURL": "https://us.cnn.com/2026/08/01/us/spokane-washington-wildfire-old-trails",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-08-07",
+            "Actor1Name": "ROCHESTER",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.postbulletin.com/health/wsu-rochester-grows-nursing-students-hands-on-learning-time-with-new-simulation-center",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "CRUISER",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.fox10phoenix.com/news/watch-dashcam-captures-split-second-routine-tennessee-traffic-stop-goes-sideways",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-08-05",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "14",
+            "SOURCEURL": "https://www.wsmv.com/2026/08/05/millersville-man-convicted-grooming-sexually-abusing-young-girl-more-than-2-years/",
             "RiskScore": "70.0"
         },
         {
@@ -329,6 +392,15 @@
             "RiskScore": "64.0"
         },
         {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "CRIMINAL",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://vegasnews.com/local-news-and-events/the-10-best-las-vegas-criminal-defense-lawyers-in-2026/",
+            "RiskScore": "63.0"
+        },
+        {
             "SQLDATE": "2026-08-01",
             "Actor1Name": "ARKANSAS",
             "ActionGeo_CountryCode": "US",
@@ -348,20 +420,11 @@
         },
         {
             "SQLDATE": "2026-08-06",
-            "Actor1Name": "MICHIGAN",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.dailykos.com/stories/2026/8/5/800080314/community/el-sayed-ekes-out-sen-primary-win-in-mi-will-test-popularity-of-progressivism-in-battleground-state-bradcast-8-5-2026/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-03",
-            "Actor1Name": "LAWYER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.houstonpublicmedia.org/articles/court/2026/08/03/558508/ice-shooting-houston-attorney-hugo-balderas-ibarra-malpractice-lawsuit/",
+            "SOURCEURL": "https://wwmt.com/news/local/days-primary-election-state-rep-julie-rogers-host-voting-rights-town-hall-politics-elections-ballot-meet-community-wwmt",
             "RiskScore": "60.0"
         },
         {
@@ -374,21 +437,12 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-08-06",
-            "Actor1Name": "FIREFIGHTER",
-            "ActionGeo_CountryCode": "US",
+            "SQLDATE": "2026-08-05",
+            "Actor1Name": "COMBATANT",
+            "ActionGeo_CountryCode": "UP",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://abc17news.com/politics/your-voice-your-vote/2026/08/05/columbias-slim-yes-vote-on-sales-tax-increase-expected-to-be-certified-monday-clerk-will-know-friday-if-military-overseas-ballots-need-to-be-processed/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-07-31",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://voiceonline.com/rcmp-remind-public-to-slow-down-and-move-over-after-traffic-services-officer-injured/",
+            "SOURCEURL": "https://www.aljazeera.com/news/2026/8/5/us-officials-push-back-on-reports-of-dangerously-low-munitions-supplies",
             "RiskScore": "60.0"
         },
         {
@@ -401,66 +455,12 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-08-02",
-            "Actor1Name": "CHAD",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.dailymail.com/news/article-16023511/twin-falls-idaho-n-shooter-identified-drive-thru.html",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-07-31",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://foxbaltimore.com/news/local/convicted-mother-captured-lawmakers-post-conviction-bail-washington-county-maryland",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-05",
-            "Actor1Name": "COMBATANT",
-            "ActionGeo_CountryCode": "UP",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.aljazeera.com/news/2026/8/5/us-officials-push-back-on-reports-of-dangerously-low-munitions-supplies",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-02",
-            "Actor1Name": "SPANISH",
-            "ActionGeo_CountryCode": "MO",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.arabnews.com/node/2653167/middle-east",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-07-31",
-            "Actor1Name": "MISSISSIPPI",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wlox.com/2026/07/31/gulfport-man-arrested-after-overnight-long-beach-gulfport-drive-by-shootings-police-say/",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-08-03",
             "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.fox5dc.com/news/maryland-lawmakers-clash-over-redistricting-power-grab-special-session",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-05",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.valleynewslive.com/2026/08/05/justice-walk-calls-charges-deadly-fosston-shooting/",
             "RiskScore": "60.0"
         }
     ]
