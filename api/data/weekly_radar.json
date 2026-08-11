@@ -1,5 +1,5 @@
 {
-    "period": "20260804 to 20260810",
+    "period": "20260805 to 20260811",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,36 +10,9 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "1972",
+    "total_events_filtered": "2017",
     "events_returned": "50",
     "events": [
-        {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "NASHVILLE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "18",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/04/tennessee-man-showed-no-emotion-he-was-sentenced-death-murdering-his-mother-siblings/",
-            "RiskScore": "180.0"
-        },
-        {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "AUTHORITIES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "16",
-            "SOURCEURL": "https://www.ottumwacourier.com/news/national_news/3-killed-in-idaho-in-n-out-shooting-included-a-man-known-for-helping-others/article_cd28cabb-ff12-5585-b131-838025a7bded.html",
-            "RiskScore": "160.0"
-        },
-        {
-            "SQLDATE": "2026-08-10",
-            "Actor1Name": "SPAIN",
-            "ActionGeo_CountryCode": "SP",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "12",
-            "SOURCEURL": "https://japantoday.com/category/world/western-europe-experienced-hottest-june-july-on-record-eu-monitor",
-            "RiskScore": "120.0"
-        },
         {
             "SQLDATE": "2026-08-05",
             "Actor1Name": "DAKOTA",
@@ -50,39 +23,30 @@
             "RiskScore": "110.0"
         },
         {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "PSKOV",
-            "ActionGeo_CountryCode": "RS",
-            "GoldsteinScale": "-6.5",
-            "NumMentions": "16",
-            "SOURCEURL": "https://www.ancient-origins.net/news-history-archaeology/medieval-ring-traveled-1300-miles-reach-russian-city-00103055",
-            "RiskScore": "104.0"
-        },
-        {
-            "SQLDATE": "2026-08-08",
-            "Actor1Name": "GUNMEN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://actualidad.rt.com/actualidad/621296-pelicula-hombre-salta-auto-movimiento",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "AMERICAN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://tiftongazette.com/2026/08/04/american-cancer-society-to-host-lights-of-hope-this-weekend/",
-            "RiskScore": "100.0"
-        },
-        {
             "SQLDATE": "2026-08-05",
             "Actor1Name": "KANSAS CITY",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.kctv5.com/2026/08/05/leavenworth-man-sentenced-after-accidental-shooting-friend/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-08-05",
+            "Actor1Name": "CRIMINAL",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.wsmv.com/2026/08/05/man-charged-with-criminal-homicide-after-shooting-coworker-west-nashville-u-haul-police-say/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "THE US",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.jamaicaobserver.com/2026/08/06/trump-signs-order-targeting-birth-tourism/",
             "RiskScore": "100.0"
         },
         {
@@ -104,6 +68,15 @@
             "RiskScore": "100.0"
         },
         {
+            "SQLDATE": "2026-08-07",
+            "Actor1Name": "MUSLIM",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.wsmv.com/2026/08/07/top-3-takeaways-middle-tennessee-primaries/",
+            "RiskScore": "100.0"
+        },
+        {
             "SQLDATE": "2026-08-08",
             "Actor1Name": "GUNMEN",
             "ActionGeo_CountryCode": "US",
@@ -113,39 +86,21 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-08-05",
-            "Actor1Name": "CRIMINAL",
+            "SQLDATE": "2026-08-08",
+            "Actor1Name": "GUNMEN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/05/man-charged-with-criminal-homicide-after-shooting-coworker-west-nashville-u-haul-police-say/",
+            "SOURCEURL": "https://actualidad.rt.com/actualidad/621296-pelicula-hombre-salta-auto-movimiento",
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "",
+            "SQLDATE": "2026-08-10",
+            "Actor1Name": "MEMPHIS",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://tiftongazette.com/2026/08/04/american-cancer-society-to-host-lights-of-hope-this-weekend/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-06",
-            "Actor1Name": "THE US",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.jamaicaobserver.com/2026/08/06/trump-signs-order-targeting-birth-tourism/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-07",
-            "Actor1Name": "MUSLIM",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/07/top-3-takeaways-middle-tennessee-primaries/",
+            "SOURCEURL": "https://www.fox13memphis.com/news/7-people-arrested-after-police-raid-memphis-nightclub-mpd-says/article_8c513f94-a27f-4a8e-adfd-1f332d644c8c.html",
             "RiskScore": "100.0"
         },
         {
@@ -158,13 +113,22 @@
             "RiskScore": "95.0"
         },
         {
-            "SQLDATE": "2026-08-10",
-            "Actor1Name": "TORONTO",
-            "ActionGeo_CountryCode": "CA",
-            "GoldsteinScale": "-9.5",
+            "SQLDATE": "2026-08-07",
+            "Actor1Name": "OHIO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://timesofindia.indiatimes.com/world/rest-of-world/watch-fast-moving-canada-wildfire-doubles-in-size-forcing-mass-evacuations-1-dead/articleshow/133079295.cms",
-            "RiskScore": "95.0"
+            "SOURCEURL": "https://theweek.com/politics/miller-allegations-majority-focused-republicans",
+            "RiskScore": "90.0"
+        },
+        {
+            "SQLDATE": "2026-08-11",
+            "Actor1Name": "ILLINOIS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://abc7chicago.com/post/lombard-illinois-man-adam-johnson-charged-sexually-assault-girls-he-met-social-media-officials/19659792/",
+            "RiskScore": "90.0"
         },
         {
             "SQLDATE": "2026-08-07",
@@ -173,6 +137,15 @@
             "GoldsteinScale": "-9.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.wbtv.com/2026/08/07/charlotte-tow-truck-driver-survives-shooting-while-impounding-car/",
+            "RiskScore": "90.0"
+        },
+        {
+            "SQLDATE": "2026-08-11",
+            "Actor1Name": "BRITISH",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "9",
+            "SOURCEURL": "https://screenrant.com/fable-meets-stardew-valley-kynseed-consoles/",
             "RiskScore": "90.0"
         },
         {
@@ -185,44 +158,8 @@
             "RiskScore": "90.0"
         },
         {
-            "SQLDATE": "2026-08-07",
-            "Actor1Name": "OHIO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://theweek.com/politics/miller-allegations-majority-focused-republicans",
-            "RiskScore": "90.0"
-        },
-        {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "NASHVILLE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "18",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/04/tennessee-man-showed-no-emotion-he-was-sentenced-death-murdering-his-mother-siblings/",
-            "RiskScore": "90.0"
-        },
-        {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "NEBRASKA",
-            "ActionGeo_CountryCode": "CA",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "9",
-            "SOURCEURL": "https://www.1011now.com/2026/08/04/storms-likely-through-southeast-nebraska-tonight-wednesday-morning/",
-            "RiskScore": "85.5"
-        },
-        {
-            "SQLDATE": "2026-08-07",
-            "Actor1Name": "STUDENT",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "40",
-            "SOURCEURL": "https://komonews.com/news/nation-world/23-year-old-dance-instructor-accused-of-sexually-abusing-teenage-students-emily-pryor-albin-x-treme-dance-studio-laurel-first-degree-sexual-abuse-alleged-victims-explicit-messages-true-crime",
-            "RiskScore": "80.0"
-        },
-        {
             "SQLDATE": "2026-08-06",
-            "Actor1Name": "",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
@@ -240,7 +177,7 @@
         },
         {
             "SQLDATE": "2026-08-06",
-            "Actor1Name": "UNITED STATES",
+            "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
@@ -257,12 +194,12 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "",
+            "SQLDATE": "2026-08-07",
+            "Actor1Name": "STUDENT",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/04/tennessee-man-showed-no-emotion-he-was-sentenced-death-murdering-his-mother-siblings/",
+            "GoldsteinScale": "-2.0",
+            "NumMentions": "40",
+            "SOURCEURL": "https://komonews.com/news/nation-world/23-year-old-dance-instructor-accused-of-sexually-abusing-teenage-students-emily-pryor-albin-x-treme-dance-studio-laurel-first-degree-sexual-abuse-alleged-victims-explicit-messages-true-crime",
             "RiskScore": "80.0"
         },
         {
@@ -275,15 +212,6 @@
             "RiskScore": "76.0"
         },
         {
-            "SQLDATE": "2026-08-04",
-            "Actor1Name": "KANSAS CITY",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.kmbc.com/article/mostly-dry-election-day-aug-4-scattered-showers-ahead/73348206",
-            "RiskScore": "76.0"
-        },
-        {
             "SQLDATE": "2026-08-06",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
@@ -291,6 +219,24 @@
             "NumMentions": "8",
             "SOURCEURL": "https://www.dailynews.com/2026/08/06/californias-catch-22-who-should-pay-when-utilities-power-lines-cause-wildfires/",
             "RiskScore": "73.6"
+        },
+        {
+            "SQLDATE": "2026-08-11",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.2",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.wpxi.com/news/local/charges-filed-rash-local-fast-food-restaurant-break-ins/L6YWQEG6IVBNVKSWA66FBHPYR4/",
+            "RiskScore": "73.6"
+        },
+        {
+            "SQLDATE": "2026-08-07",
+            "Actor1Name": "A US",
+            "ActionGeo_CountryCode": "AF",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.hindustantimes.com/world-news/us-news/pentagon-ufo-files-5-biggest-revelations-from-the-latest-declassified-document-dump-101786135390736.html",
+            "RiskScore": "72.0"
         },
         {
             "SQLDATE": "2026-08-05",
@@ -303,12 +249,12 @@
         },
         {
             "SQLDATE": "2026-08-07",
-            "Actor1Name": "A US",
-            "ActionGeo_CountryCode": "AF",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.hindustantimes.com/world-news/us-news/pentagon-ufo-files-5-biggest-revelations-from-the-latest-declassified-document-dump-101786135390736.html",
-            "RiskScore": "72.0"
+            "Actor1Name": "SPAIN",
+            "ActionGeo_CountryCode": "IS",
+            "GoldsteinScale": "-7.0",
+            "NumMentions": "10",
+            "SOURCEURL": "http://www.bignewsnetwork.com/news/279226943/spain-sets-italy-deadline-to-end-unfair-border-checks-over-migrant-surge",
+            "RiskScore": "70.0"
         },
         {
             "SQLDATE": "2026-08-08",
@@ -338,12 +284,12 @@
             "RiskScore": "70.0"
         },
         {
-            "SQLDATE": "2026-08-07",
-            "Actor1Name": "SPAIN",
-            "ActionGeo_CountryCode": "IS",
-            "GoldsteinScale": "-7.0",
-            "NumMentions": "10",
-            "SOURCEURL": "http://www.bignewsnetwork.com/news/279226943/spain-sets-italy-deadline-to-end-unfair-border-checks-over-migrant-surge",
+            "SQLDATE": "2026-08-11",
+            "Actor1Name": "IDAHO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.kmvt.com/2026/08/11/firearms-instructor-recommends-classes-both-new-current-gunowners/",
             "RiskScore": "70.0"
         },
         {
@@ -365,30 +311,39 @@
             "RiskScore": "63.0"
         },
         {
-            "SQLDATE": "2026-08-10",
-            "Actor1Name": "FRANCE",
-            "ActionGeo_CountryCode": "SP",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.channelnewsasia.com/world/climate-change-western-europe-hottest-june-july-record-6309036",
+            "SQLDATE": "2026-08-09",
+            "Actor1Name": "DEPUTIES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-2.0",
+            "NumMentions": "30",
+            "SOURCEURL": "https://www.wjcl.com/article/man-accused-lobster-divers-oxygen-tank/73386551",
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-08-06",
+            "SQLDATE": "2026-08-05",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://wwmt.com/news/local/days-primary-election-state-rep-julie-rogers-host-voting-rights-town-hall-politics-elections-ballot-meet-community-wwmt",
+            "SOURCEURL": "https://www.valleynewslive.com/2026/08/05/justice-walk-calls-charges-deadly-fosston-shooting/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-11",
+            "Actor1Name": "WISCONSIN",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wmtv15news.com/2026/08/10/madison-legal-experts-break-down-what-new-doj-details-mean-corey-ruiz-shooting-case/",
             "RiskScore": "60.0"
         },
         {
             "SQLDATE": "2026-08-07",
-            "Actor1Name": "WASHINGTON",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/07/tn-school-board-member-who-told-female-student-god-youre-hot-pleads-not-guilty-assault-day-after-re-election-loss/",
+            "SOURCEURL": "https://www.wsmv.com/2026/08/07/2-hospitalized-2-custody-after-shooting-murfreesboro-hotel/",
             "RiskScore": "60.0"
         },
         {
@@ -401,6 +356,15 @@
             "RiskScore": "60.0"
         },
         {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://wwmt.com/news/local/days-primary-election-state-rep-julie-rogers-host-voting-rights-town-hall-politics-elections-ballot-meet-community-wwmt",
+            "RiskScore": "60.0"
+        },
+        {
             "SQLDATE": "2026-08-08",
             "Actor1Name": "FIREFIGHTER",
             "ActionGeo_CountryCode": "US",
@@ -410,21 +374,21 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-08-09",
-            "Actor1Name": "DEPUTIES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "30",
-            "SOURCEURL": "https://www.wjcl.com/article/man-accused-lobster-divers-oxygen-tank/73386551",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-08-05",
             "Actor1Name": "COMBATANT",
             "ActionGeo_CountryCode": "UP",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.aljazeera.com/news/2026/8/5/us-officials-push-back-on-reports-of-dangerously-low-munitions-supplies",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-10",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://wset.com/news/local/ag-jay-jones-meets-roanoke-public-safety-officials-addresses-violent-crime-decrease-august-2026",
             "RiskScore": "60.0"
         },
         {
@@ -438,30 +402,66 @@
         },
         {
             "SQLDATE": "2026-08-07",
-            "Actor1Name": "UNITED STATES",
+            "Actor1Name": "WASHINGTON",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.wsmv.com/2026/08/07/2-hospitalized-2-custody-after-shooting-murfreesboro-hotel/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-05",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.valleynewslive.com/2026/08/05/justice-walk-calls-charges-deadly-fosston-shooting/",
+            "SOURCEURL": "https://www.wsmv.com/2026/08/07/tn-school-board-member-who-told-female-student-god-youre-hot-pleads-not-guilty-assault-day-after-re-election-loss/",
             "RiskScore": "60.0"
         },
         {
             "SQLDATE": "2026-08-10",
-            "Actor1Name": "TAIWAN",
-            "ActionGeo_CountryCode": "TW",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.fox13memphis.com/news/7-people-arrested-after-police-raid-memphis-nightclub-mpd-says/article_8c513f94-a27f-4a8e-adfd-1f332d644c8c.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-06",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.2",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.ewtnnews.com/world/us/brooklyn-catholic-church-suffers-fourth-vandalism-attack-in-2-years-with-destruction-of-mary",
+            "RiskScore": "55.199999999999996"
+        },
+        {
+            "SQLDATE": "2026-08-05",
+            "Actor1Name": "ARSONIST",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.streetroots.org/environment/2026/08/05/the-old-growth-forest-activists-saved-30-years-ago-is-still-inspiring-people-today/",
+            "RiskScore": "54.0"
+        },
+        {
+            "SQLDATE": "2026-08-08",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.staradvertiser.com/2026/08/08/breaking-news/police-arrest-suspect-in-alleged-assault-of-73-year-old-man-in-waianae/",
+            "RiskScore": "54.0"
+        },
+        {
+            "SQLDATE": "2026-08-05",
+            "Actor1Name": "MICROSOFT",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-7.2",
-            "NumMentions": "8",
-            "SOURCEURL": "https://timesofindia.indiatimes.com/defence/international/taiwan-rehearses-chinese-invasion-with-live-fire-drills-mobile-internet-slowdown/articleshow/133079637.cms",
-            "RiskScore": "57.6"
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.techtimes.com/articles/323238/20260805/anthropic-confirms-house-chip-team-co-design-bet-could-cut-claude-inference-costs-half.htm",
+            "RiskScore": "50.4"
+        },
+        {
+            "SQLDATE": "2026-08-10",
+            "Actor1Name": "MIGRANT",
+            "ActionGeo_CountryCode": "MX",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://kvia.com/news/crime/2026/08/10/el-paso-jury-convicts-man-in-deadly-human-smuggling-operation/",
+            "RiskScore": "50.0"
         }
     ]
 }
