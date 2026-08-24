@@ -1,5 +1,5 @@
 {
-    "period": "20260817 to 20260823",
+    "period": "20260818 to 20260824",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,43 +10,16 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2573",
+    "total_events_filtered": "2168",
     "events_returned": "50",
     "events": [
         {
-            "SQLDATE": "2026-08-17",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "15",
-            "SOURCEURL": "https://www.koco.com/article/oklahoma-city-lake-hefner-trail-assault-jeff-asare-released-arrests/73457525",
-            "RiskScore": "135.0"
-        },
-        {
-            "SQLDATE": "2026-08-17",
-            "Actor1Name": "FIGHTER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "12",
-            "SOURCEURL": "https://www.koco.com/article/oklahoma-city-lake-hefner-trail-assault-jeff-asare-released-arrests/73457525",
-            "RiskScore": "120.0"
-        },
-        {
-            "SQLDATE": "2026-08-17",
-            "Actor1Name": "FIGHTER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "12",
-            "SOURCEURL": "https://www.koco.com/article/oklahoma-city-lake-hefner-trail-assault-jeff-asare-released-arrests/73457525",
-            "RiskScore": "108.0"
-        },
-        {
-            "SQLDATE": "2026-08-21",
-            "Actor1Name": "SACRAMENTO",
-            "ActionGeo_CountryCode": "US",
+            "SQLDATE": "2026-08-24",
+            "Actor1Name": "JAPAN",
+            "ActionGeo_CountryCode": "JA",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.cbsnews.com/sacramento/news/rio-linda-elkhorn-blvd-crash/",
+            "SOURCEURL": "https://idrw.org/india-eyes-japanese-maya-class-destroyer-technology-as-project-18-takes-shape/",
             "RiskScore": "100.0"
         },
         {
@@ -60,29 +33,20 @@
         },
         {
             "SQLDATE": "2026-08-20",
-            "Actor1Name": "TEXAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.kbtx.com/2026/08/20/bryan-police-investigate-another-shooting-that-damaged-home-vehicle/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-17",
-            "Actor1Name": "MOLISE",
-            "ActionGeo_CountryCode": "IT",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.odnako.org/vara-2026-how-many-illustrious-photojournalists-to-immortalise-the-procession/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-20",
             "Actor1Name": "SERVER",
             "ActionGeo_CountryCode": "",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
             "SOURCEURL": "https://worthplaying.com/article/2026/8/20/news/150777-borderlands-4-to-get-story-pack-2-bounty-pack-5-new-vault-hunter-and-v110-update-in-september-trailer/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-08-21",
+            "Actor1Name": "SACRAMENTO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.cbsnews.com/sacramento/news/rio-linda-elkhorn-blvd-crash/",
             "RiskScore": "100.0"
         },
         {
@@ -95,12 +59,12 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-08-23",
-            "Actor1Name": "",
+            "SQLDATE": "2026-08-20",
+            "Actor1Name": "TEXAS",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.fox26houston.com/news/houston-jose-acosta-shooting-arrest-update-2026-august-corder",
+            "SOURCEURL": "https://www.kbtx.com/2026/08/20/bryan-police-investigate-another-shooting-that-damaged-home-vehicle/",
             "RiskScore": "100.0"
         },
         {
@@ -113,6 +77,15 @@
             "RiskScore": "95.0"
         },
         {
+            "SQLDATE": "2026-08-23",
+            "Actor1Name": "FRENCH",
+            "ActionGeo_CountryCode": "FR",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://siliconangle.com/2026/08/23/report-ai-model-hub-hugging-face-exploring-sale-at-13b-valuation/",
+            "RiskScore": "95.0"
+        },
+        {
             "SQLDATE": "2026-08-20",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
@@ -122,21 +95,21 @@
             "RiskScore": "90.0"
         },
         {
-            "SQLDATE": "2026-08-17",
-            "Actor1Name": "UNITED STATES",
+            "SQLDATE": "2026-08-23",
+            "Actor1Name": "PHOENIX",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.nbcsandiego.com/news/national-international/mangione-state-trial-delay-defense-motion-dismiss-double-jeopardy/4062238/",
-            "RiskScore": "80.0"
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.wsbradio.com/news/national/two-phoenix-police/7LRT5TNQQU2D5G4CFWQT7YWMD4/",
+            "RiskScore": "90.0"
         },
         {
-            "SQLDATE": "2026-08-20",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
+            "SQLDATE": "2026-08-24",
+            "Actor1Name": "AUTHORITIES",
+            "ActionGeo_CountryCode": "AS",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://www.kktv.com/2026/08/20/colorado-springs-mother-appears-court-bond-decision-is-delayed-again/",
+            "SOURCEURL": "https://www.illawarramercury.com.au/story/9336210/suspect-found-dead-after-five-bodies-discovered-in-us/",
             "RiskScore": "80.0"
         },
         {
@@ -158,12 +131,12 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-08-10",
-            "Actor1Name": "OKLAHOMA CITY",
+            "SQLDATE": "2026-08-20",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://www.koco.com/article/oklahoma-city-lake-hefner-attack-womens-self-defense-class/73456269",
+            "SOURCEURL": "https://www.kktv.com/2026/08/20/colorado-springs-mother-appears-court-bond-decision-is-delayed-again/",
             "RiskScore": "80.0"
         },
         {
@@ -173,6 +146,24 @@
             "GoldsteinScale": "-7.2",
             "NumMentions": "10",
             "SOURCEURL": "https://www.ynetnews.com/culture/article/rydkiggvgx",
+            "RiskScore": "72.0"
+        },
+        {
+            "SQLDATE": "2026-08-20",
+            "Actor1Name": "OKLAHOMA CITY",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.koco.com/article/jeff-asare-accused-oklahoma-city-sexual-assaults-charged/73487835",
+            "RiskScore": "72.0"
+        },
+        {
+            "SQLDATE": "2026-08-24",
+            "Actor1Name": "IRAN",
+            "ActionGeo_CountryCode": "IN",
+            "GoldsteinScale": "-7.2",
+            "NumMentions": "10",
+            "SOURCEURL": "https://idrw.org/irans-decades-long-war-planning-helped-it-withstand-us-israel-strikes/",
             "RiskScore": "72.0"
         },
         {
@@ -186,38 +177,11 @@
         },
         {
             "SQLDATE": "2026-08-20",
-            "Actor1Name": "OKLAHOMA CITY",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.koco.com/article/jeff-asare-accused-oklahoma-city-sexual-assaults-charged/73487835",
-            "RiskScore": "72.0"
-        },
-        {
-            "SQLDATE": "2026-08-23",
-            "Actor1Name": "MIAMI",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://screenrant.com/csi-miami-horatio-caine-best-quote-show-strength/",
-            "RiskScore": "70.0"
-        },
-        {
-            "SQLDATE": "2026-08-20",
             "Actor1Name": "COLORADO",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "7",
             "SOURCEURL": "https://www.kktv.com/2026/08/20/colorado-springs-mother-appears-court-bond-decision-is-delayed-again/",
-            "RiskScore": "70.0"
-        },
-        {
-            "SQLDATE": "2026-08-23",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "14",
-            "SOURCEURL": "https://www.fox26houston.com/news/houston-jose-acosta-shooting-arrest-update-2026-august-corder",
             "RiskScore": "70.0"
         },
         {
@@ -228,6 +192,15 @@
             "NumMentions": "7",
             "SOURCEURL": "https://www.koco.com/article/oklahoma-fire-danger-grass-fires-anadarko-gracemon-okc-coyle/73489273",
             "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-08-24",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.yahoo.com/news/weather-news/articles/pray-thousands-without-power-nearly-024542793.html",
+            "RiskScore": "66.5"
         },
         {
             "SQLDATE": "2026-08-18",
@@ -248,147 +221,12 @@
             "RiskScore": "65.0"
         },
         {
-            "SQLDATE": "2026-08-17",
-            "Actor1Name": "NEW YORK CITY",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-6.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://wwd.com/pop-culture/celebrity-news/hayden-panettiere-fashion-designers-1239127234/",
-            "RiskScore": "65.0"
-        },
-        {
-            "SQLDATE": "2026-08-19",
-            "Actor1Name": "STUDENT",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wsbtv.com/news/local/student-west-georgia-private-school-threatens-shoot-classmates/SKGUXBVZMNGC3AXYSJL6ZZXU24/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-20",
-            "Actor1Name": "SOUTH CAROLINA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wpr.org/news/wisconsin-dnr-release-pfas-funds",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-08-18",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://nypost.com/2026/08/18/us-news/lindsay-clancy-said-she-heard-male-voice-telling-her-to-kill-her-children-and-kill-herself-testimony/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-18",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://nypost.com/2026/08/18/us-news/lindsay-clancy-said-she-heard-male-voice-telling-her-to-kill-her-children-and-kill-herself-testimony/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-21",
-            "Actor1Name": "PRISON",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.carolinajournal.com/stay-sought-in-case-of-nc-senator-working-for-wrongfully-convicted-men/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-21",
-            "Actor1Name": "DEFENSE ATTORNEY",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://woc1420.iheart.com/content/2026-08-21-defense-attorneys-in-ramsey-case-claim-prosecutors-withheld-evidence/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-18",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "IT",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wcax.com/2026/08/18/former-lowville-academy-teacher-remembered-by-students-after-murder/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-19",
             "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.14news.com/2026/08/19/victim-identified-gasoline-ignition-cited-cause-central-city-explosion/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-18",
-            "Actor1Name": "WISCONSIN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.naturalnews.com/2026-08-18-wisconsin-senator-battles-epa-forever-chemical-water.html",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-21",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.carolinajournal.com/4th-circuit-cuts-fired-wells-fargo-execs-award-from-22m-to-18m/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-19",
-            "Actor1Name": "DEMONSTRATOR",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-7.5",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.algemeiner.com/2026/08/19/how-iran-extended-ideological-influence-pakistan-kashmir/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-23",
-            "Actor1Name": "AMERICAN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-4.0",
-            "NumMentions": "15",
-            "SOURCEURL": "https://home.nzcity.co.nz/news/article.aspx?id=452520",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-20",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wpr.org/news/wisconsin-dnr-release-pfas-funds",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-19",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wtva.com/2026/08/19/marshals-arrest-lee-county-man-connection-with-may-shooting/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-07-19",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://slate.com/news-and-politics/2026/08/trump-news-kristen-holmes-cnn-reporter.html",
             "RiskScore": "60.0"
         },
         {
@@ -401,8 +239,71 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-08-18",
+            "SQLDATE": "2026-08-21",
+            "Actor1Name": "DEFENSE ATTORNEY",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://woc1420.iheart.com/content/2026-08-21-defense-attorneys-in-ramsey-case-claim-prosecutors-withheld-evidence/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-20",
+            "Actor1Name": "SOUTH CAROLINA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wpr.org/news/wisconsin-dnr-release-pfas-funds",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-21",
             "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.carolinajournal.com/4th-circuit-cuts-fired-wells-fargo-execs-award-from-22m-to-18m/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-21",
+            "Actor1Name": "PRISON",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.carolinajournal.com/stay-sought-in-case-of-nc-senator-working-for-wrongfully-convicted-men/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-18",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "IT",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wcax.com/2026/08/18/former-lowville-academy-teacher-remembered-by-students-after-murder/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-18",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://nypost.com/2026/08/18/us-news/lindsay-clancy-said-she-heard-male-voice-telling-her-to-kill-her-children-and-kill-herself-testimony/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-18",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://nypost.com/2026/08/18/us-news/lindsay-clancy-said-she-heard-male-voice-telling-her-to-kill-her-children-and-kill-herself-testimony/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-18",
+            "Actor1Name": "WISCONSIN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
@@ -410,21 +311,48 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-08-20",
+            "SQLDATE": "2026-08-19",
             "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.koco.com/article/oklahoma-city-i44-semi-crash-fire/73488065",
+            "SOURCEURL": "https://www.14news.com/2026/08/19/victim-identified-gasoline-ignition-cited-cause-central-city-explosion/",
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-08-17",
-            "Actor1Name": "AUTHORITIES",
+            "SQLDATE": "2026-08-19",
+            "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://cbn.com/news/us/suspect-crucifixion-az-pastor-receives-huge-prison-sentence",
+            "SOURCEURL": "https://www.wtva.com/2026/08/19/marshals-arrest-lee-county-man-connection-with-may-shooting/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-24",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://cbs2iowa.com/news/nation-world/woman-suffers-life-threatening-injuries-after-motorcycle-hits-deer-in-linn-county",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-19",
+            "Actor1Name": "STUDENT",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wsbtv.com/news/local/student-west-georgia-private-school-threatens-shoot-classmates/SKGUXBVZMNGC3AXYSJL6ZZXU24/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-19",
+            "Actor1Name": "WORLD BANK",
+            "ActionGeo_CountryCode": "CH",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://punchng.com/tcn-upgrades-four-lagos-substations-to-improve-power-supply/",
             "RiskScore": "60.0"
         },
         {
@@ -438,20 +366,20 @@
         },
         {
             "SQLDATE": "2026-08-19",
-            "Actor1Name": "WORLD BANK",
-            "ActionGeo_CountryCode": "CH",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://punchng.com/tcn-upgrades-four-lagos-substations-to-improve-power-supply/",
+            "Actor1Name": "DEMONSTRATOR",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-7.5",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.algemeiner.com/2026/08/19/how-iran-extended-ideological-influence-pakistan-kashmir/",
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-08-17",
-            "Actor1Name": "UNITED STATES",
+            "SQLDATE": "2026-08-19",
+            "Actor1Name": "NEVADA",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://1025kiss.com/ixp/157/p/lubbocks-connection-samuel-little/",
+            "SOURCEURL": "https://www.kolotv.com/2026/08/19/nevada-air-national-guard-high-rollers-deploy-support-western-wildfire-operations/",
             "RiskScore": "60.0"
         },
         {
@@ -462,6 +390,78 @@
             "NumMentions": "6",
             "SOURCEURL": "https://www.kcbd.com/2026/08/19/lubbock-firefighters-use-rehab-unit-combat-heat/",
             "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-19",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.kcbd.com/2026/08/19/lubbock-firefighters-use-rehab-unit-combat-heat/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-20",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.koco.com/article/oklahoma-city-i44-semi-crash-fire/73488065",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-07-19",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://slate.com/news-and-politics/2026/08/trump-news-kristen-holmes-cnn-reporter.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-20",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wpr.org/news/wisconsin-dnr-release-pfas-funds",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-22",
+            "Actor1Name": "ARIZONA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.fox10phoenix.com/news/arizona-mayor-rocks-after-barstool-brawl-brings-assault-accusation-local-saloon",
+            "RiskScore": "54.0"
+        },
+        {
+            "SQLDATE": "2026-08-21",
+            "Actor1Name": "PROSECUTOR",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.newsweek.com/tupac-murder-biggest-revelations-duane-davis-trial-12354502",
+            "RiskScore": "54.0"
+        },
+        {
+            "SQLDATE": "2026-08-18",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.clickondetroit.com/news/local/2026/08/18/large-police-presence-in-dearborn-as-crowds-gather-ahead-of-planned-protest/",
+            "RiskScore": "54.0"
+        },
+        {
+            "SQLDATE": "2026-08-22",
+            "Actor1Name": "ITALIAN",
+            "ActionGeo_CountryCode": "IT",
+            "GoldsteinScale": "-7.5",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.cruiselawnews.com/2011/08/articles/jim-personal-stories/a-view-from-a-fifth-grader-gaddafi-finally-falls-42-years-later/",
+            "RiskScore": "52.5"
         }
     ]
 }
