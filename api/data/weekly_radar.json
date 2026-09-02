@@ -1,5 +1,5 @@
 {
-    "period": "20260826 to 20260901",
+    "period": "20260827 to 20260902",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,7 +10,7 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2462",
+    "total_events_filtered": "2271",
     "events_returned": "50",
     "events": [
         {
@@ -23,33 +23,6 @@
             "RiskScore": "200.0"
         },
         {
-            "SQLDATE": "2026-08-31",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://nypost.com/2026/08/31/us-news/first-victim-of-deadly-grand-canyon-flash-flood-idd-as-john-giusti/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-29",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.dailymail.com/news/article-16090193/Reform-UK-calls-police-reopen-probe-attack-Farage-aide-following-Ann-Widdecombe-murder.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-09-01",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "SP",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.surinenglish.com/lifestyle/alzahraw-the-father-modern-surgery-20260828092824-nt.html",
-            "RiskScore": "100.0"
-        },
-        {
             "SQLDATE": "2026-08-29",
             "Actor1Name": "GEORGETOWN",
             "ActionGeo_CountryCode": "US",
@@ -59,12 +32,30 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "JERSEY",
-            "ActionGeo_CountryCode": "JE",
+            "SQLDATE": "2026-08-31",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.inquirer.com/crime/murder-gloucester-new-jersey-strangling-father-daughter-20260826.html",
+            "SOURCEURL": "https://nypost.com/2026/08/31/us-news/first-victim-of-deadly-grand-canyon-flash-flood-idd-as-john-giusti/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-09-02",
+            "Actor1Name": "LOS ANGELES",
+            "ActionGeo_CountryCode": "NL",
+            "GoldsteinScale": "-2.0",
+            "NumMentions": "50",
+            "SOURCEURL": "https://wjdx.iheart.com/content/2026-09-02-federal-judge-drops-harassment-suit-against-lizzo/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-09-02",
+            "Actor1Name": "PORTUGAL",
+            "ActionGeo_CountryCode": "PO",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://metro.co.uk/2026/09/02/british-tourist-34-stabbed-death-hotel-portugal-holiday-hotspot-29515329/",
             "RiskScore": "100.0"
         },
         {
@@ -86,42 +77,6 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "CHARLOTTE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.dailymail.com/news/article-16081397/alan-smith-family-shooting-billings-montana.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.wishtv.com/news/crime-watch-8/impd-man-shot-at-gas-station-east-of-downtown-indianapolis/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "DALLAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.keranews.org/news/2026-08-26/witnesses-to-mo3-killing-in-dallas-testify-yella-beezy-murder-trial",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "NETFLIX",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://screenrant.com/supernatural-drama-netflix-revival-now-streaming-august-2026/",
-            "RiskScore": "100.0"
-        },
-        {
             "SQLDATE": "2026-08-29",
             "Actor1Name": "GEORGETOWN",
             "ActionGeo_CountryCode": "US",
@@ -140,12 +95,30 @@
             "RiskScore": "100.0"
         },
         {
+            "SQLDATE": "2026-08-29",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.dailymail.com/news/article-16090193/Reform-UK-calls-police-reopen-probe-attack-Farage-aide-following-Ann-Widdecombe-murder.html",
+            "RiskScore": "100.0"
+        },
+        {
             "SQLDATE": "2026-08-28",
             "Actor1Name": "TEXAS",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-9.5",
             "NumMentions": "10",
             "SOURCEURL": "https://www.kltv.com/2026/08/28/pencil-stabbing-allegation-leads-tyler-womans-arrest/",
+            "RiskScore": "95.0"
+        },
+        {
+            "SQLDATE": "2026-08-31",
+            "Actor1Name": "AL QAEDA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.ibtimes.co.uk/vp-jd-vance-911-anniversary-remarks-backlash-1817114",
             "RiskScore": "95.0"
         },
         {
@@ -161,27 +134,9 @@
             "SQLDATE": "2026-08-31",
             "Actor1Name": "AL QAEDA",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.ibtimes.co.uk/vp-jd-vance-911-anniversary-remarks-backlash-1817114",
-            "RiskScore": "95.0"
-        },
-        {
-            "SQLDATE": "2026-08-31",
-            "Actor1Name": "AL QAEDA",
-            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-9.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.ibtimes.co.uk/vp-jd-vance-911-anniversary-remarks-backlash-1817114",
-            "RiskScore": "90.0"
-        },
-        {
-            "SQLDATE": "2026-09-01",
-            "Actor1Name": "AMERICAN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.arabnews.com/media/iraq-sentences-kidnapper-of-us-journalist-to-15-years-in-prison-2656462",
             "RiskScore": "90.0"
         },
         {
@@ -194,30 +149,30 @@
             "RiskScore": "85.0"
         },
         {
-            "SQLDATE": "2026-08-29",
-            "Actor1Name": "THE EU",
-            "ActionGeo_CountryCode": "RS",
-            "GoldsteinScale": "-8.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://peakoil.com/publicpolicy/europes-russia-sanctions-have-a-major-blind-spot",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-09-01",
-            "Actor1Name": "SAN DIEGO",
-            "ActionGeo_CountryCode": "US",
+            "SQLDATE": "2026-08-27",
+            "Actor1Name": "FOREIGN MINIST",
+            "ActionGeo_CountryCode": "UP",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://www.arabnews.com/world/da-says-a-teen-who-recorded-san-diego-mosque-shooting-livestream-has-been-charged-with-murder-2656483",
+            "SOURCEURL": "https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/",
             "RiskScore": "80.0"
         },
         {
             "SQLDATE": "2026-09-01",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.johnogroat-journal.co.uk/news/community-thanked-for-patience-and-understanding-ahead-of-443848/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-08-27",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://www.kold.com/2026/09/01/shooting-parking-lot-tucson-gay-bar-being-investigated-hate-crime-double-murder-suicide/",
+            "SOURCEURL": "https://stnonline.com/news/kentucky-bus-stop-shooting-critically-injures-high-school-student/",
             "RiskScore": "80.0"
         },
         {
@@ -231,29 +186,11 @@
         },
         {
             "SQLDATE": "2026-08-27",
-            "Actor1Name": "FOREIGN MINIST",
-            "ActionGeo_CountryCode": "UP",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-08-27",
-            "Actor1Name": "UNITED STATES",
+            "Actor1Name": "FLORIDA",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://stnonline.com/news/kentucky-bus-stop-shooting-critically-injures-high-school-student/",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "FRENCH",
-            "ActionGeo_CountryCode": "FR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.aol.co.uk/articles/rainbow-warrior-review-spies-bomb-230025000.html",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "16",
+            "SOURCEURL": "https://www.gulfcoastnewsnow.com/article/seven-islands-development-mangrove-fine-cape-coral/73547646",
             "RiskScore": "80.0"
         },
         {
@@ -266,21 +203,21 @@
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-08-27",
-            "Actor1Name": "FLORIDA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "16",
-            "SOURCEURL": "https://www.gulfcoastnewsnow.com/article/seven-islands-development-mangrove-fine-cape-coral/73547646",
-            "RiskScore": "80.0"
-        },
-        {
             "SQLDATE": "2026-08-31",
             "Actor1Name": "BRITISH",
             "ActionGeo_CountryCode": "IZ",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
             "SOURCEURL": "https://www.dailymail.com/news/article-16094065/rare-pistol-British-family-French-Alps-lake.html",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-08-29",
+            "Actor1Name": "THE EU",
+            "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-8.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://peakoil.com/publicpolicy/europes-russia-sanctions-have-a-major-blind-spot",
             "RiskScore": "80.0"
         },
         {
@@ -302,21 +239,12 @@
             "RiskScore": "72.0"
         },
         {
-            "SQLDATE": "2026-09-01",
-            "Actor1Name": "GOOGLE",
-            "ActionGeo_CountryCode": "IN",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.siasat.com/no-telangana-hc-relief-for-konda-surekhas-ex-osd-in-assault-case-3534230/",
-            "RiskScore": "72.0"
-        },
-        {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "ALABAMA",
+            "SQLDATE": "2026-08-27",
+            "Actor1Name": "PHOENIX",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.usmagazine.com/crime-news/news/man-who-shot-girlfriend-ran-her-over-sentenced-for-murder/",
+            "GoldsteinScale": "-7.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.kold.com/2026/08/27/arizona-sued-by-doj-over-in-state-tuition-immigrants-without-legal-status/",
             "RiskScore": "70.0"
         },
         {
@@ -329,13 +257,22 @@
             "RiskScore": "70.0"
         },
         {
-            "SQLDATE": "2026-08-27",
-            "Actor1Name": "PHOENIX",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-7.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.kold.com/2026/08/27/arizona-sued-by-doj-over-in-state-tuition-immigrants-without-legal-status/",
+            "SQLDATE": "2026-09-02",
+            "Actor1Name": "PORTUGAL",
+            "ActionGeo_CountryCode": "PO",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://metro.co.uk/2026/09/02/british-tourist-34-stabbed-death-hotel-portugal-holiday-hotspot-29515329/",
             "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-08-27",
+            "Actor1Name": "TIBET",
+            "ActionGeo_CountryCode": "NP",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.hngn.com/articles/272921/20260827/nepal-flash-flood-kills-least-95-leaves-hundreds-missing-including-americans-near-tibet-border.htm",
+            "RiskScore": "66.5"
         },
         {
             "SQLDATE": "2026-08-28",
@@ -356,15 +293,6 @@
             "RiskScore": "66.5"
         },
         {
-            "SQLDATE": "2026-08-27",
-            "Actor1Name": "TIBET",
-            "ActionGeo_CountryCode": "NP",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.hngn.com/articles/272921/20260827/nepal-flash-flood-kills-least-95-leaves-hundreds-missing-including-americans-near-tibet-border.htm",
-            "RiskScore": "66.5"
-        },
-        {
             "SQLDATE": "2026-08-31",
             "Actor1Name": "AMERICAN",
             "ActionGeo_CountryCode": "US",
@@ -374,57 +302,12 @@
             "RiskScore": "63.0"
         },
         {
-            "SQLDATE": "2026-08-28",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.rutlandherald.com/opinion/commentary/barry-looming-public-health-crisis/article_df82bb4f-b435-5a1d-9aa4-eb8e5a8889ae.html",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "CHRISTIAN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.aljazeera.com/news/2026/8/26/us-judge-declines-minnesotas-effort-to-force-texas-to-extradite-ice-agent",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-31",
-            "Actor1Name": "BRITISH",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.dailymail.com/news/article-16094065/rare-pistol-British-family-French-Alps-lake.html",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-08-27",
-            "Actor1Name": "UTAH",
-            "ActionGeo_CountryCode": "US",
+            "Actor1Name": "SAN DIEGO",
+            "ActionGeo_CountryCode": "RS",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.sandiegouniontribune.com/2026/08/27/san-diego-man-who-sent-threatening-letter-following-death-of-charlie-kirk-sentenced/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "UTAH",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.fox13now.com/news/local-news/former-social-media-addict-hopes-meta-settlement-is-just-the-beginning-of-change",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-08-26",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.fox13now.com/news/local-news/former-social-media-addict-hopes-meta-settlement-is-just-the-beginning-of-change",
+            "SOURCEURL": "https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/",
             "RiskScore": "60.0"
         },
         {
@@ -437,21 +320,93 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-09-01",
-            "Actor1Name": "MEMPHIS",
-            "ActionGeo_CountryCode": "KS",
+            "SQLDATE": "2026-08-31",
+            "Actor1Name": "SEATTLE",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.chronogram.com/topic/health/the-long-way-back-to-now/",
+            "SOURCEURL": "https://www.ammoland.com/2026/08/wa-state-patrol-firearm-training-providers/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-31",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.dailymail.com/news/article-16092953/boynton-beach-florida-funeral-chaos-arrest-street-takeover.html",
             "RiskScore": "60.0"
         },
         {
             "SQLDATE": "2026-09-01",
-            "Actor1Name": "COLLEGE",
+            "Actor1Name": "AMERICAN",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "http://www.postregister.com/news/national/the-latest-us-and-iran-exchange-fire-after-abrupt-end-to-month-without-military-action/article_53bf3714-c1ff-5ef1-9eca-a28ddcf4fbfc.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2025-08-28",
+            "Actor1Name": "THE WHITE HOUSE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wmur.com/article/goodlander-campaign-ad-refuse-illegal-orders/73555568",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2025-08-28",
+            "Actor1Name": "CONGRESSWOMAN",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wmur.com/article/goodlander-campaign-ad-refuse-illegal-orders/73555568",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-27",
+            "Actor1Name": "UTAH",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.sandiegouniontribune.com/2026/08/27/san-diego-man-who-sent-threatening-letter-following-death-of-charlie-kirk-sentenced/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-28",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.rutlandherald.com/opinion/commentary/barry-looming-public-health-crisis/article_df82bb4f-b435-5a1d-9aa4-eb8e5a8889ae.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-27",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://www.redlandsdailyfacts.com/2026/08/27/day-4-of-san-bernardino-city-council-members-trial-reveals-probe-started-after-she-turned-over-recordings-of-officers-to-the-da/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-02",
+            "Actor1Name": "BRITISH",
+            "ActionGeo_CountryCode": "PO",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://metro.co.uk/2026/09/02/british-tourist-34-stabbed-death-hotel-portugal-holiday-hotspot-29515329/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-31",
+            "Actor1Name": "BRITISH",
             "ActionGeo_CountryCode": "UK",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "http://www.prnewswire.com/news-releases/advanced-procurement-for-universities--colleges-apuc-enhances-student-mental-health-support-across-scotland-302865563.html",
+            "SOURCEURL": "https://www.dailymail.com/news/article-16094065/rare-pistol-British-family-French-Alps-lake.html",
             "RiskScore": "60.0"
         },
         {
@@ -462,6 +417,51 @@
             "NumMentions": "6",
             "SOURCEURL": "https://www.click2houston.com/news/local/2026/08/28/woman-dead-man-hospitalized-in-believed-domestic-violence-related-shooting-in-nw-harris-county/",
             "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-08-27",
+            "Actor1Name": "EUROPE",
+            "ActionGeo_CountryCode": "RS",
+            "GoldsteinScale": "-7.2",
+            "NumMentions": "8",
+            "SOURCEURL": "https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/",
+            "RiskScore": "57.6"
+        },
+        {
+            "SQLDATE": "2026-08-28",
+            "Actor1Name": "TEXAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.click2houston.com/news/local/2026/08/28/trial-begins-for-man-accused-of-helping-dispose-of-2-bodies-in-texas-killing-fields-murders/",
+            "RiskScore": "57.0"
+        },
+        {
+            "SQLDATE": "2026-08-27",
+            "Actor1Name": "GREENVILLE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.messenger-inquirer.com/features/food/woodside-taco-fusion-adding-twist-to-island/article_5e5aad88-ec86-5c99-a254-9e6684c9808d.html",
+            "RiskScore": "57.0"
+        },
+        {
+            "SQLDATE": "2026-09-02",
+            "Actor1Name": "CHINESE",
+            "ActionGeo_CountryCode": "CH",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.chiangraitimes.com/news-asia/chinese-brands-singapore/",
+            "RiskScore": "57.0"
+        },
+        {
+            "SQLDATE": "2026-08-31",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://wjactv.com/news/local/pd-cambria-county-man-accused-sexually-assaulting-young-girl-unlicensed-daycare-crime-charges-pennsylvania-police-investigation-conemaugh-township",
+            "RiskScore": "54.0"
         }
     ]
 }

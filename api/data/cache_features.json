@@ -1,13 +1,13 @@
 {
-    "last_updated": "2026-09-01 08:22:31",
-    "nb_events": 2521,
-    "avg_tone": -2.2304698165242636,
-    "tension_score": 17678.9,
-    "mat_conf_mentions": 1589,
-    "nb_events_lag1": 3249,
-    "avg_tone_lag1": -3.101293939857757,
-    "tension_score_lag1": 25664.7,
-    "nb_events_lag2": 13,
-    "avg_tone_lag2": -0.4344795346627592,
+    "last_updated": "2026-09-02 07:41:39",
+    "nb_events": 2599,
+    "avg_tone": -1.8861563241170467,
+    "tension_score": 18011.7,
+    "mat_conf_mentions": 1421,
+    "nb_events_lag1": 2198,
+    "avg_tone_lag1": -2.9095290338027207,
+    "tension_score_lag1": 17930.6,
+    "nb_events_lag2": 12,
+    "avg_tone_lag2": -1.2113384120391415,
     "tension_score_lag2": 202.0
 }
