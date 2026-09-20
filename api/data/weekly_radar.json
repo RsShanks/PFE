@@ -1,5 +1,5 @@
 {
-    "period": "20260913 to 20260919",
+    "period": "20260914 to 20260920",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,7 +10,7 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2584",
+    "total_events_filtered": "2478",
     "events_returned": "50",
     "events": [
         {
@@ -20,6 +20,15 @@
             "GoldsteinScale": "-10.0",
             "NumMentions": "20",
             "SOURCEURL": "https://www.barryanddistrictnews.co.uk/news/26559742.reform-ms-says-british-empire-force-good/",
+            "RiskScore": "200.0"
+        },
+        {
+            "SQLDATE": "2026-09-20",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "20",
+            "SOURCEURL": "https://www.express.co.uk/news/us/2249180/crazed-woman-lured-pregnant-stranger-via-craigslist-cut-unborn-baby-from-her-womb",
             "RiskScore": "200.0"
         },
         {
@@ -59,12 +68,21 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-09-19",
-            "Actor1Name": "ACTIVIST",
+            "SQLDATE": "2026-09-20",
+            "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.scmp.com/news/world/united-states-canada/article/3368095/new-york-fashion-chief-quits-after-physical-clash-peta-activists-goes-viral",
+            "SOURCEURL": "https://www.nhgazette.com/2026/09/20/sun-sept-20-2/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-09-17",
+            "Actor1Name": "NUREMBERG",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.citizensvoice.com/2026/09/17/nuremberg-community-players-to-present-interactive-murder-mystery/",
             "RiskScore": "100.0"
         },
         {
@@ -95,21 +113,12 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-09-17",
-            "Actor1Name": "NUREMBERG",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.citizensvoice.com/2026/09/17/nuremberg-community-players-to-present-interactive-murder-mystery/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-09-19",
-            "Actor1Name": "NEW YORK",
+            "SQLDATE": "2026-09-20",
+            "Actor1Name": "EUROPEAN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.scmp.com/news/world/united-states-canada/article/3368095/new-york-fashion-chief-quits-after-physical-clash-peta-activists-goes-viral",
+            "SOURCEURL": "https://www.nhgazette.com/2026/09/20/sun-sept-20-2/",
             "RiskScore": "100.0"
         },
         {
@@ -122,6 +131,15 @@
             "RiskScore": "95.0"
         },
         {
+            "SQLDATE": "2026-09-19",
+            "Actor1Name": "PARIS",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://easttexasradio.com/paris-public-library-slates-next-adventure-social-for-two-retirees/",
+            "RiskScore": "95.0"
+        },
+        {
             "SQLDATE": "2026-09-17",
             "Actor1Name": "SAN DIEGO",
             "ActionGeo_CountryCode": "US",
@@ -129,6 +147,15 @@
             "NumMentions": "10",
             "SOURCEURL": "https://www.nbcnewyork.com/news/national-international/san-diego-home-break-in-catches-dog-bringing-intruder-toy/6549105/",
             "RiskScore": "92.0"
+        },
+        {
+            "SQLDATE": "2026-09-16",
+            "Actor1Name": "SAN FRANCISCO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.kcra.com/article/san-francisco-man-sentenced-rideshare-driver-assault/73762853",
+            "RiskScore": "90.0"
         },
         {
             "SQLDATE": "2026-09-17",
@@ -141,30 +168,12 @@
         },
         {
             "SQLDATE": "2026-09-16",
-            "Actor1Name": "SAN FRANCISCO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.kcra.com/article/san-francisco-man-sentenced-rideshare-driver-assault/73762853",
-            "RiskScore": "90.0"
-        },
-        {
-            "SQLDATE": "2026-09-16",
             "Actor1Name": "AUSTIN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-9.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.ksat.com/news/local/2026/09/16/affidavit-san-marcos-councilman-arrested-on-assault-charge-after-biting-security-guard/",
             "RiskScore": "90.0"
-        },
-        {
-            "SQLDATE": "2026-09-14",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "CA",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.cbc.ca/radio/asithappens/avi-lewis-carney-investment-summit-9.7343737",
-            "RiskScore": "80.0"
         },
         {
             "SQLDATE": "2026-09-14",
@@ -187,10 +196,37 @@
         {
             "SQLDATE": "2026-09-14",
             "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "CA",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.cbc.ca/radio/asithappens/avi-lewis-carney-investment-summit-9.7343737",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-09-14",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
             "SOURCEURL": "https://www.kitv.com/news/local/honolulu-firefighters-extinguish-a-balcony-fire-on-ala-moana-boulevard/article_ac84545c-bc08-4bec-9b80-d3fb724b8a8b.html",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-09-20",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.broomfieldenterprise.com/2026/09/19/colorado-schools-social-media-expulsions-suspensions/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-09-20",
+            "Actor1Name": "MISSOURI",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://viperrocks.com/2026/09/missouri-highway-patrol-trooper-injured-in-sullivan-mo-crash/",
             "RiskScore": "80.0"
         },
         {
@@ -212,15 +248,6 @@
             "RiskScore": "75.0"
         },
         {
-            "SQLDATE": "2026-09-14",
-            "Actor1Name": "BRITAIN",
-            "ActionGeo_CountryCode": "UP",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.dailymail.com/news/article-16131261/Ben-Wallace-time-Britain-shoot-Putins-drones.html",
-            "RiskScore": "70.0"
-        },
-        {
             "SQLDATE": "2026-09-15",
             "Actor1Name": "FLORIDA",
             "ActionGeo_CountryCode": "US",
@@ -230,13 +257,13 @@
             "RiskScore": "70.0"
         },
         {
-            "SQLDATE": "2026-09-13",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
+            "SQLDATE": "2026-09-14",
+            "Actor1Name": "BRITAIN",
+            "ActionGeo_CountryCode": "UP",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "7",
-            "SOURCEURL": "https://www.wishtv.com/news/crime-watch-8/stolen-car-plunges-into-fall-creek-near-downtown-indianapolis-after-police-chase-injuring-2/",
-            "RiskScore": "66.5"
+            "SOURCEURL": "https://www.dailymail.com/news/article-16131261/Ben-Wallace-time-Britain-shoot-Putins-drones.html",
+            "RiskScore": "70.0"
         },
         {
             "SQLDATE": "2026-09-16",
@@ -257,6 +284,123 @@
             "RiskScore": "64.0"
         },
         {
+            "SQLDATE": "2026-09-19",
+            "Actor1Name": "NETFLIX",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.ynetnews.com/culture/article/byrsrp2ffl",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-14",
+            "Actor1Name": "AMERICAN",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://redstate.com/wardclark/2026/09/14/happy-birthday-the-star-spangled-banner-is-212-years-old-n2206922",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-14",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.durangoherald.com/articles/associated-press/a-vermont-man-is-on-trial-for-shooting-3-palestinian-students-he-claimed-the-cia-told-him-to-do-i/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-20",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.mirror.co.uk/news/us-news/lindsay-clancy-trial-husband-patrick-37638246",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-14",
+            "Actor1Name": "CANADA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://recorder.com/2026/09/14/guest-columnist-william-lambers-lake-ontario-a-symbol-of-peace/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-18",
+            "Actor1Name": "NEW ORLEANS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.courierherald.com/2026/09/18/arrest-made-in-federal-way-of-new-orleans-murder-suspect/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-17",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://www.aol.co.uk/articles/credible-plan-british-steel-ministers-230101000.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-16",
+            "Actor1Name": "TEXAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.ksat.com/news/local/2026/09/16/2-found-dead-inside-kerrville-home-in-possible-murder-suicide-police-say/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-17",
+            "Actor1Name": "ALABAMA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wbrc.com/2026/09/17/man-arrested-alabama-7-years-after-deadly-atlanta-shooting/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-19",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.ynetnews.com/culture/article/byrsrp2ffl",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-18",
+            "Actor1Name": "TOLEDO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.journalgazette.net/local/police-fire/suspect-arrested-in-toledo-after-2-fort-wayne-shooting-deaths-court-document-offers-details/article_acd865b2-1a9f-4144-8b40-b08b3f9c249c.html",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-15",
+            "Actor1Name": "HOUSTON",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.fox26houston.com/news/ex-houston-police-officer-gets-probation-deadly-harding-street-raid",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-09-14",
+            "Actor1Name": "WASHINGTON",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-2.0",
+            "NumMentions": "30",
+            "SOURCEURL": "https://www.wyff4.com/article/trump-says-warnings-about-ai-are-a-hoax-amid-calls-for-more-regulation/73728237",
+            "RiskScore": "60.0"
+        },
+        {
             "SQLDATE": "2026-09-14",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
@@ -271,34 +415,7 @@
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.durangoherald.com/articles/associated-press/a-vermont-man-is-on-trial-for-shooting-3-palestinian-students-he-claimed-the-cia-told-him-to-do-i/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-14",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
             "SOURCEURL": "https://www.duluthnewstribune.com/news/local/fuel-tank-explodes-near-lincoln-park-neighborhood",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-16",
-            "Actor1Name": "TEXAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.ksat.com/news/local/2026/09/16/2-found-dead-inside-kerrville-home-in-possible-murder-suicide-police-say/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-19",
-            "Actor1Name": "FRANCE",
-            "ActionGeo_CountryCode": "AG",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.presstv.co.uk/Detail/2026/09/19/776576/crocodile--tears",
             "RiskScore": "60.0"
         },
         {
@@ -308,87 +425,6 @@
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-18",
-            "Actor1Name": "NEW ORLEANS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.courierherald.com/2026/09/18/arrest-made-in-federal-way-of-new-orleans-murder-suspect/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-18",
-            "Actor1Name": "TOLEDO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.journalgazette.net/local/police-fire/suspect-arrested-in-toledo-after-2-fort-wayne-shooting-deaths-court-document-offers-details/article_acd865b2-1a9f-4144-8b40-b08b3f9c249c.html",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-19",
-            "Actor1Name": "GERMANY",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://drudge.com/news/294537/german-chancellor-unconditional-friendship",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-17",
-            "Actor1Name": "ALABAMA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wbrc.com/2026/09/17/man-arrested-alabama-7-years-after-deadly-atlanta-shooting/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-14",
-            "Actor1Name": "CANADA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://recorder.com/2026/09/14/guest-columnist-william-lambers-lake-ontario-a-symbol-of-peace/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-14",
-            "Actor1Name": "WASHINGTON",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "30",
-            "SOURCEURL": "https://www.wyff4.com/article/trump-says-warnings-about-ai-are-a-hoax-amid-calls-for-more-regulation/73728237",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-17",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "12",
-            "SOURCEURL": "https://www.aol.co.uk/articles/credible-plan-british-steel-ministers-230101000.html",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-14",
-            "Actor1Name": "AMERICAN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://redstate.com/wardclark/2026/09/14/happy-birthday-the-star-spangled-banner-is-212-years-old-n2206922",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-09-15",
-            "Actor1Name": "HOUSTON",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.fox26houston.com/news/ex-houston-police-officer-gets-probation-deadly-harding-street-raid",
             "RiskScore": "60.0"
         },
         {
@@ -426,42 +462,6 @@
             "NumMentions": "7",
             "SOURCEURL": "https://politicalwire.com/2026/09/14/u-s-has-put-space-control-weapons-in-orbit/",
             "RiskScore": "50.4"
-        },
-        {
-            "SQLDATE": "2026-09-14",
-            "Actor1Name": "PERPETRATOR",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "https://www.craigdailypress.com/news/opinion-three-months-later-scant-information-released-regarding-baggs-shooting-incident/",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-09-16",
-            "Actor1Name": "TEXAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "https://www.ksat.com/news/local/2026/09/16/2-found-dead-inside-kerrville-home-in-possible-murder-suicide-police-say/",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-09-14",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "https://recorder.com/2026/09/14/guest-columnist-william-lambers-lake-ontario-a-symbol-of-peace/",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-09-19",
-            "Actor1Name": "BIRMINGHAM",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.bbc.co.uk/news/articles/cm0qx31wlvx8o",
-            "RiskScore": "50.0"
         }
     ]
 }
