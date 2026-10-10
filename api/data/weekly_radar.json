@@ -1,5 +1,5 @@
 {
-    "period": "20261003 to 20261009",
+    "period": "20261004 to 20261010",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,26 +10,26 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2714",
+    "total_events_filtered": "2827",
     "events_returned": "50",
     "events": [
         {
-            "SQLDATE": "2026-10-03",
-            "Actor1Name": "WASHINGTON",
+            "SQLDATE": "2026-10-09",
+            "Actor1Name": "AMERICAN",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-8.0",
-            "NumMentions": "26",
-            "SOURCEURL": "https://www.riotimesonline.com/ethiopian-troops-retake-mekelle-airport-2026/",
-            "RiskScore": "208.0"
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "36",
+            "SOURCEURL": "https://laist.com/brief/news/climate-environment/weather-whiplash-socal-rain-cooldown-tides-waves",
+            "RiskScore": "360.0"
         },
         {
             "SQLDATE": "2026-10-09",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "GM",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
-            "NumMentions": "18",
-            "SOURCEURL": "https://www.euronews.com/2026/10/09/police-arrest-suspect-after-deadly-shooting-in-germanys-upper-palatinate",
-            "RiskScore": "180.0"
+            "NumMentions": "16",
+            "SOURCEURL": "https://laist.com/brief/news/climate-environment/weather-whiplash-socal-rain-cooldown-tides-waves",
+            "RiskScore": "160.0"
         },
         {
             "SQLDATE": "2026-10-05",
@@ -59,84 +59,30 @@
             "RiskScore": "120.0"
         },
         {
-            "SQLDATE": "2026-10-09",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-9.5",
+            "SQLDATE": "2026-10-10",
+            "Actor1Name": "PHILADELPHIA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "12",
-            "SOURCEURL": "https://www.erewashsound.com/news/derbyshire/boats-destined-for-people-smugglers-seized-at-east-midlands-airport/",
-            "RiskScore": "114.0"
+            "SOURCEURL": "https://www.nbcphiladelphia.com/news/local/2-philadelphia-police-officers-shot-officials-say/4477336/",
+            "RiskScore": "120.0"
         },
         {
-            "SQLDATE": "2026-10-07",
-            "Actor1Name": "CHICAGO",
-            "ActionGeo_CountryCode": "IS",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.nbcchicago.com/news/local/adl-warns-antisemitic-incidents-in-chicago-are-rising-amid-october-7-observances/3999325/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-10-08",
-            "Actor1Name": "IDAHO",
+            "SQLDATE": "2026-10-05",
+            "Actor1Name": "TOLEDO",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "http://www.idahostatejournal.com/psa/motorcyclist-hits-bear-near-swan-valley-in-third-recent-large-animal-crash-on-east-idaho/article_c87f76f4-f823-42ed-abd3-09e07f7c152a.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-10-09",
-            "Actor1Name": "A US",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.irishexaminer.com/world/arid-41921848.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-10-06",
-            "Actor1Name": "AUTHORITIES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.kristv.com/news/local-news/authorities-asking-for-public-help-after-shooting-at-san-diego-texas-store",
+            "SOURCEURL": "https://www.13abc.com/2026/10/05/toledo-police-arrest-18-year-old-murder-charge-connection-deadly-weiler-homes-shooting/",
             "RiskScore": "100.0"
         },
         {
             "SQLDATE": "2026-10-05",
-            "Actor1Name": "THE EUROPEAN UNION",
-            "ActionGeo_CountryCode": "HU",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "VE",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.christiandaily.com/opinion/the-crisis-of-financial-exchange-restrictions-in-south-asia",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-10-03",
-            "Actor1Name": "REUTERS",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://whbl.com/2026/10/03/yemens-armed-forces-say-it-is-conducting-strikes-against-houthis-in-sanaa/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-10-09",
-            "Actor1Name": "NEWFOUNDLAND AND LABRADOR",
-            "ActionGeo_CountryCode": "CA",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.dailystar.co.uk/tv/below-fans-baffled-laughable-accent-37752957",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-10-07",
-            "Actor1Name": "REGULATOR",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.breitbart.com/economy/2026/10/07/us-banking-regulator-announces-new-efforts-to-combat-financial-fraud-in-minnesota/",
+            "SOURCEURL": "https://www.cubaheadlines.com/articles/342029",
             "RiskScore": "100.0"
         },
         {
@@ -150,11 +96,20 @@
         },
         {
             "SQLDATE": "2026-10-05",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "VE",
+            "Actor1Name": "TOLEDO",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.cubaheadlines.com/articles/342029",
+            "SOURCEURL": "https://www.13abc.com/2026/10/05/toledo-police-arrest-18-year-old-murder-charge-connection-deadly-weiler-homes-shooting/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-10-05",
+            "Actor1Name": "THE EUROPEAN UNION",
+            "ActionGeo_CountryCode": "HU",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.christiandaily.com/opinion/the-crisis-of-financial-exchange-restrictions-in-south-asia",
             "RiskScore": "100.0"
         },
         {
@@ -167,6 +122,42 @@
             "RiskScore": "100.0"
         },
         {
+            "SQLDATE": "2026-10-07",
+            "Actor1Name": "CHICAGO",
+            "ActionGeo_CountryCode": "IS",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.nbcchicago.com/news/local/adl-warns-antisemitic-incidents-in-chicago-are-rising-amid-october-7-observances/3999325/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-10-10",
+            "Actor1Name": "EUROPE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.middleeastmonitor.com/20261010-when-a-threat-alone-moves-a-superpowers-bombers/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-10-10",
+            "Actor1Name": "POLICE OFFICER",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://6abc.com/post/2-police-officers-shot-west-philadelphia/19926939/",
+            "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-10-07",
+            "Actor1Name": "REGULATOR",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.breitbart.com/economy/2026/10/07/us-banking-regulator-announces-new-efforts-to-combat-financial-fraud-in-minnesota/",
+            "RiskScore": "100.0"
+        },
+        {
             "SQLDATE": "2026-10-04",
             "Actor1Name": "WYOMING",
             "ActionGeo_CountryCode": "US",
@@ -176,22 +167,31 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-10-05",
-            "Actor1Name": "TOLEDO",
+            "SQLDATE": "2026-10-08",
+            "Actor1Name": "IDAHO",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.13abc.com/2026/10/05/toledo-police-arrest-18-year-old-murder-charge-connection-deadly-weiler-homes-shooting/",
+            "SOURCEURL": "http://www.idahostatejournal.com/psa/motorcyclist-hits-bear-near-swan-valley-in-third-recent-large-animal-crash-on-east-idaho/article_c87f76f4-f823-42ed-abd3-09e07f7c152a.html",
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-10-05",
-            "Actor1Name": "TOLEDO",
+            "SQLDATE": "2026-10-06",
+            "Actor1Name": "AUTHORITIES",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.13abc.com/2026/10/05/toledo-police-arrest-18-year-old-murder-charge-connection-deadly-weiler-homes-shooting/",
+            "SOURCEURL": "https://www.kristv.com/news/local-news/authorities-asking-for-public-help-after-shooting-at-san-diego-texas-store",
             "RiskScore": "100.0"
+        },
+        {
+            "SQLDATE": "2026-10-09",
+            "Actor1Name": "NETFLIX",
+            "ActionGeo_CountryCode": "CA",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://movies.mxdwn.com/news/netflix-reportedly-set-to-lay-off-five-percent-of-workforce/",
+            "RiskScore": "95.0"
         },
         {
             "SQLDATE": "2026-10-05",
@@ -209,15 +209,6 @@
             "GoldsteinScale": "-9.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.wtae.com/article/richard-deshantz-arrested-pittsburgh-assault-case/74083234",
-            "RiskScore": "90.0"
-        },
-        {
-            "SQLDATE": "2026-10-09",
-            "Actor1Name": "CHARLOTTE",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.wccbcharlotte.com/2026/10/09/charlotte-man-sentenced-to-prison-for-child-sexual-abuse-materials-including-infant-torture/",
             "RiskScore": "90.0"
         },
         {
@@ -239,48 +230,30 @@
             "RiskScore": "90.0"
         },
         {
+            "SQLDATE": "2026-10-10",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "9",
+            "SOURCEURL": "https://www.theboltonnews.co.uk/news/26611047.47-mile-four-pikes-hike-begins-boltons-doorstep/",
+            "RiskScore": "85.5"
+        },
+        {
             "SQLDATE": "2026-10-09",
-            "Actor1Name": "GOOGLE",
-            "ActionGeo_CountryCode": "NL",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "40",
-            "SOURCEURL": "https://www.dutchnews.nl/2026/10/mps-vote-to-fly-rainbow-flag-at-parliament-for-first-time/",
+            "Actor1Name": "VERIZON",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-4.0",
+            "NumMentions": "20",
+            "SOURCEURL": "https://www.rttnews.com/3697973/verizon-at-t-and-t-mobile-shares-plunge-as-spacex-strikes-spectrum-deal-to-expand-starlink-mobile.aspx",
             "RiskScore": "80.0"
         },
         {
-            "SQLDATE": "2026-10-06",
-            "Actor1Name": "TEHRAN",
-            "ActionGeo_CountryCode": "QA",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://aa.com.tr/en/middle-east/qatar-says-washington-tehran-exchanging-messages-as-mediation-continues/4080290",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-10-06",
-            "Actor1Name": "IRANIAN",
+            "SQLDATE": "2026-10-07",
+            "Actor1Name": "BOSTON",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://wabx.net/2026/10/06/transcript-of-us-vice-president-vance-interview-in-alaska/",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-10-05",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://nypost.com/2026/10/05/us-news/new-california-map-shows-wildfires-scorching-across-the-state-amid-heatwave/",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-10-05",
-            "Actor1Name": "FIREFIGHTER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://nypost.com/2026/10/05/us-news/new-california-map-shows-wildfires-scorching-across-the-state-amid-heatwave/",
+            "SOURCEURL": "https://www.wcvb.com/article/hyde-park-gas-station-shooting-boston/74070625",
             "RiskScore": "80.0"
         },
         {
@@ -294,20 +267,47 @@
         },
         {
             "SQLDATE": "2026-10-07",
-            "Actor1Name": "BOSTON",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.wcvb.com/article/hyde-park-gas-station-shooting-boston/74070625",
-            "RiskScore": "80.0"
-        },
-        {
-            "SQLDATE": "2026-10-07",
             "Actor1Name": "US AMBASSADOR",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
             "SOURCEURL": "https://www.algemeiner.com/2026/10/07/mamdani-ignites-outrage-accusing-israel-genocide-oct-7-anniversary-statement/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-10-06",
+            "Actor1Name": "IRANIAN",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://wabx.net/2026/10/06/transcript-of-us-vice-president-vance-interview-in-alaska/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-10-05",
+            "Actor1Name": "FIREFIGHTER",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://nypost.com/2026/10/05/us-news/new-california-map-shows-wildfires-scorching-across-the-state-amid-heatwave/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-10-05",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://nypost.com/2026/10/05/us-news/new-california-map-shows-wildfires-scorching-across-the-state-amid-heatwave/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-10-06",
+            "Actor1Name": "TEHRAN",
+            "ActionGeo_CountryCode": "QA",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://aa.com.tr/en/middle-east/qatar-says-washington-tehran-exchanging-messages-as-mediation-continues/4080290",
             "RiskScore": "80.0"
         },
         {
@@ -318,24 +318,6 @@
             "NumMentions": "8",
             "SOURCEURL": "https://pagesix.com/2026/10/05/celebrity-news/chad-lowes-la-community-is-rallying-around-family-after-daughter-fionas-death/",
             "RiskScore": "73.6"
-        },
-        {
-            "SQLDATE": "2026-10-03",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.local3news.com/local-news/pikeville-man-arrested-after-assaulting-woman-holding-her-against-her-will-for-days-tbi-says/article_2b1d293f-28b5-4e54-95e8-d7914d8a094d.html",
-            "RiskScore": "72.0"
-        },
-        {
-            "SQLDATE": "2026-10-03",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.local3news.com/local-news/pikeville-man-arrested-after-assaulting-woman-holding-her-against-her-will-for-days-tbi-says/article_2b1d293f-28b5-4e54-95e8-d7914d8a094d.html",
-            "RiskScore": "72.0"
         },
         {
             "SQLDATE": "2026-10-08",
@@ -356,15 +338,6 @@
             "RiskScore": "70.0"
         },
         {
-            "SQLDATE": "2026-10-09",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "GM",
-            "GoldsteinScale": "-7.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.siliconrepublic.com/start-ups/crunchbase-european-start-up-vc-sees-best-quarter-in-4-years-again",
-            "RiskScore": "70.0"
-        },
-        {
             "SQLDATE": "2026-10-07",
             "Actor1Name": "TERRORIST",
             "ActionGeo_CountryCode": "IT",
@@ -374,21 +347,30 @@
             "RiskScore": "70.0"
         },
         {
+            "SQLDATE": "2026-10-10",
+            "Actor1Name": "WISCONSIN",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "7",
+            "SOURCEURL": "https://www.nujournal.com/news/agribusiness/2026/10/10/candidates-challenge-mandates-talk-affordability/",
+            "RiskScore": "66.5"
+        },
+        {
+            "SQLDATE": "2026-10-10",
+            "Actor1Name": "LOS ANGELES",
+            "ActionGeo_CountryCode": "MX",
+            "GoldsteinScale": "-6.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://artvoice.com/grillo-kidnap-case-no-victim-no-tape-one-informant",
+            "RiskScore": "65.0"
+        },
+        {
             "SQLDATE": "2026-10-05",
             "Actor1Name": "UNIVERSITY",
             "ActionGeo_CountryCode": "GR",
             "GoldsteinScale": "-6.5",
             "NumMentions": "10",
             "SOURCEURL": "https://wrak.iheart.com/content/2026-10-05-protests-continue-at-cornell-university-over-assault-case/",
-            "RiskScore": "65.0"
-        },
-        {
-            "SQLDATE": "2026-10-05",
-            "Actor1Name": "HANOVER",
-            "ActionGeo_CountryCode": "JM",
-            "GoldsteinScale": "-6.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://radiojamaicanewsonline.com/local/multiple-roadblocks-mounted-in-westmoreland-and-hanover-over-poor-road-conditions",
             "RiskScore": "65.0"
         },
         {
@@ -401,21 +383,30 @@
             "RiskScore": "65.0"
         },
         {
-            "SQLDATE": "2026-10-03",
-            "Actor1Name": "THE US",
-            "ActionGeo_CountryCode": "ER",
-            "GoldsteinScale": "-8.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.riotimesonline.com/ethiopian-troops-retake-mekelle-airport-2026/",
-            "RiskScore": "64.0"
+            "SQLDATE": "2026-10-05",
+            "Actor1Name": "HANOVER",
+            "ActionGeo_CountryCode": "JM",
+            "GoldsteinScale": "-6.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://radiojamaicanewsonline.com/local/multiple-roadblocks-mounted-in-westmoreland-and-hanover-over-poor-road-conditions",
+            "RiskScore": "65.0"
         },
         {
-            "SQLDATE": "2026-10-09",
-            "Actor1Name": "ARMY",
+            "SQLDATE": "2026-10-05",
+            "Actor1Name": "TOLEDO",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
-            "SOURCEURL": "https://www.sbs.com.au/news/podcast-episode/the-government-backs-down-on-credit-card-ban-evening-news-bulletin-9-october-2026/l3rfy6rt7",
+            "SOURCEURL": "https://www.13abc.com/2026/10/05/toledo-police-arrest-18-year-old-murder-charge-connection-deadly-weiler-homes-shooting/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-10-07",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://www.breitbart.com/politics/2026/10/07/clinton-approved-judge-sides-illegals-against-trumps-civil-immigration-fines/",
             "RiskScore": "60.0"
         },
         {
@@ -425,24 +416,6 @@
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.darkhorizons.com/ten-more-join-the-bbcs-hercule-series/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-10-09",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.dailystar.co.uk/news/latest-news/christa-pikes-victim-16-word-37752822",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-10-05",
-            "Actor1Name": "TOLEDO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.13abc.com/2026/10/05/toledo-police-arrest-18-year-old-murder-charge-connection-deadly-weiler-homes-shooting/",
             "RiskScore": "60.0"
         },
         {
@@ -462,6 +435,33 @@
             "NumMentions": "6",
             "SOURCEURL": "https://krcgtv.com/news/local/17-year-old-injured-in-benton-county-crash",
             "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-10-08",
+            "Actor1Name": "RICHMOND",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.wrdw.com/2026/10/08/ground-broke-new-40-bed-behavioral-health-facility-augusta/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-10-05",
+            "Actor1Name": "PRESIDENT",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-6.5",
+            "NumMentions": "9",
+            "SOURCEURL": "https://www.ketv.com/article/donald-trump-nebraska-rally-grand-island/73998697",
+            "RiskScore": "58.5"
+        },
+        {
+            "SQLDATE": "2026-10-06",
+            "Actor1Name": "AIR FORCE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-7.2",
+            "NumMentions": "8",
+            "SOURCEURL": "https://legalinsurrection.com/2026/10/suspected-iranian-drone-plot-prompts-u-s-bomber-withdrawal-from-britain/",
+            "RiskScore": "57.6"
         }
     ]
 }
