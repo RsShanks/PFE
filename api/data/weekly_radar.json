@@ -1,5 +1,5 @@
 {
-    "period": "20261105 to 20261111",
+    "period": "20261106 to 20261112",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,7 +10,7 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2498",
+    "total_events_filtered": "2188",
     "events_returned": "50",
     "events": [
         {
@@ -23,12 +23,12 @@
             "RiskScore": "114.0"
         },
         {
-            "SQLDATE": "2026-11-05",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
+            "SQLDATE": "2026-11-07",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "PL",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://krmg.com/2026/11/05/new-oklahoma-law-gives-cold-case-families-right-to-request-fresh-review-of-unsolved-crimes/",
+            "SOURCEURL": "https://www.dailymail.com/news/article-16274749/Poland-terror-suspect-cadet-military-school.html",
             "RiskScore": "100.0"
         },
         {
@@ -51,21 +51,12 @@
         },
         {
             "SQLDATE": "2026-11-11",
-            "Actor1Name": "DEPUTIES",
+            "Actor1Name": "CONNECTICUT",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
+            "GoldsteinScale": "-9.5",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.kptv.com/2026/11/11/deputies-investigating-shooting-raleigh-hills-gas-station/",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-11-07",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "PL",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.dailymail.com/news/article-16274749/Poland-terror-suspect-cadet-military-school.html",
-            "RiskScore": "100.0"
+            "SOURCEURL": "https://www.newhavenindependent.org/2026/11/11/appeals-court-affirms-joness-exoneration/",
+            "RiskScore": "95.0"
         },
         {
             "SQLDATE": "2026-11-09",
@@ -86,31 +77,22 @@
             "RiskScore": "95.0"
         },
         {
-            "SQLDATE": "2026-11-05",
-            "Actor1Name": "BUFFALO",
-            "ActionGeo_CountryCode": "CA",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://calgaryherald.com:443/news/crime/convicted-rapist-calgary-senior-high-risk-reoffend-dangerous-offender-hearing",
-            "RiskScore": "90.0"
-        },
-        {
             "SQLDATE": "2026-11-11",
             "Actor1Name": "",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.express.co.uk/news/history/2264943/reluctant-king-awful-stammer",
-            "RiskScore": "80.0"
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.newstribune.com/news/2026/nov/11/nightly-lane-closure-scheduled-on-eastbound-us-54-at-missouri-river-bridge/",
+            "RiskScore": "95.0"
         },
         {
             "SQLDATE": "2026-11-11",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "16",
-            "SOURCEURL": "https://ynaija.com/top-5-stories-of-the-day-tinubu-introduces-%E2%82%A652500-minimum-pension-for-over-173000-retirees/",
-            "RiskScore": "80.0"
+            "Actor1Name": "OREGON",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.2",
+            "NumMentions": "10",
+            "SOURCEURL": "https://americanbazaaronline.com/2026/11/11/e-bike-battery-explosion-destroys-oregon-family-home-leaving-six-displaced-492099/",
+            "RiskScore": "92.0"
         },
         {
             "SQLDATE": "2026-11-09",
@@ -122,15 +104,6 @@
             "RiskScore": "73.6"
         },
         {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.express.co.uk/celebrity-news/2265082/ex-prisoners-russell-brand-avoid-trouble",
-            "RiskScore": "72.0"
-        },
-        {
             "SQLDATE": "2026-11-10",
             "Actor1Name": "",
             "ActionGeo_CountryCode": "US",
@@ -140,12 +113,30 @@
             "RiskScore": "72.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "NASA",
-            "ActionGeo_CountryCode": "RP",
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-4.4",
+            "NumMentions": "16",
+            "SOURCEURL": "https://news.crossmap.com/2026/11/11/steve-russell-from-the-hunt-for-saddam-hussein-to-leading-jaars/",
+            "RiskScore": "70.4"
+        },
+        {
+            "SQLDATE": "2026-11-08",
+            "Actor1Name": "CLEVELAND",
+            "ActionGeo_CountryCode": "IT",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "7",
+            "SOURCEURL": "https://coosavalleynews.com/2026/11/rome-man-jailed-for-shooting-woman-on-cleveland-avenue/",
+            "RiskScore": "70.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "NVIDIA",
+            "ActionGeo_CountryCode": "CH",
             "GoldsteinScale": "-7.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://canadianinquirer.net/2026/11/10/nasa-opens-astronaut-applications-for-future-moon-and-mars-missions/",
+            "SOURCEURL": "https://economictimes.indiatimes.com/news/international/us/nvidia-chips-getting-diverted-to-china-donald-trump-crackdown-on-companies-following-consultations-with-elon-musk-stalled-by-us-commerce-secretary/articleshow/135748951.cms",
             "RiskScore": "70.0"
         },
         {
@@ -158,12 +149,12 @@
             "RiskScore": "70.0"
         },
         {
-            "SQLDATE": "2026-11-08",
-            "Actor1Name": "CLEVELAND",
-            "ActionGeo_CountryCode": "IT",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://coosavalleynews.com/2026/11/rome-man-jailed-for-shooting-woman-on-cleveland-avenue/",
+            "SQLDATE": "2026-11-09",
+            "Actor1Name": "NASA",
+            "ActionGeo_CountryCode": "RP",
+            "GoldsteinScale": "-7.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://canadianinquirer.net/2026/11/10/nasa-opens-astronaut-applications-for-future-moon-and-mars-missions/",
             "RiskScore": "70.0"
         },
         {
@@ -174,6 +165,15 @@
             "NumMentions": "10",
             "SOURCEURL": "https://www.mirror.co.uk/news/world-news/spain-strikes-uk-flights-risk-37864265",
             "RiskScore": "65.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "THE US",
+            "ActionGeo_CountryCode": "CH",
+            "GoldsteinScale": "-8.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://bitacora.com.uy/nvidia-live-updates-nvidia-stock-tanks-in-after-hours-after-allegations-of-a-second-affair-surface/",
+            "RiskScore": "64.0"
         },
         {
             "SQLDATE": "2026-11-09",
@@ -194,48 +194,12 @@
             "RiskScore": "63.0"
         },
         {
-            "SQLDATE": "2026-11-10",
-            "Actor1Name": "CHICAGO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://patch.com/illinois/chicagoheights/surveillance-cameras-capture-killer-shooting-anti-violence-leader-accepting",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-11-06",
             "Actor1Name": "AMERICAN",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://aninews.in/news/world/us/act-of-vengeance-democrats-slam-trumps-appointment-of-miller-as-chief-of-staff20261107043805/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "12",
-            "SOURCEURL": "https://www.express.co.uk/celebrity-news/2265082/ex-prisoners-russell-brand-avoid-trouble",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "BRITISH",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.express.co.uk/news/history/2264943/reluctant-king-awful-stammer",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-08",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "EI",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://bcheights.com/234446/arts/jimmy-soars-visually-but-crashes-narratively/",
             "RiskScore": "60.0"
         },
         {
@@ -248,12 +212,48 @@
             "RiskScore": "60.0"
         },
         {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "TOLEDO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.13abc.com/2026/11/11/police-investigating-after-person-shot-east-toledo/",
+            "RiskScore": "60.0"
+        },
+        {
             "SQLDATE": "2026-11-06",
             "Actor1Name": "MARYLAND",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.fox5dc.com/news/2-juveniles-arrested-after-injuring-another-in-frederick-shooting",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-08",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "EI",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://bcheights.com/234446/arts/jimmy-soars-visually-but-crashes-narratively/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-10",
+            "Actor1Name": "CHICAGO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://patch.com/illinois/chicagoheights/surveillance-cameras-capture-killer-shooting-anti-violence-leader-accepting",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "POLICE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.13abc.com/2026/11/11/police-investigating-after-person-shot-east-toledo/",
             "RiskScore": "60.0"
         },
         {
@@ -284,6 +284,15 @@
             "RiskScore": "56.0"
         },
         {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "ALABAMA",
+            "ActionGeo_CountryCode": "VE",
+            "GoldsteinScale": "-7.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.hngn.com/articles/273790/20261111/immigration-arrests-continue-after-trump-calls-crackdown-too-tough.htm",
+            "RiskScore": "56.0"
+        },
+        {
             "SQLDATE": "2026-11-08",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
@@ -293,13 +302,13 @@
             "RiskScore": "54.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "UNITED NATIONS",
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "26",
-            "SOURCEURL": "https://news.crossmap.com/2026/11/09/candace-owens-sued-in-her-home-state-over-outlandish-claims/",
-            "RiskScore": "52.0"
+            "GoldsteinScale": "-4.4",
+            "NumMentions": "12",
+            "SOURCEURL": "https://news.crossmap.com/2026/11/11/5-democrat-priorities-to-watch-in-texas-marijuana-push-red-flag-laws-and-medicaid-expansion/",
+            "RiskScore": "52.800000000000004"
         },
         {
             "SQLDATE": "2026-11-10",
@@ -311,13 +320,13 @@
             "RiskScore": "52.0"
         },
         {
-            "SQLDATE": "2026-11-05",
-            "Actor1Name": "ARKANSAS",
+            "SQLDATE": "2026-11-09",
+            "Actor1Name": "UNITED NATIONS",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.nwaonline.com/news/2026/nov/05/former-director-of-office-of-professional/",
-            "RiskScore": "50.0"
+            "GoldsteinScale": "-2.0",
+            "NumMentions": "26",
+            "SOURCEURL": "https://news.crossmap.com/2026/11/09/candace-owens-sued-in-her-home-state-over-outlandish-claims/",
+            "RiskScore": "52.0"
         },
         {
             "SQLDATE": "2026-11-09",
@@ -329,12 +338,21 @@
             "RiskScore": "50.0"
         },
         {
-            "SQLDATE": "2026-11-10",
-            "Actor1Name": "JOE BIDEN",
-            "ActionGeo_CountryCode": "IS",
+            "SQLDATE": "2026-11-09",
+            "Actor1Name": "TEXAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "5",
+            "SOURCEURL": "http://www.stardem.com/ap/nation/t-cullen-davis-a-texas-oil-tycoon-acquitted-in-a-1970s-murder-trial-has-died/article_951c33b4-a190-56fb-b1bb-d3e3fdf3ca02.html",
+            "RiskScore": "50.0"
+        },
+        {
+            "SQLDATE": "2026-11-09",
+            "Actor1Name": "NEW HAMPSHIRE",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-5.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://metro.co.uk/2026/11/10/cartons-milk-thrown-joe-biden-students-ireland-29782664/",
+            "SOURCEURL": "https://www.firstalert7.com/2026/11/09/odessa-man-arrested-new-hampshire-after-police-find-170-beer-bottles-inside-semi/",
             "RiskScore": "50.0"
         },
         {
@@ -347,20 +365,11 @@
             "RiskScore": "50.0"
         },
         {
-            "SQLDATE": "2026-11-05",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "http://www.reflector.com/news/crime/crime-roundup-traffic-stop-leads-to-seizure-of-32-kilos-of-meth/article_08afe8b7-caf9-47d9-a760-98c7c5d8a4e5.html",
-            "RiskScore": "50.0"
-        },
-        {
             "SQLDATE": "2026-11-08",
             "Actor1Name": "CHICAGO",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "10",
             "SOURCEURL": "https://www.fox32chicago.com/news/chicago-man-charged-murdering-54-year-old",
             "RiskScore": "50.0"
         },
@@ -374,21 +383,66 @@
             "RiskScore": "50.0"
         },
         {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "UNITED KINGDOM",
-            "ActionGeo_CountryCode": "NI",
+            "SQLDATE": "2026-11-06",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-5.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://ynaija.com/top-5-stories-of-the-day-tinubu-introduces-%E2%82%A652500-minimum-pension-for-over-173000-retirees/",
+            "SOURCEURL": "https://www.koat.com/article/new-mexico-opts-into-federal-tax-credit-scholarship-program/74361065",
+            "RiskScore": "50.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "ARKANSAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.wuuqradio.com/grand-ole-opry-brain-teaser-presented-by-food-city-clue-1/",
             "RiskScore": "50.0"
         },
         {
             "SQLDATE": "2026-11-08",
             "Actor1Name": "CHICAGO",
             "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "5",
+            "SOURCEURL": "https://www.fox32chicago.com/news/chicago-man-charged-murdering-54-year-old",
+            "RiskScore": "50.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "MASSACHUSETTS",
+            "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-5.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.fox32chicago.com/news/chicago-man-charged-murdering-54-year-old",
+            "SOURCEURL": "https://americanbazaaronline.com/2026/11/11/massachusetts-town-residents-push-back-against-krafts-proposed-16-billion-data-center-campus-492094/",
+            "RiskScore": "50.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "AMERICAN",
+            "ActionGeo_CountryCode": "CH",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://dailycaller.com/2026/11/11/powerful-american-ai-technology-finding-way-china/",
+            "RiskScore": "50.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "WYOMING",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "5",
+            "SOURCEURL": "https://www.jhnewsandguide.com/news/environmental/conservation-issues-in-wyo-in-flux-after-d-c-power-shift/article_51fefdf6-5ab0-42c4-9b42-d0697ab6ac58.html",
+            "RiskScore": "50.0"
+        },
+        {
+            "SQLDATE": "2026-11-10",
+            "Actor1Name": "JOE BIDEN",
+            "ActionGeo_CountryCode": "IS",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://metro.co.uk/2026/11/10/cartons-milk-thrown-joe-biden-students-ireland-29782664/",
             "RiskScore": "50.0"
         },
         {
@@ -401,51 +455,6 @@
             "RiskScore": "50.0"
         },
         {
-            "SQLDATE": "2026-11-06",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.koat.com/article/new-mexico-opts-into-federal-tax-credit-scholarship-program/74361065",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "NEW HAMPSHIRE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.firstalert7.com/2026/11/09/odessa-man-arrested-new-hampshire-after-police-find-170-beer-bottles-inside-semi/",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "GERMANY",
-            "ActionGeo_CountryCode": "GM",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "https://www.express.co.uk/news/history/2264943/reluctant-king-awful-stammer",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "TEXAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "http://www.stardem.com/ap/nation/t-cullen-davis-a-texas-oil-tycoon-acquitted-in-a-1970s-murder-trial-has-died/article_951c33b4-a190-56fb-b1bb-d3e3fdf3ca02.html",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "GERMANY",
-            "ActionGeo_CountryCode": "CH",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.aol.co.uk/articles/germany-reportedly-bans-chinese-drones-091020000.html",
-            "RiskScore": "50.0"
-        },
-        {
             "SQLDATE": "2026-11-10",
             "Actor1Name": "CONNECTICUT",
             "ActionGeo_CountryCode": "US",
@@ -453,15 +462,6 @@
             "NumMentions": "10",
             "SOURCEURL": "https://patch.com/connecticut/danbury/ct-official-sues-dhs-over-media-vests-danbury-ice-raid",
             "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-06",
-            "Actor1Name": "RHODE ISLAND",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "5",
-            "SOURCEURL": "https://turnto10.com/politics/rhode-island-gop-boss-on-election-losses-dont-look-at-me-role-republican-election-cycle-candidates-state-senate-house-legislature-november-6-2026",
-            "RiskScore": "47.5"
         }
     ]
 }
