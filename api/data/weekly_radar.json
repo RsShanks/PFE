@@ -1,5 +1,5 @@
 {
-    "period": "20261106 to 20261112",
+    "period": "20261107 to 20261113",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,7 +10,7 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2188",
+    "total_events_filtered": "2225",
     "events_returned": "50",
     "events": [
         {
@@ -23,30 +23,21 @@
             "RiskScore": "114.0"
         },
         {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "NEW HAMPSHIRE",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "11",
+            "SOURCEURL": "https://www.wmur.com/article/deering-new-hampshire-beavers-1112/74416239",
+            "RiskScore": "110.0"
+        },
+        {
             "SQLDATE": "2026-11-07",
             "Actor1Name": "",
             "ActionGeo_CountryCode": "PL",
             "GoldsteinScale": "-10.0",
             "NumMentions": "10",
             "SOURCEURL": "https://www.dailymail.com/news/article-16274749/Poland-terror-suspect-cadet-military-school.html",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-11-06",
-            "Actor1Name": "VOTER",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.fox5dc.com/news/animal-rights-group-targets-dc-restaurant-over-humane-foie-gras-claim-ban-looms",
-            "RiskScore": "100.0"
-        },
-        {
-            "SQLDATE": "2026-11-06",
-            "Actor1Name": "MONTANA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.dailykos.com/stories/2026/11/6/800124289/community/america-keeps-its-republic/",
             "RiskScore": "100.0"
         },
         {
@@ -68,12 +59,30 @@
             "RiskScore": "95.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "THE US",
-            "ActionGeo_CountryCode": "MX",
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "NEIGHBORHOOD",
+            "ActionGeo_CountryCode": "",
             "GoldsteinScale": "-9.5",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.wtxl.com/politics/immigration/ice-separates-8-year-old-haitian-child-from-caretaker",
+            "SOURCEURL": "https://foxsanantonio.com/newsletter-daily/questions-raised-after-groomer-dog-die-in-van",
+            "RiskScore": "95.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "KANSAS CITY",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.kctv5.com/2026/11/12/second-time-this-year-water-main-leak-opens-sinkhole-southwest-trafficway/",
+            "RiskScore": "95.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "WASHINGTON",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-elections-districts-democrats-b3084179.html",
             "RiskScore": "95.0"
         },
         {
@@ -86,6 +95,15 @@
             "RiskScore": "95.0"
         },
         {
+            "SQLDATE": "2026-11-09",
+            "Actor1Name": "THE US",
+            "ActionGeo_CountryCode": "MX",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.wtxl.com/politics/immigration/ice-separates-8-year-old-haitian-child-from-caretaker",
+            "RiskScore": "95.0"
+        },
+        {
             "SQLDATE": "2026-11-11",
             "Actor1Name": "OREGON",
             "ActionGeo_CountryCode": "US",
@@ -93,6 +111,24 @@
             "NumMentions": "10",
             "SOURCEURL": "https://americanbazaaronline.com/2026/11/11/e-bike-battery-explosion-destroys-oregon-family-home-leaving-six-displaced-492099/",
             "RiskScore": "92.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "CO",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2767-tsx/aris/214722-aris-mining-announces-positive-pfs-results-for-the-toroparu-gold-project.html",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.kbtx.com/2026/11/12/brazos-valley-drought-worsens-through-so-far-dry-november/",
+            "RiskScore": "76.0"
         },
         {
             "SQLDATE": "2026-11-09",
@@ -122,6 +158,15 @@
             "RiskScore": "70.4"
         },
         {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "EUROPE",
+            "ActionGeo_CountryCode": "EI",
+            "GoldsteinScale": "-4.4",
+            "NumMentions": "16",
+            "SOURCEURL": "https://www.northwaleschronicle.co.uk/news/national/26725607.zelensky-hails-real-result-prisoner-exchange-russia-secured/",
+            "RiskScore": "70.4"
+        },
+        {
             "SQLDATE": "2026-11-08",
             "Actor1Name": "CLEVELAND",
             "ActionGeo_CountryCode": "IT",
@@ -137,15 +182,6 @@
             "GoldsteinScale": "-7.0",
             "NumMentions": "10",
             "SOURCEURL": "https://economictimes.indiatimes.com/news/international/us/nvidia-chips-getting-diverted-to-china-donald-trump-crackdown-on-companies-following-consultations-with-elon-musk-stalled-by-us-commerce-secretary/articleshow/135748951.cms",
-            "RiskScore": "70.0"
-        },
-        {
-            "SQLDATE": "2026-11-06",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "14",
-            "SOURCEURL": "https://www.express.co.uk/news/uk/2264052/pcso-fed-confidential-information-to-machete-gang",
             "RiskScore": "70.0"
         },
         {
@@ -194,42 +230,6 @@
             "RiskScore": "63.0"
         },
         {
-            "SQLDATE": "2026-11-06",
-            "Actor1Name": "AMERICAN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://aninews.in/news/world/us/act-of-vengeance-democrats-slam-trumps-appointment-of-miller-as-chief-of-staff20261107043805/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-08",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://kirksvilledailyexpress.com/2026/11/08/turning-the-page-this-week-in-local-history-212/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "TOLEDO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.13abc.com/2026/11/11/police-investigating-after-person-shot-east-toledo/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-06",
-            "Actor1Name": "MARYLAND",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.fox5dc.com/news/2-juveniles-arrested-after-injuring-another-in-frederick-shooting",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-11-08",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "EI",
@@ -249,11 +249,38 @@
         },
         {
             "SQLDATE": "2026-11-11",
+            "Actor1Name": "TOLEDO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.13abc.com/2026/11/11/police-investigating-after-person-shot-east-toledo/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
             "Actor1Name": "POLICE",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.13abc.com/2026/11/11/police-investigating-after-person-shot-east-toledo/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-08",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://kirksvilledailyexpress.com/2026/11/08/turning-the-page-this-week-in-local-history-212/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "PHOENIX",
+            "ActionGeo_CountryCode": "SP",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.azfamily.com/2026/11/12/2013-phoenix-security-guards-murder-case-referred-back-police/",
             "RiskScore": "60.0"
         },
         {
@@ -264,15 +291,6 @@
             "NumMentions": "9",
             "SOURCEURL": "https://www.cpapracticeadvisor.com/2026/11/10/business-groups-warn-colorado-graduated-income-tax-will-burden-small-businesses/193581/",
             "RiskScore": "58.5"
-        },
-        {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "VIRGINIA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-7.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.wdbj7.com/2026/11/09/virginia-tech-audit-finds-gaps-campus-crime-reporting-procedures/",
-            "RiskScore": "56.0"
         },
         {
             "SQLDATE": "2026-11-08",
@@ -293,6 +311,24 @@
             "RiskScore": "56.0"
         },
         {
+            "SQLDATE": "2026-11-09",
+            "Actor1Name": "VIRGINIA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-7.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.wdbj7.com/2026/11/09/virginia-tech-audit-finds-gaps-campus-crime-reporting-procedures/",
+            "RiskScore": "56.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "VIRGINIA",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://wjla.com/news/local/virginia-governor-abigail-spanberger-defends-parole-board-granting-early-release-to-more-felons-glenn-youngkin-crime-victims-jason-miyares-murder-rape-assault-",
+            "RiskScore": "54.0"
+        },
+        {
             "SQLDATE": "2026-11-08",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
@@ -311,15 +347,6 @@
             "RiskScore": "52.800000000000004"
         },
         {
-            "SQLDATE": "2026-11-10",
-            "Actor1Name": "SEATTLE",
-            "ActionGeo_CountryCode": "CA",
-            "GoldsteinScale": "-6.5",
-            "NumMentions": "8",
-            "SOURCEURL": "https://westseattleblog.com/event/scottish-country-dancing-classes-in-west-seattle/?instance_id=746441",
-            "RiskScore": "52.0"
-        },
-        {
             "SQLDATE": "2026-11-09",
             "Actor1Name": "UNITED NATIONS",
             "ActionGeo_CountryCode": "US",
@@ -329,21 +356,21 @@
             "RiskScore": "52.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "https://foxbaltimore.com/news/local/baltimore-police-drugs-underwear",
-            "RiskScore": "50.0"
+            "SQLDATE": "2026-11-10",
+            "Actor1Name": "SEATTLE",
+            "ActionGeo_CountryCode": "CA",
+            "GoldsteinScale": "-6.5",
+            "NumMentions": "8",
+            "SOURCEURL": "https://westseattleblog.com/event/scottish-country-dancing-classes-in-west-seattle/?instance_id=746441",
+            "RiskScore": "52.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "TEXAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "http://www.stardem.com/ap/nation/t-cullen-davis-a-texas-oil-tycoon-acquitted-in-a-1970s-murder-trial-has-died/article_951c33b4-a190-56fb-b1bb-d3e3fdf3ca02.html",
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "AMERICAN",
+            "ActionGeo_CountryCode": "CH",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://dailycaller.com/2026/11/11/powerful-american-ai-technology-finding-way-china/",
             "RiskScore": "50.0"
         },
         {
@@ -356,48 +383,12 @@
             "RiskScore": "50.0"
         },
         {
-            "SQLDATE": "2026-11-10",
-            "Actor1Name": "AMERICAN",
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "PROSECUTOR",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-5.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://english.news.cn/northamerica/20261111/053c982732e8443c85f2b59fc1c1656e/c.html",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-08",
-            "Actor1Name": "CHICAGO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.fox32chicago.com/news/chicago-man-charged-murdering-54-year-old",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-10",
-            "Actor1Name": "SPAIN",
-            "ActionGeo_CountryCode": "SP",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.mirror.co.uk/news/world-news/spain-strikes-uk-flights-risk-37864265",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-06",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.koat.com/article/new-mexico-opts-into-federal-tax-credit-scholarship-program/74361065",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "ARKANSAS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.wuuqradio.com/grand-ole-opry-brain-teaser-presented-by-food-city-clue-1/",
+            "SOURCEURL": "https://www.wlfi.com:443/2026/11/12/former-indiana-charter-school-director-convicted-fraud-scheme-involving-60-million-education-funds/",
             "RiskScore": "50.0"
         },
         {
@@ -410,21 +401,12 @@
             "RiskScore": "50.0"
         },
         {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "MASSACHUSETTS",
+            "SQLDATE": "2026-11-09",
+            "Actor1Name": "POLICE",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://americanbazaaronline.com/2026/11/11/massachusetts-town-residents-push-back-against-krafts-proposed-16-billion-data-center-campus-492094/",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "AMERICAN",
-            "ActionGeo_CountryCode": "CH",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://dailycaller.com/2026/11/11/powerful-american-ai-technology-finding-way-china/",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "5",
+            "SOURCEURL": "https://foxbaltimore.com/news/local/baltimore-police-drugs-underwear",
             "RiskScore": "50.0"
         },
         {
@@ -437,6 +419,33 @@
             "RiskScore": "50.0"
         },
         {
+            "SQLDATE": "2026-11-09",
+            "Actor1Name": "TEXAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "5",
+            "SOURCEURL": "http://www.stardem.com/ap/nation/t-cullen-davis-a-texas-oil-tycoon-acquitted-in-a-1970s-murder-trial-has-died/article_951c33b4-a190-56fb-b1bb-d3e3fdf3ca02.html",
+            "RiskScore": "50.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "SMALL TOWN",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "5",
+            "SOURCEURL": "https://www.chilecomparte.cl/foros/topic/5396761-the-good-daughter-2026-s01e02-1080p-10bit-webrip-6ch-x265-hevc-psa/",
+            "RiskScore": "50.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "STARBUCKS",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.bchomez.com/property/304-1650-grant-avenue/R3183405",
+            "RiskScore": "50.0"
+        },
+        {
             "SQLDATE": "2026-11-10",
             "Actor1Name": "JOE BIDEN",
             "ActionGeo_CountryCode": "IS",
@@ -446,21 +455,12 @@
             "RiskScore": "50.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "ODESSA",
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "INDIANA",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-5.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.firstalert7.com/2026/11/09/odessa-man-arrested-new-hampshire-after-police-find-170-beer-bottles-inside-semi/",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-10",
-            "Actor1Name": "CONNECTICUT",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "10",
-            "SOURCEURL": "https://patch.com/connecticut/danbury/ct-official-sues-dhs-over-media-vests-danbury-ice-raid",
+            "SOURCEURL": "https://www.wlfi.com:443/2026/11/12/former-indiana-charter-school-director-convicted-fraud-scheme-involving-60-million-education-funds/",
             "RiskScore": "50.0"
         }
     ]
