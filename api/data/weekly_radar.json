@@ -1,5 +1,5 @@
 {
-    "period": "20261109 to 20261115",
+    "period": "20261110 to 20261116",
     "regions_tracked": [
         "USA",
         "CHN",
@@ -10,9 +10,45 @@
         "ITA",
         "ESP"
     ],
-    "total_events_filtered": "2405",
+    "total_events_filtered": "2393",
     "events_returned": "50",
     "events": [
+        {
+            "SQLDATE": "2026-11-15",
+            "Actor1Name": "TANKER",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "15",
+            "SOURCEURL": "https://www.boston.com/news/national-news/2026/11/15/officials-say-a-tankers-steering-failed-before-it-crashed-into-a-cruise-ship-in-new-orleans/",
+            "RiskScore": "150.0"
+        },
+        {
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "TEXAS",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "28",
+            "SOURCEURL": "https://koolfmabilene.com/ixp/156/p/dog-chapman-huntsville-prison/",
+            "RiskScore": "140.0"
+        },
+        {
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://deadline.com/2026/11/nicola-coughlan-boycott-harry-potter-jk-rowlings-trans-1237224887/",
+            "RiskScore": "120.0"
+        },
+        {
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://deadline.com/2026/11/nicola-coughlan-boycott-harry-potter-jk-rowlings-trans-1237224887/",
+            "RiskScore": "120.0"
+        },
         {
             "SQLDATE": "2026-11-10",
             "Actor1Name": "",
@@ -30,6 +66,24 @@
             "NumMentions": "11",
             "SOURCEURL": "https://www.wmur.com/article/deering-new-hampshire-beavers-1112/74416239",
             "RiskScore": "110.0"
+        },
+        {
+            "SQLDATE": "2026-11-15",
+            "Actor1Name": "BOSTON",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "22",
+            "SOURCEURL": "https://www.boston.com/news/local-news/2026/11/15/man-arrested-at-logan-after-dispute-at-baggage-counter/",
+            "RiskScore": "110.0"
+        },
+        {
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "FRENCH",
+            "ActionGeo_CountryCode": "FR",
+            "GoldsteinScale": "-9.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://1065thebuzz.com/2026/11/16/french-actor-gerard-depardieu-withdraws-his-sexual-assault-appeal-apologises-to-victims/",
+            "RiskScore": "108.0"
         },
         {
             "SQLDATE": "2026-11-14",
@@ -77,58 +131,22 @@
             "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "MANCHESTER",
+            "ActionGeo_CountryCode": "SP",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.newstribune.com/news/2026/nov/11/nightly-lane-closure-scheduled-on-eastbound-us-54-at-missouri-river-bridge/",
-            "RiskScore": "95.0"
+            "SOURCEURL": "https://thehardtackle.com/transfer-news/2026/11/16/chelsea-table-bid-to-sign-fermin-lopez-manchester-united-also-keen/",
+            "RiskScore": "100.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "THE US",
-            "ActionGeo_CountryCode": "MX",
-            "GoldsteinScale": "-9.5",
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "SPANISH",
+            "ActionGeo_CountryCode": "SP",
+            "GoldsteinScale": "-10.0",
             "NumMentions": "10",
-            "SOURCEURL": "https://www.wtxl.com/politics/immigration/ice-separates-8-year-old-haitian-child-from-caretaker",
-            "RiskScore": "95.0"
-        },
-        {
-            "SQLDATE": "2026-11-12",
-            "Actor1Name": "WASHINGTON",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-elections-districts-democrats-b3084179.html",
-            "RiskScore": "95.0"
-        },
-        {
-            "SQLDATE": "2026-11-12",
-            "Actor1Name": "KANSAS CITY",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://www.kctv5.com/2026/11/12/second-time-this-year-water-main-leak-opens-sinkhole-southwest-trafficway/",
-            "RiskScore": "95.0"
-        },
-        {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "NVIDIA",
-            "ActionGeo_CountryCode": "CH",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://nypost.com/2026/11/09/business/nvidias-jensen-huang-could-face-major-trouble-when-dems-take-control-of-congress/",
-            "RiskScore": "95.0"
-        },
-        {
-            "SQLDATE": "2026-11-12",
-            "Actor1Name": "NEIGHBORHOOD",
-            "ActionGeo_CountryCode": "",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "10",
-            "SOURCEURL": "https://foxsanantonio.com/newsletter-daily/questions-raised-after-groomer-dog-die-in-van",
-            "RiskScore": "95.0"
+            "SOURCEURL": "https://thehardtackle.com/transfer-news/2026/11/16/chelsea-table-bid-to-sign-fermin-lopez-manchester-united-also-keen/",
+            "RiskScore": "100.0"
         },
         {
             "SQLDATE": "2026-11-11",
@@ -141,6 +159,42 @@
         },
         {
             "SQLDATE": "2026-11-11",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.newstribune.com/news/2026/nov/11/nightly-lane-closure-scheduled-on-eastbound-us-54-at-missouri-river-bridge/",
+            "RiskScore": "95.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "NEIGHBORHOOD",
+            "ActionGeo_CountryCode": "",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://foxsanantonio.com/newsletter-daily/questions-raised-after-groomer-dog-die-in-van",
+            "RiskScore": "95.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "KANSAS CITY",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.kctv5.com/2026/11/12/second-time-this-year-water-main-leak-opens-sinkhole-southwest-trafficway/",
+            "RiskScore": "95.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "WASHINGTON",
+            "ActionGeo_CountryCode": "IR",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-elections-districts-democrats-b3084179.html",
+            "RiskScore": "95.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
             "Actor1Name": "OREGON",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-9.2",
@@ -149,12 +203,12 @@
             "RiskScore": "92.0"
         },
         {
-            "SQLDATE": "2026-11-12",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "CO",
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
-            "SOURCEURL": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2767-tsx/aris/214722-aris-mining-announces-positive-pfs-results-for-the-toroparu-gold-project.html",
+            "SOURCEURL": "https://deadline.com/2026/11/nicola-coughlan-boycott-harry-potter-jk-rowlings-trans-1237224887/",
             "RiskScore": "80.0"
         },
         {
@@ -167,12 +221,30 @@
             "RiskScore": "80.0"
         },
         {
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://deadline.com/2026/11/nicola-coughlan-boycott-harry-potter-jk-rowlings-trans-1237224887/",
+            "RiskScore": "80.0"
+        },
+        {
             "SQLDATE": "2026-11-13",
             "Actor1Name": "NEW YORK",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "8",
             "SOURCEURL": "https://www.wwnytv.com/2026/11/13/rape-suspect-shot-by-state-police-carthage-was-struck-chest/",
+            "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "CO",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2767-tsx/aris/214722-aris-mining-announces-positive-pfs-results-for-the-toroparu-gold-project.html",
             "RiskScore": "80.0"
         },
         {
@@ -183,6 +255,15 @@
             "NumMentions": "8",
             "SOURCEURL": "https://www.vaildaily.com/news/colorado-fatal-fire-federal-investigation-details/",
             "RiskScore": "80.0"
+        },
+        {
+            "SQLDATE": "2026-11-14",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "8",
+            "SOURCEURL": "https://www.dailymail.com/debate/article-16293023/Jenrick-control-Reform-replace-Farage-DAN-HODGES.html",
+            "RiskScore": "76.0"
         },
         {
             "SQLDATE": "2026-11-12",
@@ -203,22 +284,13 @@
             "RiskScore": "76.0"
         },
         {
-            "SQLDATE": "2026-11-14",
-            "Actor1Name": "UNITED KINGDOM",
+            "SQLDATE": "2026-11-15",
+            "Actor1Name": "BRITAIN",
             "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.dailymail.com/debate/article-16293023/Jenrick-control-Reform-replace-Farage-DAN-HODGES.html",
-            "RiskScore": "76.0"
-        },
-        {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.2",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.hometownsource.com/abc_newspapers/abc_newspapers/community/blaine/council-approves-three-agreements-for-interchange-project/article_90fb5b78-1e2f-41ce-b459-deab1bd00089.html",
-            "RiskScore": "73.6"
+            "GoldsteinScale": "-7.2",
+            "NumMentions": "10",
+            "SOURCEURL": "https://www.chroniclelive.co.uk/news/uk-news/met-office-issues-12-hour-34915685",
+            "RiskScore": "72.0"
         },
         {
             "SQLDATE": "2026-11-10",
@@ -228,6 +300,15 @@
             "NumMentions": "10",
             "SOURCEURL": "https://www.theepochtimes.com/us/appeals-court-vacates-judicial-restrictions-on-dhs-use-of-force-against-protest-crowds-6123255",
             "RiskScore": "72.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-4.4",
+            "NumMentions": "16",
+            "SOURCEURL": "https://news.crossmap.com/2026/11/11/steve-russell-from-the-hunt-for-saddam-hussein-to-leading-jaars/",
+            "RiskScore": "70.4"
         },
         {
             "SQLDATE": "2026-11-12",
@@ -240,15 +321,6 @@
         },
         {
             "SQLDATE": "2026-11-11",
-            "Actor1Name": "",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-4.4",
-            "NumMentions": "16",
-            "SOURCEURL": "https://news.crossmap.com/2026/11/11/steve-russell-from-the-hunt-for-saddam-hussein-to-leading-jaars/",
-            "RiskScore": "70.4"
-        },
-        {
-            "SQLDATE": "2026-11-11",
             "Actor1Name": "NVIDIA",
             "ActionGeo_CountryCode": "CH",
             "GoldsteinScale": "-7.0",
@@ -257,13 +329,13 @@
             "RiskScore": "70.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "NASA",
-            "ActionGeo_CountryCode": "RP",
-            "GoldsteinScale": "-7.0",
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "CD",
+            "GoldsteinScale": "-6.5",
             "NumMentions": "10",
-            "SOURCEURL": "https://canadianinquirer.net/2026/11/10/nasa-opens-astronaut-applications-for-future-moon-and-mars-missions/",
-            "RiskScore": "70.0"
+            "SOURCEURL": "https://www.ipsnews.net/2026/11/the-legal-path-to-autocracy/",
+            "RiskScore": "65.0"
         },
         {
             "SQLDATE": "2026-11-10",
@@ -275,6 +347,15 @@
             "RiskScore": "65.0"
         },
         {
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "UNITED KINGDOM",
+            "ActionGeo_CountryCode": "UK",
+            "GoldsteinScale": "-8.0",
+            "NumMentions": "8",
+            "SOURCEURL": "https://deadline.com/2026/11/nicola-coughlan-boycott-harry-potter-jk-rowlings-trans-1237224887/",
+            "RiskScore": "64.0"
+        },
+        {
             "SQLDATE": "2026-11-11",
             "Actor1Name": "THE US",
             "ActionGeo_CountryCode": "CH",
@@ -284,53 +365,8 @@
             "RiskScore": "64.0"
         },
         {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "REUTERS",
-            "ActionGeo_CountryCode": "UK",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "7",
-            "SOURCEURL": "https://www.oxygen.com/crime-news/russell-brand-sentenced-to-105-years-in-prison-for-rape-sexual-assault",
-            "RiskScore": "63.0"
-        },
-        {
-            "SQLDATE": "2026-11-10",
-            "Actor1Name": "CHICAGO",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://patch.com/illinois/chicagoheights/surveillance-cameras-capture-killer-shooting-anti-violence-leader-accepting",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-13",
-            "Actor1Name": "UNITED STATES",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-5.0",
-            "NumMentions": "12",
-            "SOURCEURL": "https://www.hawaiinewsnow.com/2026/11/13/suspect-violent-downtown-honolulu-robbery-had-prior-conviction/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-12",
-            "Actor1Name": "PHOENIX",
-            "ActionGeo_CountryCode": "SP",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.azfamily.com/2026/11/12/2013-phoenix-security-guards-murder-case-referred-back-police/",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-11-11",
             "Actor1Name": "POLICE",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.13abc.com/2026/11/11/police-investigating-after-person-shot-east-toledo/",
-            "RiskScore": "60.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "TOLEDO",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
@@ -347,21 +383,66 @@
             "RiskScore": "60.0"
         },
         {
-            "SQLDATE": "2026-11-13",
-            "Actor1Name": "LYON",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.emporiagazette.com/free/article_560c4792-1cc8-4ae9-b980-4be7ba5a3c5c.html",
-            "RiskScore": "60.0"
-        },
-        {
             "SQLDATE": "2026-11-14",
             "Actor1Name": "MINNESOTA",
             "ActionGeo_CountryCode": "US",
             "GoldsteinScale": "-10.0",
             "NumMentions": "6",
             "SOURCEURL": "https://www.twincities.com/2026/11/14/suspect-one-other-dead-after-shooting-at-home-in-chisago-county/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-13",
+            "Actor1Name": "UNITED STATES",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-5.0",
+            "NumMentions": "12",
+            "SOURCEURL": "https://www.hawaiinewsnow.com/2026/11/13/suspect-violent-downtown-honolulu-robbery-had-prior-conviction/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-10",
+            "Actor1Name": "CHICAGO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://patch.com/illinois/chicagoheights/surveillance-cameras-capture-killer-shooting-anti-violence-leader-accepting",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-12",
+            "Actor1Name": "PHOENIX",
+            "ActionGeo_CountryCode": "SP",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.azfamily.com/2026/11/12/2013-phoenix-security-guards-murder-case-referred-back-police/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-11",
+            "Actor1Name": "TOLEDO",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.13abc.com/2026/11/11/police-investigating-after-person-shot-east-toledo/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-16",
+            "Actor1Name": "NEW YORK",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://punchng.com/new-york-police-shoot-man-dead-after-suspected-abduction-sparks-chase/",
+            "RiskScore": "60.0"
+        },
+        {
+            "SQLDATE": "2026-11-13",
+            "Actor1Name": "LYON",
+            "ActionGeo_CountryCode": "US",
+            "GoldsteinScale": "-10.0",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.emporiagazette.com/free/article_560c4792-1cc8-4ae9-b980-4be7ba5a3c5c.html",
             "RiskScore": "60.0"
         },
         {
@@ -374,94 +455,13 @@
             "RiskScore": "58.5"
         },
         {
-            "SQLDATE": "2026-11-13",
-            "Actor1Name": "WISCONSIN",
-            "ActionGeo_CountryCode": "IR",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.cbs58.com/news/wisconsin-democrats-prepare-to-take-control-of-congress-focus-on-affordability-and-accountability",
-            "RiskScore": "57.0"
-        },
-        {
-            "SQLDATE": "2026-11-13",
-            "Actor1Name": "NEW ORLEANS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.5",
-            "NumMentions": "6",
-            "SOURCEURL": "https://www.wwno.org/local-regional-news/2026-11-13/tanker-strikes-paddlewheel-cruise-ship-in-new-orleans-32-injured-no-passengers-missing",
-            "RiskScore": "57.0"
-        },
-        {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "VIRGINIA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-7.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.wdbj7.com/2026/11/09/virginia-tech-audit-finds-gaps-campus-crime-reporting-procedures/",
-            "RiskScore": "56.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "ALABAMA",
-            "ActionGeo_CountryCode": "VE",
-            "GoldsteinScale": "-7.0",
-            "NumMentions": "8",
-            "SOURCEURL": "https://www.hngn.com/articles/273790/20261111/immigration-arrests-continue-after-trump-calls-crackdown-too-tough.htm",
-            "RiskScore": "56.0"
-        },
-        {
-            "SQLDATE": "2026-11-12",
-            "Actor1Name": "VIRGINIA",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-9.0",
-            "NumMentions": "6",
-            "SOURCEURL": "https://wjla.com/news/local/virginia-governor-abigail-spanberger-defends-parole-board-granting-early-release-to-more-felons-glenn-youngkin-crime-victims-jason-miyares-murder-rape-assault-",
-            "RiskScore": "54.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
+            "SQLDATE": "2025-11-16",
             "Actor1Name": "UNITED STATES",
             "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-4.4",
-            "NumMentions": "12",
-            "SOURCEURL": "https://news.crossmap.com/2026/11/11/5-democrat-priorities-to-watch-in-texas-marijuana-push-red-flag-laws-and-medicaid-expansion/",
-            "RiskScore": "52.800000000000004"
-        },
-        {
-            "SQLDATE": "2026-11-10",
-            "Actor1Name": "SEATTLE",
-            "ActionGeo_CountryCode": "CA",
-            "GoldsteinScale": "-6.5",
-            "NumMentions": "8",
-            "SOURCEURL": "https://westseattleblog.com/event/scottish-country-dancing-classes-in-west-seattle/?instance_id=746441",
-            "RiskScore": "52.0"
-        },
-        {
-            "SQLDATE": "2026-11-09",
-            "Actor1Name": "UNITED NATIONS",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-2.0",
-            "NumMentions": "26",
-            "SOURCEURL": "https://news.crossmap.com/2026/11/09/candace-owens-sued-in-her-home-state-over-outlandish-claims/",
-            "RiskScore": "52.0"
-        },
-        {
-            "SQLDATE": "2026-11-12",
-            "Actor1Name": "SMALL TOWN",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "https://www.chilecomparte.cl/foros/topic/5396761-the-good-daughter-2026-s01e02-1080p-10bit-webrip-6ch-x265-hevc-psa/",
-            "RiskScore": "50.0"
-        },
-        {
-            "SQLDATE": "2026-11-11",
-            "Actor1Name": "WYOMING",
-            "ActionGeo_CountryCode": "US",
-            "GoldsteinScale": "-10.0",
-            "NumMentions": "5",
-            "SOURCEURL": "https://www.jhnewsandguide.com/news/environmental/conservation-issues-in-wyo-in-flux-after-d-c-power-shift/article_51fefdf6-5ab0-42c4-9b42-d0697ab6ac58.html",
-            "RiskScore": "50.0"
+            "GoldsteinScale": "-9.5",
+            "NumMentions": "6",
+            "SOURCEURL": "https://www.justbollywood.in/sunny-deols-suryaa-ant-se-aarambh-tak-pushed-to-2027-amid-ima-objection-veteran-actor-still-clocks-4-releases-in-2026-after-19-years/",
+            "RiskScore": "57.0"
         }
     ]
 }
